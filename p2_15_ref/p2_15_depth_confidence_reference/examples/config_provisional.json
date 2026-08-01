@@ -1,0 +1,18 @@
+{
+  "discontinuity_reason_ratio": 0.05,
+  "discontinuity_scale_ratio": 0.03,
+  "isolated_penalty": 0.0,
+  "isolation_absolute_mm": 20.0,
+  "isolation_sigma_multiplier": 4.0,
+  "isolation_window": 3,
+  "local_outlier_sigma": 3.0,
+  "low_support_threshold": 0.8,
+  "max_depth_mm": 2500.0,
+  "min_component_area": 4,
+  "min_depth_mm": 250.0,
+  "sigma_a_mm": 2.0,
+  "sigma_b_mm_per_m2": 1.0,
+  "sigma_floor_mm": 2.0,
+  "support_window": 5,
+  "tile_rows": 64
+}

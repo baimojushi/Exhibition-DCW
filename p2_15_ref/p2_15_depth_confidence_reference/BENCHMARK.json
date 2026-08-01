@@ -1,0 +1,45 @@
+{
+  "environment": {
+    "numpy": "2.3.5",
+    "python": "3.13.5",
+    "scipy": "1.17.0"
+  },
+  "input": {
+    "dtype": "uint16",
+    "nonzero_ratio": 0.8796256510416667,
+    "scene": "synthetic 1000 mm plane, Gaussian sigma 3 mm, 12% random invalid",
+    "shape": [
+      480,
+      640
+    ]
+  },
+  "median_seconds": 0.535282336000023,
+  "seconds": [
+    0.567339158999971,
+    0.535282336000023,
+    0.5281969540000091
+  ],
+  "summary": {
+    "confidence_percentiles_on_valid": {
+      "p05": 31,
+      "p25": 124,
+      "p50": 178,
+      "p75": 209,
+      "p95": 231
+    },
+    "hard_valid_count": 270221,
+    "hard_valid_ratio": 0.8796256510416667,
+    "isolated_rejected_count": 0,
+    "mean_confidence_on_valid": 159.96857757169133,
+    "pixel_count": 307200,
+    "reason_bit_counts": {
+      "DEPTH_DISCONTINUITY": 0,
+      "LOCAL_OUTLIER": 723,
+      "LOW_NEIGHBOR_SUPPORT": 19977,
+      "OUT_OF_RANGE": 0,
+      "RAW_INVALID": 36979,
+      "RECTIFICATION_HOLE": 0
+    },
+    "zero_confidence_count": 37100
+  }
+}

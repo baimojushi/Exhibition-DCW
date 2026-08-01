@@ -294,3 +294,23 @@ python -m capagent.agent --config capagent_config.json --seconds 3600
   - `--idempotent`：同内容不同 chunk_id 重传 → ALREADY_COMMITTED=2 / uploaded=0 / pending 清空（4 项）
   - `--reject`：损坏容器跨机被 PAYLOAD_REJECTED 拒收（detail "帧 1 RGB 非 JPEG (SOI 缺失)"）+ 本地 `.error`（2 项）——证明 t7920 部署为注入 P2 验证器的 `run_ingest_server.py`
 - 状态：**P2-13c/d/e 跨机联调完成**；P2-14 ACK 闭环/崩溃注入、P2-15 depth confidence 待下轮
+
+## 15. P2-14 ACK 闭环/故障注入 与 P2-15 深度置信度（2026-08-01，规格《HP60C 上传协议 draft-1.0》§10/§14/§15/§20）
+
+### 15.1 P2-14 ACK 删除闭环与崩溃恢复（全部通过）
+
+- `python test_p2_14_faults.py`：**40 项故障注入检查全过**（进程级 taskkill /F + `_fault_runner.py` monkeypatch 精确窗口）
+  - A 客户端写入中强杀 → 孤儿 `.part` 清理、无 manifest 残留、session.json 完好
+  - B 发送中强杀（payload 已发 ACK 未处理）→ 服务端已提交 `committed_ranges=[[0,0]]`，重启重传 → ALREADY_COMMITTED=1 闭环，`.ready` 删除
+  - C ACK 三窗口（journal 前 / rename 前 / delete 前）→ 各自恢复语义（`ack.jsonl` 记录、`.ready` 保留、`.acked` 清理）
+  - D 服务端强杀 + 重启 → 已提交状态可查询（验收 7）+ 续传幂等闭环（3 chunk 全量）+ SESSION_SEAL COMMITTED
+  - E SESSION_SEAL 缺 chunk → 服务端拒绝完成（SessionError），无 receipt，会话保持 OPEN
+
+### 15.2 P2-15a/b 深度置信度（参考实现 + 生产接线 + 真机批量验收）
+
+- 参考实现：用户交付 `D:\BaiduNetdiskDownload\p2_15_depth_confidence_reference.zip`，解压至 `p2_15_ref/`（SHA256SUMS 全部校验通过，自带 22 项 pytest 全过）；生产包 `depth_confidence/` 与参考实现 **fc /b 零差异**
+- 算法（规格 §14）：`C = valid_mask × neighborhood_support(5×5) × local_consistency(median/MAD) × discontinuity_penalty × isolated_pixel_penalty`；硬无效 depth==0 / <250mm / >2500mm / source_mask=False；reason_bits（§15）bit6/7 V1 恒 0；无随机/无时间/无跨帧状态，同输入同配置输出 hash 一致
+- 生产接线：`capagent/confidence.py`（ChunkReader 解 zstd depth → `depth_confidence.batch.DepthFrame` → `compute_confidence_batch`），原始 Depth 永不被修改
+- 真机批量验收 `python verify_confidence_e2e.py [spool_root] [--max-frames N]`：spool_real 6569 帧流式抽样 143 帧全过 —— 单帧功能 smoke、确定性双跑逐字节一致、`tile_rows=7 vs 128` 输出一致、NPZ 输出、审计 JSONL（fsync，含 algorithm/config/depth/input/output hashes + reason bit counts + confidence 分位数）、**单帧 p50≈2.2s / p95≈3.4s（本机纯 Python 参考实现，非实时内核）**、峰值 RSS 226MB（流式抽样，不整 spool 载入内存）
+- 结果落盘 `audit_output/confidence_v1/`：config.json（canonical + sha256）、confidence_audit.jsonl、npz/<frame_id>.npz（confidence_u8 + reason_bits_u8）、summary.json
+- 状态：**P2-15a/b 完成**；sigma 噪声模型参数为 **provisional 临时值**（a=2.0mm, b=1.0mm/m², floor=2.0mm, discontinuity_scale=0.03, isolation=20mm），**P2-15d 平面距离实验后必须替换**；P2-15c MCAP/ROS 集成、P2-15d 距离噪声标定实验、P2-15e TSDF 阈值冻结待下轮

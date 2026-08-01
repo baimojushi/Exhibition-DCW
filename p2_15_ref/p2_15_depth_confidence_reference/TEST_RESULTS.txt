@@ -1,0 +1,20 @@
+P2-15a / P2-15b reference verification
+compileall: True
+pytest_exit_code: 0
+
+Environment:
+Python 3.13.5
+NumPy 2.3.5
+SciPy 1.17.0
+
+Pytest:
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m                                                   [100%][0m
+
+Benchmark:
+shape: 480x640
+nonzero_ratio: 0.879626
+seconds: 0.567339, 0.535282, 0.528197
+median_seconds: 0.535282
+
+The hosted interpreter emitted an unrelated spreadsheet-runtime startup warning
+on stderr; pytest itself returned exit code 0.
