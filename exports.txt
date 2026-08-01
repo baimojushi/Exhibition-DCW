@@ -1,0 +1,2414 @@
+=== EXPORTS ===
+ord=1     rva=0x00210b40 ?$TSS0@?1??GetInstance@CAtlStringMgr@ATL@@SAPEAUIAtlStringMgr@3@XZ@4HA
+ord=2     rva=0x00210b78 ?$TSS1@?1??GetInstance@CAtlStringMgr@ATL@@SAPEAUIAtlStringMgr@3@XZ@4HA
+ord=3     rva=0x000ccac0 ??$?0DU?$default_delete@$$BY0A@D@std@@$0A@@?$shared_ptr@D@std@@QEAA@PEADU?$default_delete@$$BY0A@D@1@@Z
+ord=4     rva=0x00014910 ??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+ord=5     rva=0x000369d0 ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@D@Z
+ord=6     rva=0x00036b90 ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@E@Z
+ord=7     rva=0x00014930 ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+ord=8     rva=0x000a89e0 ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBE@Z
+ord=9     rva=0x0013d550 ??$?8DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NQEBDAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+ord=10    rva=0x00036ba0 ??$?8E@std@@YA_NAEBV?$shared_ptr@E@0@$$T@Z
+ord=11    rva=0x00036ba0 ??$?8EU?$default_delete@E@std@@@std@@YA_NAEBV?$unique_ptr@EU?$default_delete@E@std@@@0@$$T@Z
+ord=12    rva=0x00090370 ??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@0@Z
+ord=13    rva=0x000403f0 ??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@AEBV10@@Z
+ord=14    rva=0x000903a0 ??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@QEBD@Z
+ord=15    rva=0x000446b0 ??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@QEBD@Z
+ord=16    rva=0x00044800 ??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEBD$$QEAV10@@Z
+ord=17    rva=0x00023470 ??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEBDAEBV10@@Z
+ord=18    rva=0x000f84b0 ??$ReSizeForNearestFC@E@@YAHPEAEIAEAI1II@Z
+ord=19    rva=0x000f86e0 ??$ReSizeForNearestFC@G@@YAHPEAGIAEAI1II@Z
+ord=20    rva=0x000235c0 ??$SafeDelete@VSocketNet@@@@YAXAEAPEAVSocketNet@@@Z
+ord=21    rva=0x00014b00 ??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+ord=22    rva=0x00023600 ??$_Atomic_address_as@HU?$_Atomic_padded@H@std@@@std@@YAPEDHAEBU?$_Atomic_padded@H@0@@Z
+ord=23    rva=0x00023600 ??$_Atomic_address_as@HU?$_Atomic_padded@I@std@@@std@@YAPEDHAEBU?$_Atomic_padded@I@0@@Z
+ord=24    rva=0x00023600 ??$_Atomic_address_as@JU?$_Atomic_padded@H@std@@@std@@YAPECJAEAU?$_Atomic_padded@H@0@@Z
+ord=25    rva=0x00023600 ??$_Atomic_address_as@JU?$_Atomic_padded@I@std@@@std@@YAPECJAEAU?$_Atomic_padded@I@0@@Z
+ord=26    rva=0x00023610 ??$_Atomic_reinterpret_as@JH@std@@YAJAEBH@Z
+ord=27    rva=0x00023610 ??$_Atomic_reinterpret_as@JI@std@@YAJAEBI@Z
+ord=28    rva=0x00023620 ??$_Copy_backward_memmove@PEAEPEAE@std@@YAPEAEPEAE00@Z
+ord=29    rva=0x00014b40 ??$_Copy_memmove@PEADPEAE@std@@YAPEAEPEAD0PEAE@Z
+ord=30    rva=0x00014b40 ??$_Copy_memmove@PEAEPEAE@std@@YAPEAEPEAE00@Z
+ord=31    rva=0x00014b40 ??$_Copy_memmove@PEAMPEAM@std@@YAPEAMPEAM00@Z
+ord=32    rva=0x00014b40 ??$_Copy_memmove@PEAPEAUframe_info@@PEAPEAU1@@std@@YAPEAPEAUframe_info@@PEAPEAU1@00@Z
+ord=33    rva=0x00014b40 ??$_Copy_memmove@PEAPEAV?$vector@EV?$allocator@E@std@@@std@@PEAPEAV12@@std@@YAPEAPEAV?$vector@EV?$allocator@E@std@@@0@PEAPEAV10@00@Z
+ord=34    rva=0x00014b40 ??$_Copy_memmove@PEAUAS_CAM_ATTR@@PEAU1@@std@@YAPEAUAS_CAM_ATTR@@PEAU1@00@Z
+ord=35    rva=0x00014b40 ??$_Copy_memmove@PEAUAS_POINTCLOUD@@PEAU1@@std@@YAPEAUAS_POINTCLOUD@@PEAU1@00@Z
+ord=36    rva=0x00014b40 ??$_Copy_memmove@PEAUSTREAM_PARAM_S@@PEAU1@@std@@YAPEAUSTREAM_PARAM_S@@PEAU1@00@Z
+ord=37    rva=0x00014b40 ??$_Copy_memmove@PEAUpollfd@@PEAU1@@std@@YAPEAUpollfd@@PEAU1@00@Z
+ord=38    rva=0x00014b40 ??$_Copy_memmove@PEAUusb_id@@PEAU1@@std@@YAPEAUusb_id@@PEAU1@00@Z
+ord=39    rva=0x00014b40 ??$_Copy_memmove@PEAUvideo_attr_s@@PEAU1@@std@@YAPEAUvideo_attr_s@@PEAU1@00@Z
+ord=40    rva=0x00014b40 ??$_Copy_memmove@PEBEPEAE@std@@YAPEAEPEBE0PEAE@Z
+ord=41    rva=0x00014b40 ??$_Copy_memmove@PEBHPEAH@std@@YAPEAHPEBH0PEAH@Z
+ord=42    rva=0x00014b40 ??$_Copy_memmove@PEBUusb_id@@PEAU1@@std@@YAPEAUusb_id@@PEBU1@0PEAU1@@Z
+ord=43    rva=0x0002a6a0 ??$_Destroy_range@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YAXPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEAV10@AEAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z
+ord=44    rva=0x00044930 ??$_Emplace_reallocate@AEAUSTREAM_PARAM_S@@@?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@QEAAPEAUSTREAM_PARAM_S@@QEAU2@AEAU2@@Z
+ord=45    rva=0x00023640 ??$_Emplace_reallocate@AEBE@?$vector@EV?$allocator@E@std@@@std@@QEAAPEAEQEAEAEBE@Z
+ord=46    rva=0x00040450 ??$_Emplace_reallocate@AEBM@?$vector@MV?$allocator@M@std@@@std@@QEAAPEAMQEAMAEBM@Z
+ord=47    rva=0x00139540 ??$_Emplace_reallocate@AEBUAS_CAM_ATTR@@@?$vector@UAS_CAM_ATTR@@V?$allocator@UAS_CAM_ATTR@@@std@@@std@@QEAAPEAUAS_CAM_ATTR@@QEAU2@AEBU2@@Z
+ord=48    rva=0x0002f5e0 ??$_Emplace_reallocate@AEBUAS_POINTCLOUD@@@?$vector@UAS_POINTCLOUD@@V?$allocator@UAS_POINTCLOUD@@@std@@@std@@QEAAPEAUAS_POINTCLOUD@@QEAU2@AEBU2@@Z
+ord=49    rva=0x00044930 ??$_Emplace_reallocate@AEBUSTREAM_PARAM_S@@@?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@QEAAPEAUSTREAM_PARAM_S@@QEAU2@AEBU2@@Z
+ord=50    rva=0x000ccb50 ??$_Emplace_reallocate@AEBUusb_id@@@?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@QEAAPEAUusb_id@@QEAU2@AEBU2@@Z
+ord=51    rva=0x0002f5e0 ??$_Emplace_reallocate@AEBUvideo_attr_s@@@?$vector@Uvideo_attr_s@@V?$allocator@Uvideo_attr_s@@@std@@@std@@QEAAPEAUvideo_attr_s@@QEAU2@AEBU2@@Z
+ord=52    rva=0x0002a730 ??$_Emplace_reallocate@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QEAAPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@QEAV21@AEBV21@@Z
+ord=53    rva=0x00023640 ??$_Emplace_reallocate@E@?$vector@EV?$allocator@E@std@@@std@@QEAAPEAEQEAE$$QEAE@Z
+ord=54    rva=0x00040450 ??$_Emplace_reallocate@M@?$vector@MV?$allocator@M@std@@@std@@QEAAPEAMQEAM$$QEAM@Z
+ord=55    rva=0x00023790 ??$_Emplace_reallocate@Upollfd@@@?$vector@Upollfd@@V?$allocator@Upollfd@@@std@@@std@@QEAAPEAUpollfd@@QEAU2@$$QEAU2@@Z
+ord=56    rva=0x00036bb0 ??$_Emplace_reallocate@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QEAAPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@QEAV21@$$QEAV21@@Z
+ord=57    rva=0x00040550 ??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHV?$vector@MV?$allocator@M@std@@@std@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHV?$vector@MV?$allocator@M@std@@@std@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHV?$vector@MV?$allocator@M@std@@@std@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHV?$vector@MV?$allocator@M@std@@@std@@@std@@PEAX@1@@Z
+ord=58    rva=0x0013f5a0 ??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@PEAX@1@@Z
+ord=59    rva=0x0013f600 ??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@QEAUHWND__@@V?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAUHWND__@@V?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@QEAUHWND__@@V?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@QEAUHWND__@@V?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@@std@@PEAX@1@@Z
+ord=60    rva=0x0013d5a0 ??$_Find_last@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@
+ord=61    rva=0x0013d670 ??$_Free_non_head@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@PEAX@std@@@std@@@?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@PEAX@std@@SAXAEAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@
+ord=62    rva=0x0013d710 ??$_Freenode@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@PEAX@std@@@std@@@?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@PEAX@std@@SAXAEAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std
+ord=63    rva=0x00022520 ??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+ord=64    rva=0x00022520 ??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+ord=65    rva=0x0013d780 ??$_Hash_array_representation@D@std@@YA_KQEBD_K@Z
+ord=66    rva=0x00044b40 ??$_Immortalize_memcpy_image@V_Generic_error_category@std@@@std@@YAAEBV_Generic_error_category@0@XZ
+ord=67    rva=0x00023940 ??$_Insert_range@PEBE@?$vector@EV?$allocator@E@std@@@std@@AEAAXV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@E@std@@@std@@@1@PEBE1Uforward_iterator_tag@1@@Z
+ord=68    rva=0x00014b70 ??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+ord=69    rva=0x00040610 ??$_Integral_to_string@DH@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@H@Z
+ord=70    rva=0x00023b30 ??$_Invoke@V?$tuple@P8CameraKunLunA@@EAAHXZPEAV1@@std@@$0A@$00@thread@std@@CAIPEAX@Z
+ord=71    rva=0x00023b30 ??$_Invoke@V?$tuple@P8CameraKunLunC@@EAAHXZPEAV1@@std@@$0A@$00@thread@std@@CAIPEAX@Z
+ord=72    rva=0x00023b30 ??$_Invoke@V?$tuple@P8LiteUsb@@EAAHXZPEAV1@@std@@$0A@$00@thread@std@@CAIPEAX@Z
+ord=73    rva=0x0002f800 ??$_Invoke@V?$tuple@P8MFCamera@@EAAXAEBUvideo_cfg@@@ZPEAV1@U2@@std@@$0A@$00$01@thread@std@@CAIPEAX@Z
+ord=74    rva=0x00023b30 ??$_Invoke@V?$tuple@P8NetInput@@EAAHXZPEAV1@@std@@$0A@$00@thread@std@@CAIPEAX@Z
+ord=75    rva=0x00023b30 ??$_Invoke@V?$tuple@P8NetworkListener@@EAAHXZPEAV1@@std@@$0A@$00@thread@std@@CAIPEAX@Z
+ord=76    rva=0x000225f0 ??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+ord=77    rva=0x00014b40 ??$_Move_unchecked@PEAEPEAE@std@@YAPEAEPEAE00@Z
+ord=78    rva=0x0001f8b0 ??$_Reallocate_grow_by@V<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@Z
+ord=79    rva=0x00023b60 ??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z
+ord=80    rva=0x00157a10 ??$_Reallocate_grow_by@V<lambda_e1befb086ad3257e3f042a63030725f7>@@_KD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_e1befb086ad3257e3f042a63030725f7>@@_KD@Z
+ord=81    rva=0x00044b50 ??$_Reallocate_grow_by@V<lambda_f3a66ab6a0570788f31503db83886f49>@@_KPEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_f3a66ab6a0570788f31503db83886f49>@@_KPEBD2@Z
+ord=82    rva=0x00023cf0 ??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@EV?$allocator@E@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+ord=83    rva=0x00014d30 ??$_To_absolute_time@_JU?$ratio@$00$0DOI@@std@@@std@@YA?A_PAEBV?$duration@_JU?$ratio@$00$0DOI@@std@@@chrono@0@@Z
+ord=84    rva=0x000b6760 ??$_To_absolute_time@_JU?$ratio@$00$0PECEA@@std@@@std@@YA?A_PAEBV?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@0@@Z
+ord=85    rva=0x00014dd0 ??$_To_xtime_10_day_clamped@_JU?$ratio@$00$0DLJKMKAA@@std@@@std@@YA_NAEAUxtime@@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@0@@Z
+ord=86    rva=0x00023e00 ??$_To_xtime_10_day_clamped@_JU?$ratio@$00$0DOI@@std@@@std@@YA_NAEAUxtime@@AEBV?$duration@_JU?$ratio@$00$0DOI@@std@@@chrono@0@@Z
+ord=87    rva=0x00129b80 ??$_Traits_compare@U?$char_traits@D@std@@@std@@YAHQEBD_K01@Z
+ord=88    rva=0x0013d7c0 ??$_Try_emplace@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$V@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@
+ord=89    rva=0x000406f0 ??$_UIntegral_to_buff@DI@std@@YAPEADPEADI@Z
+ord=90    rva=0x0001fa20 ??$_UIntegral_to_buff@D_K@std@@YAPEADPEAD_K@Z
+ord=91    rva=0x00044d00 ??$_UIntegral_to_string@DI@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@I@Z
+ord=92    rva=0x0001fa60 ??$_UIntegral_to_string@D_K@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@_K@Z
+ord=93    rva=0x0002a8a0 ??$_Uninitialized_move@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEAV10@0PEAV10@AEAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z
+ord=94    rva=0x00023e90 ??$_Uninitialized_value_construct_n_unchecked1@PEAPEAUframe_info@@_K@std@@YAPEAPEAUframe_info@@PEAPEAU1@_K@Z
+ord=95    rva=0x00023e90 ??$_Uninitialized_value_construct_n_unchecked1@PEAPEAV?$vector@EV?$allocator@E@std@@@std@@_K@std@@YAPEAPEAV?$vector@EV?$allocator@E@std@@@0@PEAPEAV10@_K@Z
+ord=96    rva=0x00023ec0 ??$_Zero_range@PEAD@std@@YAPEADQEAD0@Z
+ord=97    rva=0x00023ec0 ??$_Zero_range@PEAE@std@@YAPEAEQEAE0@Z
+ord=98    rva=0x00023ec0 ??$_Zero_range@PEAPEAUframe_info@@@std@@YAPEAPEAUframe_info@@QEAPEAU1@0@Z
+ord=99    rva=0x00023ec0 ??$_Zero_range@PEAPEAV?$vector@EV?$allocator@E@std@@@std@@@std@@YAPEAPEAV?$vector@EV?$allocator@E@std@@@0@QEAPEAV10@0@Z
+ord=100   rva=0x00014e60 ??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+ord=101   rva=0x0013dab0 ??$fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono
+ord=102   rva=0x00023ee0 ??$make_unique@V?$tuple@P8CameraKunLunA@@EAAHXZPEAV1@@std@@P8CameraKunLunA@@EAAHXZPEAV3@$0A@@std@@YA?AV?$unique_ptr@V?$tuple@P8CameraKunLunA@@EAAHXZPEAV1@@std@@U?$default_delete@V?$tuple@P8CameraKunLunA@@EAAHXZPEAV1@@std@@@2@@0@$$QEAP8CameraKunLunA@@EAAHXZ$$QEAPEAV2@@Z
+ord=103   rva=0x00023ee0 ??$make_unique@V?$tuple@P8CameraKunLunC@@EAAHXZPEAV1@@std@@P8CameraKunLunC@@EAAHXZPEAV3@$0A@@std@@YA?AV?$unique_ptr@V?$tuple@P8CameraKunLunC@@EAAHXZPEAV1@@std@@U?$default_delete@V?$tuple@P8CameraKunLunC@@EAAHXZPEAV1@@std@@@2@@0@$$QEAP8CameraKunLunC@@EAAHXZ$$QEAPEAV2@@Z
+ord=104   rva=0x00023ee0 ??$make_unique@V?$tuple@P8LiteUsb@@EAAHXZPEAV1@@std@@P8LiteUsb@@EAAHXZPEAV3@$0A@@std@@YA?AV?$unique_ptr@V?$tuple@P8LiteUsb@@EAAHXZPEAV1@@std@@U?$default_delete@V?$tuple@P8LiteUsb@@EAAHXZPEAV1@@std@@@2@@0@$$QEAP8LiteUsb@@EAAHXZ$$QEAPEAV2@@Z
+ord=105   rva=0x0002f840 ??$make_unique@V?$tuple@P8MFCamera@@EAAXAEBUvideo_cfg@@@ZPEAV1@U2@@std@@P8MFCamera@@EAAXAEBUvideo_cfg@@@ZPEAV3@AEAU4@$0A@@std@@YA?AV?$unique_ptr@V?$tuple@P8MFCamera@@EAAXAEBUvideo_cfg@@@ZPEAV1@U2@@std@@U?$default_delete@V?$tuple@P8MFCamera@@EAAXAEBUvideo_cfg@@@ZPEAV1@U2@@std@@@2@@0@$$QEAP8MFCamera@@EAAXAEBUvideo_cfg@@@Z$$QEAPEAV2@AEAU3@@Z
+ord=106   rva=0x00023ee0 ??$make_unique@V?$tuple@P8NetInput@@EAAHXZPEAV1@@std@@P8NetInput@@EAAHXZPEAV3@$0A@@std@@YA?AV?$unique_ptr@V?$tuple@P8NetInput@@EAAHXZPEAV1@@std@@U?$default_delete@V?$tuple@P8NetInput@@EAAHXZPEAV1@@std@@@2@@0@$$QEAP8NetInput@@EAAHXZ$$QEAPEAV2@@Z
+ord=107   rva=0x00023ee0 ??$make_unique@V?$tuple@P8NetworkListener@@EAAHXZPEAV1@@std@@P8NetworkListener@@EAAHXZPEAV3@$0A@@std@@YA?AV?$unique_ptr@V?$tuple@P8NetworkListener@@EAAHXZPEAV1@@std@@U?$default_delete@V?$tuple@P8NetworkListener@@EAAHXZPEAV1@@std@@@2@@0@$$QEAP8NetworkListener@@EAAHXZ$$QEAPEAV2@@Z
+ord=108   rva=0x000f8920 ??$mirror_image@E@@YAXPEAEHHH@Z
+ord=109   rva=0x0010c380 ??$mirror_image@G@@YAXPEAGHHH@Z
+ord=110   rva=0x00040730 ??$pow@HH$0A@@@YANHH@Z
+ord=111   rva=0x000f89e0 ??$roi_image@E@@YAHPEAEAEAI11IIIII@Z
+ord=112   rva=0x000f8b30 ??$rotate_image@E@@YAHPEAEAEAI1W4ROTATE_MODE_E@@I@Z
+ord=113   rva=0x000d02f0 ??$rotate_image@G@@YAHPEAGAEAI1W4ROTATE_MODE_E@@I@Z
+ord=114   rva=0x00014ea0 ??$sleep_for@_JU?$ratio@$00$0DOI@@std@@@this_thread@std@@YAXAEBV?$duration@_JU?$ratio@$00$0DOI@@std@@@chrono@1@@Z
+ord=115   rva=0x000b6800 ??$sleep_for@_JU?$ratio@$00$0PECEA@@std@@@this_thread@std@@YAXAEBV?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@1@@Z
+ord=116   rva=0x00015040 ??$sleep_until@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@this_thread@std@@YAXAEBV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@chrono@1@@Z
+ord=117   rva=0x00023f50 ??$swap@V?$vector@EV?$allocator@E@std@@@std@@V?$allocator@V?$vector@EV?$allocator@E@std@@@std@@@2@@std@@YAXAEAV?$deque@V?$vector@EV?$allocator@E@std@@@std@@V?$allocator@V?$vector@EV?$allocator@E@std@@@std@@@2@@0@0@Z
+ord=118   rva=0x00014b40 ??$uninitialized_copy@PEAPEAUframe_info@@PEAPEAU1@@std@@YAPEAPEAUframe_info@@QEAPEAU1@0PEAPEAU1@@Z
+ord=119   rva=0x00014b40 ??$uninitialized_copy@PEAPEAV?$vector@EV?$allocator@E@std@@@std@@PEAPEAV12@@std@@YAPEAPEAV?$vector@EV?$allocator@E@std@@@0@QEAPEAV10@0PEAPEAV10@@Z
+ord=120   rva=0x0013db40 ??$uninitialized_fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@st
+ord=121   rva=0x0001fb00 ??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAAEBV?$codecvt@DDU_Mbstatet@@@0@AEBVlocale@0@@Z
+ord=122   rva=0x00135830 ??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAA@PEBDHH@Z
+ord=123   rva=0x00036d40 ??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+ord=124   rva=0x0001fbd0 ??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAA@PEBDHH@Z
+ord=125   rva=0x0002a920 ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+ord=126   rva=0x0002aa00 ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@U_String_constructor_concat_tag@1@AEAV01@1@Z
+ord=127   rva=0x0013f6c0 ??0?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@QEAA@AEBV01@@Z
+ord=128   rva=0x00023600 ??0AngPost@@QEAA@XZ
+ord=129   rva=0x001348c0 ??0As_SonixCamera@@QEAA@PEAVICapture@@PEAXUAS_CAM_ATTR@@@Z
+ord=130   rva=0x00134900 ??0As_SonixCamera@@QEAA@UAS_CAM_ATTR@@@Z
+ord=131   rva=0x0015e000 ??0CAtlException@ATL@@QEAA@J@Z
+ord=132   rva=0x00040750 ??0CDothinkey@@QEAA@XZ
+ord=133   rva=0x0011f820 ??0CameraChangA@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=134   rva=0x0011f9e0 ??0CameraChangA@@QEAA@XZ
+ord=135   rva=0x00123f40 ??0CameraChangJiangB@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=136   rva=0x000d0640 ??0CameraHp60@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=137   rva=0x000da7f0 ??0CameraHp60UsbCtrl@@QEAA@HHHH@Z
+ord=138   rva=0x000da820 ??0CameraHp60UsbCtrl@@QEAA@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+ord=139   rva=0x000f8e50 ??0CameraHp60c@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=140   rva=0x0010c440 ??0CameraHp60cn@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=141   rva=0x000da9d0 ??0CameraHp60v@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=142   rva=0x000e47c0 ??0CameraHp60vUsbCtrl@@QEAA@HHHH@Z
+ord=143   rva=0x000e47f0 ??0CameraHp60vUsbCtrl@@QEAA@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+ord=144   rva=0x000cc7d0 ??0CameraIntrPara@@QEAA@UcamIntrParam@@@Z
+ord=145   rva=0x00090400 ??0CameraKondyor@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=146   rva=0x00090890 ??0CameraKondyor@@QEAA@IIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=147   rva=0x00090890 ??0CameraKondyor@@QEAA@IIII@Z
+ord=148   rva=0x00044da0 ??0CameraKunLunA@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=149   rva=0x0006d950 ??0CameraKunLunC@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=150   rva=0x00129be0 ??0CameraVega@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=151   rva=0x000e49a0 ??0CameraX100@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=152   rva=0x000ee9a0 ??0CameraX100UsbCtrl@@QEAA@HHHH@Z
+ord=153   rva=0x000ee9d0 ??0CameraX100UsbCtrl@@QEAA@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+ord=154   rva=0x000eeb80 ??0CameraXb40@@QEAA@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=155   rva=0x000f7fb0 ??0CameraXb40UsbCtrl@@QEAA@HHHH@Z
+ord=156   rva=0x000f7fe0 ??0CameraXb40UsbCtrl@@QEAA@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+ord=157   rva=0x00121fd0 ??0CmdChangA@@QEAA@PEAVICapture@@PEAXW4AS_CAM_ATTR_TYPE@@@Z
+ord=158   rva=0x00122040 ??0CmdChangA@@QEAA@XZ
+ord=159   rva=0x00127700 ??0CmdChangJiangB@@QEAA@PEAVICapture@@PEAXW4AS_CAM_ATTR_TYPE@@@Z
+ord=160   rva=0x00127770 ??0CmdChangJiangB@@QEAA@XZ
+ord=161   rva=0x001189d0 ??0CmdHp60cn@@QEAA@PEAVICapture@@PEAXW4AS_CAM_ATTR_TYPE@@@Z
+ord=162   rva=0x000a89f0 ??0CmdKondyor@@QEAA@PEAVICapture@@PEAXW4AS_CAM_ATTR_TYPE@@@Z
+ord=163   rva=0x0013f740 ??0Hotplug@@QEAA@AEBV?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@@Z
+ord=164   rva=0x0002abb0 ??0LiteUsb@@QEAA@AEBUAS_USB_WIN_DEV_ATTR@@III@Z
+ord=165   rva=0x0002bca0 ??0LiteUsb@@QEAA@XZ
+ord=166   rva=0x0002f8c0 ??0MFCamera@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0Uguid@@@Z
+ord=167   rva=0x0002fb20 ??0MFCamera@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=168   rva=0x0002fd10 ??0MFCamera@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@Uguid@@@Z
+ord=169   rva=0x00023fc0 ??0NetInput@@QEAA@UAS_NETWORK_DEV_ATTR@@@Z
+ord=170   rva=0x0013db60 ??0NetworkListener@@QEAA@XZ
+ord=171   rva=0x000b6890 ??0NuwaUsbCtrl@@QEAA@HHHH@Z
+ord=172   rva=0x000b6960 ??0NuwaUsbCtrl@@QEAA@HHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+ord=173   rva=0x0015cc60 ??0SocketNet@@QEAA@HHH@Z
+ord=174   rva=0x00036e10 ??0Upgrade@@QEAA@PEAVICapture@@PEAXW4AS_CAM_ATTR_TYPE@@@Z
+ord=175   rva=0x0002f590 ??0VideoInputCamera@@QEAA@HHHH@Z
+ord=176   rva=0x00137ea0 ??0XJ@@QEAA@PEAVICapture@@PEAXUAS_CAM_ATTR@@@Z
+ord=177   rva=0x00105e80 ??0XuCmdCameraHp60c@@QEAA@PEAVICapture@@PEAXW4AS_CAM_ATTR_TYPE@@@Z
+ord=178   rva=0x0012fd60 ??0XuCmdCameraVega@@QEAA@PEAVICapture@@PEAXW4AS_CAM_ATTR_TYPE@@@Z
+ord=179   rva=0x00064520 ??0XuCmdKunLunA@@QEAA@PEAVICapture@@PEAXUAS_CAM_ATTR@@@Z
+ord=180   rva=0x00088470 ??0XuCmdKunLunC@@QEAA@PEAVICapture@@PEAXW4AS_CAM_ATTR_TYPE@@@Z
+ord=181   rva=0x000450a0 ??0_System_error@std@@IEAA@Verror_code@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+ord=182   rva=0x00045280 ??0_System_error@std@@QEAA@AEBV01@@Z
+ord=183   rva=0x000151a0 ??0bad_alloc@std@@QEAA@AEBV01@@Z
+ord=184   rva=0x000151e0 ??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+ord=185   rva=0x00015220 ??0bad_array_new_length@std@@QEAA@XZ
+ord=186   rva=0x0001fcf0 ??0bad_cast@std@@QEAA@AEBV01@@Z
+ord=187   rva=0x0001fd30 ??0bad_cast@std@@QEAA@XZ
+ord=188   rva=0x00015250 ??0exception@std@@QEAA@AEBV01@@Z
+ord=189   rva=0x000452d0 ??0runtime_error@std@@QEAA@AEBV01@@Z
+ord=190   rva=0x00045310 ??0system_error@std@@QEAA@AEBV01@@Z
+ord=191   rva=0x00045370 ??0system_error@std@@QEAA@Verror_code@1@@Z
+ord=192   rva=0x00134940 ??0tagCameraInfo@@QEAA@XZ
+ord=193   rva=0x00142d30 ??0topicPublish@@AEAA@XZ
+ord=194   rva=0x0002ff00 ??1?$CComPtr@UIAMCameraControl@@@ATL@@QEAA@XZ
+ord=195   rva=0x0002ff00 ??1?$CComPtr@UIAMVideoProcAmp@@@ATL@@QEAA@XZ
+ord=196   rva=0x0002ff00 ??1?$CComPtr@UIKsControl@@@ATL@@QEAA@XZ
+ord=197   rva=0x0002ff00 ??1?$CComPtr@UIKsTopologyInfo@@@ATL@@QEAA@XZ
+ord=198   rva=0x0002ff00 ??1?$CComPtr@UIMFAttributes@@@ATL@@QEAA@XZ
+ord=199   rva=0x0002ff00 ??1?$CComPtr@UIMFMediaSource@@@ATL@@QEAA@XZ
+ord=200   rva=0x0002ff00 ??1?$CComPtr@UIMFMediaType@@@ATL@@QEAA@XZ
+ord=201   rva=0x0002ff00 ??1?$CComPtr@UIMFMediaTypeHandler@@@ATL@@QEAA@XZ
+ord=202   rva=0x0002ff00 ??1?$CComPtr@UIMFPresentationDescriptor@@@ATL@@QEAA@XZ
+ord=203   rva=0x0002ff00 ??1?$CComPtr@UIMFSourceReader@@@ATL@@QEAA@XZ
+ord=204   rva=0x0002ff00 ??1?$CComPtr@UIMFStreamDescriptor@@@ATL@@QEAA@XZ
+ord=205   rva=0x0002ff00 ??1?$CComPtr@UIUnknown@@@ATL@@QEAA@XZ
+ord=206   rva=0x0015e010 ??1?$CSimpleStringT@D$0A@@ATL@@QEAA@XZ
+ord=207   rva=0x0015e010 ??1?$CStringT@DV?$StrTraitATL@DV?$ChTraitsCRT@D@ATL@@@ATL@@@ATL@@QEAA@XZ
+ord=208   rva=0x00015290 ??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAUCAMERA_HANDLE@@PEAX@std@@@std@@@std@@QEAA@XZ
+ord=209   rva=0x00015290 ??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAVIListener@@PEAX@std@@@std@@@std@@QEAA@XZ
+ord=210   rva=0x00015290 ??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAXPEAX@std@@@std@@@std@@QEAA@XZ
+ord=211   rva=0x0013dd40 ??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+ord=212   rva=0x0013a710 ??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@Urcv_msg_info@@PEAX@std@@@std@@@std@@QEAA@XZ
+ord=213   rva=0x0013a730 ??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+ord=214   rva=0x000407d0 ??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHV?$vector@MV?$allocator@M@std@@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+ord=215   rva=0x0013a730 ??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+ord=216   rva=0x000407d0 ??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@QEAUHWND__@@V?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+ord=217   rva=0x0013dd60 ??1?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_
+ord=218   rva=0x0013dde0 ??1?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@@std@@@std@@@std@@@std@@@std@@QEAA@XZ
+ord=219   rva=0x0013de40 ??1?$_List_node_emplace_op2@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+ord=220   rva=0x00024630 ??1?$_Ref_count_resource@PEADU?$default_delete@$$BY0A@D@std@@@std@@UEAA@XZ
+ord=221   rva=0x00024630 ??1?$_Ref_count_resource@PEAEU?$default_delete@$$BY0A@E@std@@@std@@UEAA@XZ
+ord=222   rva=0x00024630 ??1?$_Ref_count_resource@PEAGU?$default_delete@$$BY0A@G@std@@@std@@UEAA@XZ
+ord=223   rva=0x000243a0 ??1?$_Temporary_owner_del@PEADU?$default_delete@$$BY0A@D@std@@@std@@QEAA@XZ
+ord=224   rva=0x000243a0 ??1?$_Temporary_owner_del@PEAEU?$default_delete@$$BY0A@E@std@@@std@@QEAA@XZ
+ord=225   rva=0x000243a0 ??1?$_Temporary_owner_del@PEAGU?$default_delete@$$BY0A@G@std@@@std@@QEAA@XZ
+ord=226   rva=0x0002bda0 ??1?$_Tidy_guard@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@std@@QEAA@XZ
+ord=227   rva=0x0002bdb0 ??1?$_Uninitialized_backout_al@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@QEAA@XZ
+ord=228   rva=0x0001fd60 ??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+ord=229   rva=0x0001fdd0 ??1?$basic_ifstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+ord=230   rva=0x0001fe30 ??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+ord=231   rva=0x00022670 ??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+ord=232   rva=0x000152b0 ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+ord=233   rva=0x000226d0 ??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+ord=234   rva=0x0002bdc0 ??1?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+ord=235   rva=0x0002be20 ??1?$deque@Uframe_info@@V?$allocator@Uframe_info@@@std@@@std@@QEAA@XZ
+ord=236   rva=0x000243b0 ??1?$deque@V?$vector@EV?$allocator@E@std@@@std@@V?$allocator@V?$vector@EV?$allocator@E@std@@@std@@@2@@std@@QEAA@XZ
+ord=237   rva=0x00015310 ??1?$list@PEAUCAMERA_HANDLE@@V?$allocator@PEAUCAMERA_HANDLE@@@std@@@std@@QEAA@XZ
+ord=238   rva=0x0013ded0 ??1?$list@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@@2@@std@@QEAA@XZ
+ord=239   rva=0x0013a750 ??1?$list@Urcv_msg_info@@V?$allocator@Urcv_msg_info@@@std@@@std@@QEAA@XZ
+ord=240   rva=0x0013a7c0 ??1?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QEAA@XZ
+ord=241   rva=0x00015370 ??1?$lock_guard@Vmutex@std@@@std@@QEAA@XZ
+ord=242   rva=0x000407f0 ??1?$map@HV?$vector@MV?$allocator@M@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@MV?$allocator@M@std@@@std@@@std@@@2@@std@@QEAA@XZ
+ord=243   rva=0x0013f7d0 ??1?$pair@PEAUHWND__@@V?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@@std@@QEAA@XZ
+ord=244   rva=0x0002bef0 ??1?$queue@Uframe_info@@V?$deque@Uframe_info@@V?$allocator@Uframe_info@@@std@@@std@@@std@@QEAA@XZ
+ord=245   rva=0x000244e0 ??1?$queue@V?$vector@EV?$allocator@E@std@@@std@@V?$deque@V?$vector@EV?$allocator@E@std@@@std@@V?$allocator@V?$vector@EV?$allocator@E@std@@@std@@@2@@2@@std@@QEAA@XZ
+ord=246   rva=0x000244f0 ??1?$shared_ptr@D@std@@QEAA@XZ
+ord=247   rva=0x000244f0 ??1?$shared_ptr@E@std@@QEAA@XZ
+ord=248   rva=0x00024540 ??1?$unique_lock@Vmutex@std@@@std@@QEAA@XZ
+ord=249   rva=0x00105ef0 ??1?$unique_ptr@EU?$default_delete@E@std@@@std@@QEAA@XZ
+ord=250   rva=0x00024550 ??1?$unique_ptr@V?$tuple@P8CameraKunLunA@@EAAHXZPEAV1@@std@@U?$default_delete@V?$tuple@P8CameraKunLunA@@EAAHXZPEAV1@@std@@@2@@std@@QEAA@XZ
+ord=251   rva=0x00024550 ??1?$unique_ptr@V?$tuple@P8CameraKunLunC@@EAAHXZPEAV1@@std@@U?$default_delete@V?$tuple@P8CameraKunLunC@@EAAHXZPEAV1@@std@@@2@@std@@QEAA@XZ
+ord=252   rva=0x00024550 ??1?$unique_ptr@V?$tuple@P8LiteUsb@@EAAHXZPEAV1@@std@@U?$default_delete@V?$tuple@P8LiteUsb@@EAAHXZPEAV1@@std@@@2@@std@@QEAA@XZ
+ord=253   rva=0x0002ff20 ??1?$unique_ptr@V?$tuple@P8MFCamera@@EAAXAEBUvideo_cfg@@@ZPEAV1@U2@@std@@U?$default_delete@V?$tuple@P8MFCamera@@EAAXAEBUvideo_cfg@@@ZPEAV1@U2@@std@@@2@@std@@QEAA@XZ
+ord=254   rva=0x00024550 ??1?$unique_ptr@V?$tuple@P8NetInput@@EAAHXZPEAV1@@std@@U?$default_delete@V?$tuple@P8NetInput@@EAAHXZPEAV1@@std@@@2@@std@@QEAA@XZ
+ord=255   rva=0x00024550 ??1?$unique_ptr@V?$tuple@P8NetworkListener@@EAAHXZPEAV1@@std@@U?$default_delete@V?$tuple@P8NetworkListener@@EAAHXZPEAV1@@std@@@2@@std@@QEAA@XZ
+ord=256   rva=0x0001fe90 ??1?$unique_ptr@V_Facet_base@std@@U?$default_delete@V_Facet_base@std@@@2@@std@@QEAA@XZ
+ord=257   rva=0x0013df00 ??1?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std
+ord=258   rva=0x00024570 ??1?$vector@DV?$allocator@D@std@@@std@@QEAA@XZ
+ord=259   rva=0x00024570 ??1?$vector@EV?$allocator@E@std@@@std@@QEAA@XZ
+ord=260   rva=0x00040820 ??1?$vector@HV?$allocator@H@std@@@std@@QEAA@XZ
+ord=261   rva=0x00040820 ??1?$vector@MV?$allocator@M@std@@@std@@QEAA@XZ
+ord=262   rva=0x00015380 ??1?$vector@UAS_CAM_ATTR@@V?$allocator@UAS_CAM_ATTR@@@std@@@std@@QEAA@XZ
+ord=263   rva=0x00045420 ??1?$vector@UAS_POINTCLOUD@@V?$allocator@UAS_POINTCLOUD@@@std@@@std@@QEAA@XZ
+ord=264   rva=0x00045420 ??1?$vector@UPolar@@V?$allocator@UPolar@@@std@@@std@@QEAA@XZ
+ord=265   rva=0x0002bf00 ??1?$vector@U_DEVICE_DATA@@V?$allocator@U_DEVICE_DATA@@@std@@@std@@QEAA@XZ
+ord=266   rva=0x000245d0 ??1?$vector@Upollfd@@V?$allocator@Upollfd@@@std@@@std@@QEAA@XZ
+ord=267   rva=0x000cccf0 ??1?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@QEAA@XZ
+ord=268   rva=0x00045420 ??1?$vector@Uvideo_attr_s@@V?$allocator@Uvideo_attr_s@@@std@@@std@@QEAA@XZ
+ord=269   rva=0x0002bf90 ??1?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QEAA@XZ
+ord=270   rva=0x000454a0 ??1?$vector@V?$vector@EV?$allocator@E@std@@@std@@V?$allocator@V?$vector@EV?$allocator@E@std@@@std@@@2@@std@@QEAA@XZ
+ord=271   rva=0x00024630 ??1AngPost@@QEAA@XZ
+ord=272   rva=0x00024630 ??1As_SonixCamera@@QEAA@XZ
+ord=273   rva=0x000455a0 ??1CAM_DATA@@QEAA@XZ
+ord=274   rva=0x0015e040 ??1CAtlStringMgr@ATL@@UEAA@XZ
+ord=275   rva=0x000455b0 ??1CDothinkey@@QEAA@XZ
+ord=276   rva=0x0015e060 ??1CWin32Heap@ATL@@UEAA@XZ
+ord=277   rva=0x0011fa30 ??1CameraChangA@@UEAA@XZ
+ord=278   rva=0x00124120 ??1CameraChangJiangB@@UEAA@XZ
+ord=279   rva=0x000d0a60 ??1CameraHp60@@UEAA@XZ
+ord=280   rva=0x000da980 ??1CameraHp60UsbCtrl@@UEAA@XZ
+ord=281   rva=0x000f9260 ??1CameraHp60c@@UEAA@XZ
+ord=282   rva=0x0010c8a0 ??1CameraHp60cn@@UEAA@XZ
+ord=283   rva=0x000dade0 ??1CameraHp60v@@UEAA@XZ
+ord=284   rva=0x000e4950 ??1CameraHp60vUsbCtrl@@UEAA@XZ
+ord=285   rva=0x00024630 ??1CameraIntrPara@@QEAA@XZ
+ord=286   rva=0x00090a20 ??1CameraKondyor@@UEAA@XZ
+ord=287   rva=0x000455e0 ??1CameraKunLunA@@UEAA@XZ
+ord=288   rva=0x0006dc00 ??1CameraKunLunC@@UEAA@XZ
+ord=289   rva=0x0012a010 ??1CameraVega@@UEAA@XZ
+ord=290   rva=0x000e4db0 ??1CameraX100@@UEAA@XZ
+ord=291   rva=0x000eeb30 ??1CameraX100UsbCtrl@@UEAA@XZ
+ord=292   rva=0x000eef90 ??1CameraXb40@@UEAA@XZ
+ord=293   rva=0x000f8140 ??1CameraXb40UsbCtrl@@UEAA@XZ
+ord=294   rva=0x00122050 ??1CmdChangA@@UEAA@XZ
+ord=295   rva=0x00127780 ??1CmdChangJiangB@@UEAA@XZ
+ord=296   rva=0x00118a40 ??1CmdHp60cn@@UEAA@XZ
+ord=297   rva=0x000a8a80 ??1CmdKondyor@@UEAA@XZ
+ord=298   rva=0x0013f830 ??1Hotplug@@UEAA@XZ
+ord=299   rva=0x00024630 ??1ICameraOps@@UEAA@XZ
+ord=300   rva=0x00024630 ??1ICapture@@UEAA@XZ
+ord=301   rva=0x00024630 ??1ICommand@@UEAA@XZ
+ord=302   rva=0x00024630 ??1IListener@@UEAA@XZ
+ord=303   rva=0x0002bfa0 ??1LiteUsb@@UEAA@XZ
+ord=304   rva=0x0002ff40 ??1MFCamera@@UEAA@XZ
+ord=305   rva=0x00024640 ??1NetInput@@UEAA@XZ
+ord=306   rva=0x0013df10 ??1NetworkListener@@UEAA@XZ
+ord=307   rva=0x000b6b60 ??1NuwaUsbCtrl@@UEAA@XZ
+ord=308   rva=0x0015ccd0 ??1SocketNet@@QEAA@XZ
+ord=309   rva=0x00036e50 ??1Upgrade@@QEAA@XZ
+ord=310   rva=0x0002f5a0 ??1VideoInputCamera@@UEAA@XZ
+ord=311   rva=0x00137ef0 ??1XJ@@QEAA@XZ
+ord=312   rva=0x00105f10 ??1XuCmdCameraHp60c@@UEAA@XZ
+ord=313   rva=0x0012fde0 ??1XuCmdCameraVega@@UEAA@XZ
+ord=314   rva=0x000645b0 ??1XuCmdKunLunA@@UEAA@XZ
+ord=315   rva=0x000884f0 ??1XuCmdKunLunC@@UEAA@XZ
+ord=316   rva=0x0002c020 ??1_DEVICE_DATA@@QEAA@XZ
+ord=317   rva=0x00024630 ??1_Ref_count_base@std@@UEAA@XZ
+ord=318   rva=0x00015400 ??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+ord=319   rva=0x00015430 ??1bad_alloc@std@@UEAA@XZ
+ord=320   rva=0x00015430 ??1bad_array_new_length@std@@UEAA@XZ
+ord=321   rva=0x00015430 ??1bad_cast@std@@UEAA@XZ
+ord=322   rva=0x00024930 ??1condition_variable@std@@QEAA@XZ
+ord=323   rva=0x00024630 ??1error_category@std@@UEAA@XZ
+ord=324   rva=0x00015430 ??1exception@std@@UEAA@XZ
+ord=325   rva=0x0001feb0 ??1locale@std@@QEAA@XZ
+ord=326   rva=0x00015450 ??1mutex@std@@QEAA@XZ
+ord=327   rva=0x000b6c40 ??1nuwa_extract_private@@QEAA@XZ
+ord=328   rva=0x0013a880 ??1rcv_msg_info@@QEAA@XZ
+ord=329   rva=0x00015460 ??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+ord=330   rva=0x00015430 ??1system_error@std@@UEAA@XZ
+ord=331   rva=0x00024940 ??1thread@std@@QEAA@XZ
+ord=332   rva=0x00142f60 ??1topicPublish@@AEAA@XZ
+ord=333   rva=0x00030100 ??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV01@$$QEAV01@@Z
+ord=334   rva=0x00024960 ??4thread@std@@QEAAAEAV01@$$QEAV01@@Z
+ord=335   rva=0x0001fee0 ??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+ord=336   rva=0x0001ff50 ??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+ord=337   rva=0x00022790 ??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+ord=338   rva=0x0002c120 ??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+ord=339   rva=0x00134970 ??_H@YAXPEAX_K1P6APEAX0@Z@Z
+ord=340   rva=0x0020f8f0 ??_R0?AU?$default_delete@$$BY0A@D@std@@@8
+ord=341   rva=0x0020f840 ??_R0?AU?$default_delete@$$BY0A@E@std@@@8
+ord=342   rva=0x0020f928 ??_R0?AU?$default_delete@$$BY0A@G@std@@@8
+ord=343   rva=0x00210740 ??_R0?AUIAtlMemMgr@ATL@@@8
+ord=344   rva=0x00210768 ??_R0?AUIAtlStringMgr@ATL@@@8
+ord=345   rva=0x002100c0 ??_R0?AUIMFSourceReaderCallback@@@8
+ord=346   rva=0x002100a0 ??_R0?AUIUnknown@@@8
+ord=347   rva=0x0020fcd0 ??_R0?AV?$_Iosb@H@std@@@8
+ord=348   rva=0x00210330 ??_R0?AV?$_Ref_count_resource@PEADU?$default_delete@$$BY0A@D@std@@@std@@@8
+ord=349   rva=0x00210110 ??_R0?AV?$_Ref_count_resource@PEAEU?$default_delete@$$BY0A@E@std@@@std@@@8
+ord=350   rva=0x002105e0 ??_R0?AV?$_Ref_count_resource@PEAGU?$default_delete@$$BY0A@G@std@@@std@@@8
+ord=351   rva=0x0020fb30 ??_R0?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@@8
+ord=352   rva=0x0020fbd0 ??_R0?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@@8
+ord=353   rva=0x0020fc68 ??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8
+ord=354   rva=0x00210010 ??_R0?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@@8
+ord=355   rva=0x0020fc20 ??_R0?AV?$basic_istream@DU?$char_traits@D@std@@@std@@@8
+ord=356   rva=0x0020fd00 ??_R0?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@8
+ord=357   rva=0x0020fd50 ??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8
+ord=358   rva=0x0020fe00 ??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8
+ord=359   rva=0x0020fb80 ??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8
+ord=360   rva=0x0020fda0 ??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8
+ord=361   rva=0x0020ffb0 ??_R0?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8
+ord=362   rva=0x0020f960 ??_R0?AVCAtlException@ATL@@@8
+ord=363   rva=0x00210790 ??_R0?AVCAtlStringMgr@ATL@@@8
+ord=364   rva=0x00210718 ??_R0?AVCWin32Heap@ATL@@@8
+ord=365   rva=0x00210568 ??_R0?AVCameraChangA@@@8
+ord=366   rva=0x002105b0 ??_R0?AVCameraChangJiangB@@@8
+ord=367   rva=0x00210388 ??_R0?AVCameraHp60@@@8
+ord=368   rva=0x002103b0 ??_R0?AVCameraHp60UsbCtrl@@@8
+ord=369   rva=0x002104d0 ??_R0?AVCameraHp60c@@@8
+ord=370   rva=0x00210520 ??_R0?AVCameraHp60cn@@@8
+ord=371   rva=0x002103d8 ??_R0?AVCameraHp60v@@@8
+ord=372   rva=0x00210400 ??_R0?AVCameraHp60vUsbCtrl@@@8
+ord=373   rva=0x002102b8 ??_R0?AVCameraKondyor@@@8
+ord=374   rva=0x002101f8 ??_R0?AVCameraKunLunA@@@8
+ord=375   rva=0x00210268 ??_R0?AVCameraKunLunC@@@8
+ord=376   rva=0x00210660 ??_R0?AVCameraVega@@@8
+ord=377   rva=0x00210430 ??_R0?AVCameraX100@@@8
+ord=378   rva=0x00210458 ??_R0?AVCameraX100UsbCtrl@@@8
+ord=379   rva=0x00210480 ??_R0?AVCameraXb40@@@8
+ord=380   rva=0x002104a8 ??_R0?AVCameraXb40UsbCtrl@@@8
+ord=381   rva=0x00210590 ??_R0?AVCmdChangA@@@8
+ord=382   rva=0x00210638 ??_R0?AVCmdChangJiangB@@@8
+ord=383   rva=0x00210548 ??_R0?AVCmdHp60cn@@@8
+ord=384   rva=0x002102e0 ??_R0?AVCmdKondyor@@@8
+ord=385   rva=0x002106f8 ??_R0?AVHotplug@@@8
+ord=386   rva=0x002101d0 ??_R0?AVICameraOps@@@8
+ord=387   rva=0x0020fe90 ??_R0?AVICapture@@@8
+ord=388   rva=0x00210220 ??_R0?AVICommand@@@8
+ord=389   rva=0x002106b0 ??_R0?AVIListener@@@8
+ord=390   rva=0x00210058 ??_R0?AVLiteUsb@@@8
+ord=391   rva=0x002100f0 ??_R0?AVMFCamera@@@8
+ord=392   rva=0x0020feb0 ??_R0?AVNetInput@@@8
+ord=393   rva=0x002106d0 ??_R0?AVNetworkListener@@@8
+ord=394   rva=0x00210308 ??_R0?AVNuwaUsbCtrl@@@8
+ord=395   rva=0x00210078 ??_R0?AVVideoInputCamera@@@8
+ord=396   rva=0x002104f8 ??_R0?AVXuCmdCameraHp60c@@@8
+ord=397   rva=0x00210688 ??_R0?AVXuCmdCameraVega@@@8
+ord=398   rva=0x00210240 ??_R0?AVXuCmdKunLunA@@@8
+ord=399   rva=0x00210290 ??_R0?AVXuCmdKunLunC@@@8
+ord=400   rva=0x00210198 ??_R0?AV_Generic_error_category@std@@@8
+ord=401   rva=0x0020fe60 ??_R0?AV_Ref_count_base@std@@@8
+ord=402   rva=0x0020f8c8 ??_R0?AV_System_error@std@@@8
+ord=403   rva=0x0020f740 ??_R0?AVbad_alloc@std@@@8
+ord=404   rva=0x0020f710 ??_R0?AVbad_array_new_length@std@@@8
+ord=405   rva=0x0020f790 ??_R0?AVbad_cast@std@@@8
+ord=406   rva=0x00210168 ??_R0?AVerror_category@std@@@8
+ord=407   rva=0x0020f768 ??_R0?AVexception@std@@@8
+ord=408   rva=0x0020fca8 ??_R0?AVios_base@std@@@8
+ord=409   rva=0x0020f878 ??_R0?AVruntime_error@std@@@8
+ord=410   rva=0x0020f8a0 ??_R0?AVsystem_error@std@@@8
+ord=411   rva=0x00187980 ??__FstrHeap@?1??GetInstance@CAtlStringMgr@ATL@@SAPEAUIAtlStringMgr@2@XZ@YAXXZ
+ord=412   rva=0x001879b0 ??__FstrMgr@?1??GetInstance@CAtlStringMgr@ATL@@SAPEAUIAtlStringMgr@2@XZ@YAXXZ
+ord=413   rva=0x00127450 ?AS_CJB_GetExposeTime@@YAHPEAXAEAE1@Z
+ord=414   rva=0x001274a0 ?AS_CJB_GetIrSensorGain@@YAHPEAXAEAE1@Z
+ord=415   rva=0x001274f0 ?AS_CJB_GetItoValue@@YAHPEAXAEAI@Z
+ord=416   rva=0x00127530 ?AS_CJB_GetLightCurrent@@YAHPEAXAEAI1@Z
+ord=417   rva=0x00127580 ?AS_CJB_GetProjectorTemp@@YAHPEAXAEAI1@Z
+ord=418   rva=0x001275d0 ?AS_CJB_SetExposeTime@@YAHPEAXEE@Z
+ord=419   rva=0x00127620 ?AS_CJB_SetIrSensorGain@@YAHPEAXEE@Z
+ord=420   rva=0x00127670 ?AS_CJB_SetItoValue@@YAHPEAXI@Z
+ord=421   rva=0x001276b0 ?AS_CJB_SetLightCurrent@@YAHPEAXII@Z
+ord=422   rva=0x00104f30 ?AS_HP60C_CustomRead@@YAHPEAXEPEAEI@Z
+ord=423   rva=0x00105410 ?AS_HP60C_CustomWrite@@YAHPEAXEPEAEI@Z
+ord=424   rva=0x001058f0 ?AS_HP60C_GetHimaxVersion@@YAHPEAXPEADH@Z
+ord=425   rva=0x0005a3f0 ?AS_KA_DisableWriteProtect@@YAHPEAX@Z
+ord=426   rva=0x0005ab90 ?AS_KA_EnableWriteProtect@@YAHPEAX@Z
+ord=427   rva=0x0005b330 ?AS_KA_GetIntegDura_M@@YAHPEAXPEAM1@Z
+ord=428   rva=0x0005bad0 ?AS_KA_GetIntegNum_M@@YAHPEAXPEAH1@Z
+ord=429   rva=0x0005c270 ?AS_KA_GetLightPulseLevel_M@@YAHPEAXPEAW4PulseValue@@1@Z
+ord=430   rva=0x0005ca10 ?AS_KA_GetMcuTempTure@@YAHPEAXPEAM@Z
+ord=431   rva=0x0005d1b0 ?AS_KA_GetNtcTempTure@@YAHPEAXPEAM@Z
+ord=432   rva=0x0005d950 ?AS_KA_GetPWM@@YAHPEAXPEAH@Z
+ord=433   rva=0x0005e0f0 ?AS_KA_GetRange_M@@YAHPEAXPEAW4MeasureRange@@1@Z
+ord=434   rva=0x0005e890 ?AS_KA_GetRegister@@YAHPEAXHPEAH@Z
+ord=435   rva=0x0005f030 ?AS_KA_GetVSPAD_M@@YAHPEAXPEAH1@Z
+ord=436   rva=0x0005f7d0 ?AS_KA_SetCalibrationData@@YAHPEAXPEAEI@Z
+ord=437   rva=0x0005ff70 ?AS_KA_SetCameraParameter@@YAHPEAXUCAM_Parameter@@@Z
+ord=438   rva=0x00060760 ?AS_KA_SetIntegDura_M@@YAHPEAXMM_N@Z
+ord=439   rva=0x00060f20 ?AS_KA_SetIntegNum_M@@YAHPEAXHH_N@Z
+ord=440   rva=0x000616d0 ?AS_KA_SetLightPulseLevel_M@@YAHPEAXW4PulseValue@@1@Z
+ord=441   rva=0x00061e70 ?AS_KA_SetPWM@@YAHPEAXH@Z
+ord=442   rva=0x00062610 ?AS_KA_SetRange_M@@YAHPEAXW4MeasureRange@@1@Z
+ord=443   rva=0x00062db0 ?AS_KA_SetRegister@@YAHPEAXHH@Z
+ord=444   rva=0x00063550 ?AS_KA_SetSerialNumber@@YAHPEAXPEADH@Z
+ord=445   rva=0x00063d80 ?AS_KA_SetVSPAD_M@@YAHPEAXHH@Z
+ord=446   rva=0x0007f310 ?AS_KC_GetIntegDura_M@@YAHPEAXPEAM1@Z
+ord=447   rva=0x0007fab0 ?AS_KC_GetIntegNum_M@@YAHPEAXPEAH1@Z
+ord=448   rva=0x00080250 ?AS_KC_GetLightPulseLevel_M@@YAHPEAXPEAW4PulseValue@@1@Z
+ord=449   rva=0x000809f0 ?AS_KC_GetMcuTempTure@@YAHPEAXPEAM@Z
+ord=450   rva=0x00081190 ?AS_KC_GetNtcTempTure@@YAHPEAXPEAM@Z
+ord=451   rva=0x00081930 ?AS_KC_GetPWM@@YAHPEAXPEAH@Z
+ord=452   rva=0x000820d0 ?AS_KC_GetRange_M@@YAHPEAXPEAW4MeasureRange@@1@Z
+ord=453   rva=0x00082870 ?AS_KC_GetRegister@@YAHPEAXHPEAH@Z
+ord=454   rva=0x00083010 ?AS_KC_GetVSPAD_M@@YAHPEAXPEAH1@Z
+ord=455   rva=0x000837b0 ?AS_KC_Reboot@@YAHPEAX@Z
+ord=456   rva=0x00083f50 ?AS_KC_SetCalibrationData@@YAHPEAXPEAEI@Z
+ord=457   rva=0x000846f0 ?AS_KC_SetCameraParameter@@YAHPEAXUCAM_Parameter@@@Z
+ord=458   rva=0x00084ee0 ?AS_KC_SetIntegDura_M@@YAHPEAXMM_N@Z
+ord=459   rva=0x000856a0 ?AS_KC_SetIntegNum_M@@YAHPEAXHH_N@Z
+ord=460   rva=0x00085e50 ?AS_KC_SetLightPulseLevel_M@@YAHPEAXW4PulseValue@@1@Z
+ord=461   rva=0x000865f0 ?AS_KC_SetPWM@@YAHPEAXH@Z
+ord=462   rva=0x00086d90 ?AS_KC_SetRange_M@@YAHPEAXW4MeasureRange@@1@Z
+ord=463   rva=0x00087530 ?AS_KC_SetRegister@@YAHPEAXHH@Z
+ord=464   rva=0x00087cd0 ?AS_KC_SetVSPAD_M@@YAHPEAXHH@Z
+ord=465   rva=0x000b2870 ?AS_KD_GetCalibrationData@@YAHPEAXIPEAD@Z
+ord=466   rva=0x000b2e00 ?AS_KD_GetIntegDura@@YAHPEAXIAEAM@Z
+ord=467   rva=0x000b3030 ?AS_KD_GetIntegNum@@YAHPEAXIAEAH@Z
+ord=468   rva=0x000b3260 ?AS_KD_GetLightPulseLevel@@YAHPEAXIAEAW4PulseValueKd@@@Z
+ord=469   rva=0x000b3490 ?AS_KD_GetPwmDuty@@YAHPEAXIAEAH@Z
+ord=470   rva=0x000b36a0 ?AS_KD_GetRange@@YAHPEAXIAEAW4MeasureRangeKd@@@Z
+ord=471   rva=0x000b38d0 ?AS_KD_GetRegister@@YAHPEAXIIAEAI@Z
+ord=472   rva=0x000b3b00 ?AS_KD_GetTofNum@@YAHPEAXAEAI@Z
+ord=473   rva=0x000b3e60 ?AS_KD_GetVSPAD@@YAHPEAXIAEAH@Z
+ord=474   rva=0x000b41f0 ?AS_KD_RegisterStreamSetCallback@@YAHPEAXPEAUSTREAM_SET_CALLBACK_S@@@Z
+ord=475   rva=0x000b43e0 ?AS_KD_SetCalibTof@@YAHPEAXI@Z
+ord=476   rva=0x000b45d0 ?AS_KD_SetCalibrationData@@YAHPEAXIPEAD@Z
+ord=477   rva=0x000b4970 ?AS_KD_SetCamParameter@@YAHPEAXIUCAM_Parameter@@@Z
+ord=478   rva=0x000b4be0 ?AS_KD_SetIntegDura@@YAHPEAXIM_N@Z
+ord=479   rva=0x000b4e20 ?AS_KD_SetIntegNum@@YAHPEAXIH_N@Z
+ord=480   rva=0x000b5050 ?AS_KD_SetLightPulseLevel@@YAHPEAXIW4PulseValueKd@@@Z
+ord=481   rva=0x000b5280 ?AS_KD_SetPwmDuty@@YAHPEAXIH@Z
+ord=482   rva=0x000b5490 ?AS_KD_SetRange@@YAHPEAXIW4MeasureRangeKd@@@Z
+ord=483   rva=0x000b56c0 ?AS_KD_SetRegister@@YAHPEAXIII@Z
+ord=484   rva=0x000b58f0 ?AS_KD_SetSerialNumber@@YAHPEAXPEADH@Z
+ord=485   rva=0x000b59e0 ?AS_KD_SetTofNum@@YAHPEAXI@Z
+ord=486   rva=0x000b5d30 ?AS_KD_SetVSPAD@@YAHPEAXIH@Z
+ord=487   rva=0x000cb0d0 ?AS_Nuwa_CustomRead@@YAHPEAXPEAEI@Z
+ord=488   rva=0x000cb5c0 ?AS_Nuwa_CustomWrite@@YAHPEAXPEAEI@Z
+ord=489   rva=0x000cba90 ?AS_Nuwa_GetHimaxVersion@@YAHPEAXPEADH@Z
+ord=490   rva=0x000cc020 ?AS_Nuwa_SetUsbDevMatch@@YAH_N@Z
+ord=491   rva=0x000154f0 ?AS_SDK_CAMERA_Reboot@@YAHPEAX@Z
+ord=492   rva=0x000158a0 ?AS_SDK_CloseCamera@@YAHPEAX@Z
+ord=493   rva=0x00015c70 ?AS_SDK_CreateCamHandle@@YAHAEAPEAXPEAUAS_CAM_ATTR@@@Z
+ord=494   rva=0x000160f0 ?AS_SDK_Deinit@@YAHXZ
+ord=495   rva=0x000162c0 ?AS_SDK_DestoryCamHandle@@YAHPEAX@Z
+ord=496   rva=0x000166c0 ?AS_SDK_FreeCameraList@@YAHAEAV?$list@PEAXV?$allocator@PEAX@std@@@std@@@Z
+ord=497   rva=0x00016950 ?AS_SDK_GetCamParameter@@YAHPEAXPEAUCAM_Parameter@@@Z
+ord=498   rva=0x000b60c0 ?AS_SDK_GetCamParameterSet@@YAHPEAXAEAUCAM_Parameter_Set@@@Z
+ord=499   rva=0x00016d00 ?AS_SDK_GetCameraAttrs@@YAHPEAXAEAUAS_CAM_ATTR@@@Z
+ord=500   rva=0x000170b0 ?AS_SDK_GetCameraHandle@@YAHPEAXAEAPEAVICameraOps@@PEAUAS_CAM_ATTR@@@Z
+ord=501   rva=0x00017470 ?AS_SDK_GetCameraList@@YAHAEAV?$list@PEAXV?$allocator@PEAX@std@@@std@@@Z
+ord=502   rva=0x00017a00 ?AS_SDK_GetCameraModel@@YAHPEAXAEAW4CAMERA_MODEL_E@@@Z
+ord=503   rva=0x00017f40 ?AS_SDK_GetCapability@@YAHPEAXW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=504   rva=0x000182f0 ?AS_SDK_GetConfigInfo@@YAHPEAXAEAUAS_CONFIG_INFO@@@Z
+ord=505   rva=0x000186a0 ?AS_SDK_GetDevNetAttrs@@YAHPEAXAEAUNET_DEV_ATTRS@@@Z
+ord=506   rva=0x00018bb0 ?AS_SDK_GetFwVersion@@YAHPEAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=507   rva=0x00018e00 ?AS_SDK_GetFwVersion@@YAHPEAXPEADH@Z
+ord=508   rva=0x000193b0 ?AS_SDK_GetHimaxVersion@@YAHPEAXPEADH@Z
+ord=509   rva=0x000cc030 ?AS_SDK_GetOriginalCamParameter@@YAHPEAXPEAUCAM_Parameter@@@Z
+ord=510   rva=0x00019810 ?AS_SDK_GetSerialNumber@@YAHPEAXPEADH@Z
+ord=511   rva=0x00019dc0 ?AS_SDK_GetStreamCfg@@YAHPEAXAEAUvideo_captur_attr@@@Z
+ord=512   rva=0x0001a1a0 ?AS_SDK_GetStreamParam@@YAHPEAXPEAUSTREAM_PARAM_S@@@Z
+ord=513   rva=0x0001a550 ?AS_SDK_GetStreamType@@YAHPEAXPEAH@Z
+ord=514   rva=0x0001a6d0 ?AS_SDK_GetSwVersion@@YAHPEADI@Z
+ord=515   rva=0x0001a720 ?AS_SDK_GetTofMode@@YAHPEAXAEAW4TOFMode@@@Z
+ord=516   rva=0x0001aad0 ?AS_SDK_Init@@YAHXZ
+ord=517   rva=0x0001aca0 ?AS_SDK_IsHandleExist@@YAHPEAX@Z
+ord=518   rva=0x0001aeb0 ?AS_SDK_LogCameraCfg@@YAHPEAX@Z
+ord=519   rva=0x0001b250 ?AS_SDK_OpenCamera@@YAHPEAXPEBD@Z
+ord=520   rva=0x0001b8f0 ?AS_SDK_RegisterInnerStreamCallback@@YAHPEAXPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=521   rva=0x00059c50 ?AS_SDK_RegisterMergeFrameCallback@@YAHPEAXPEAUMERGE_CALLBACK_S@@@Z
+ord=522   rva=0x0001bca0 ?AS_SDK_RegisterStreamCallback@@YAHPEAXPEAUSTREAM_CALLBACK_S@@@Z
+ord=523   rva=0x0001c050 ?AS_SDK_SetDevNetAttrs@@YAHPEAXUNET_DEV_ATTRS@@@Z
+ord=524   rva=0x0001c5f0 ?AS_SDK_SetSerialNumber@@YAHPEAXPEADH@Z
+ord=525   rva=0x0001ca40 ?AS_SDK_SetStreamCfg@@YAHPEAXAEBUvideo_captur_attr@@@Z
+ord=526   rva=0x0001ce20 ?AS_SDK_SetStreamParam@@YAHPEAXW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=527   rva=0x0001d1d0 ?AS_SDK_SetTimeStampType@@YAHPEAXW4TIME_STAMP_TYPE@@@Z
+ord=528   rva=0x0001d580 ?AS_SDK_StartListener@@YAHAEBUAS_LISTENER_CALLBACK@@W4AS_LISTENER_TYPE@@_N@Z
+ord=529   rva=0x0001d9a0 ?AS_SDK_StartStream@@YAHPEAXH@Z
+ord=530   rva=0x0001dd50 ?AS_SDK_StopListener@@YAHXZ
+ord=531   rva=0x0001df90 ?AS_SDK_StopStream@@YAHPEAXH@Z
+ord=532   rva=0x0001e340 ?AS_SDK_UpgradeDev@@YAHPEAXPEBDPEAUCAM_UPGRADE_DEV_S@@@Z
+ord=533   rva=0x0001e7a0 ?AS_SDK_Usb_CustomRead@@YAHPEAXPEAEIH@Z
+ord=534   rva=0x0001eb60 ?AS_SDK_Usb_CustomWrite@@YAHPEAXPEAEIH@Z
+ord=535   rva=0x0001ef20 ?AS_SDK_Xu_CustomRead@@YAHPEAXEPEAEIH@Z
+ord=536   rva=0x0001f2f0 ?AS_SDK_Xu_CustomWrite@@YAHPEAXEPEAEIH@Z
+ord=537   rva=0x00023460 ?AddRef@MFCamera@@EEAAKXZ
+ord=538   rva=0x0015e120 ?Allocate@CAtlStringMgr@ATL@@UEAAPEAUCStringData@2@HH@Z
+ord=539   rva=0x0015e1c0 ?Allocate@CWin32Heap@ATL@@UEAAPEAX_K@Z
+ord=540   rva=0x0015e1d0 ?AtlThrowImpl@ATL@@YAXJ@Z
+ord=541   rva=0x00157ba0 ?Base64Decode@@YAHPEBEHPEAEH@Z
+ord=542   rva=0x00136c10 ?CH55x_SetIspOption@@YA_NE@Z
+ord=543   rva=0x00023600 ?Clone@CAtlStringMgr@ATL@@UEAAPEAUIAtlStringMgr@2@XZ
+ord=544   rva=0x0015e200 ?CloneData@?$CSimpleStringT@D$0A@@ATL@@CAPEAUCStringData@2@PEAU32@@Z
+ord=545   rva=0x0013fa10 ?CreateMessageOnlyWindow@@YA_NPEAPEAUHWND__@@@Z
+ord=546   rva=0x00040880 ?DealWithData_Anna_Dsp@CDothinkey@@QEAA_NPEAEUFrameInfoEx@@PEAM222@Z
+ord=547   rva=0x00033bc0 ?DecodeD@@YAHXZ
+ord=548   rva=0x00033c30 ?DecompressD@@YAXPEADPEAFH@Z
+ord=549   rva=0x0013fa80 ?DeviceChange@@YA_JPEAUHWND__@@I_K_J@Z
+ord=550   rva=0x00040dc0 ?DoArrayDatas_Anna_DSP_Type@@YAXV?$vector@MV?$allocator@M@std@@@std@@PEAMH@Z
+ord=551   rva=0x00023600 ?EnsureLinked@CAtlStringMgrStaticInitializer@ATLImplementationDetails@ATL@@QEAAPEAXXZ
+ord=552   rva=0x0015e2b0 ?ErrorInfoFromHresult@@YAHKAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=553   rva=0x0015e3c0 ?Fork@?$CSimpleStringT@D$0A@@ATL@@AEAAXH@Z
+ord=554   rva=0x0015e490 ?Free@CAtlStringMgr@ATL@@UEAAXPEAUCStringData@2@@Z
+ord=555   rva=0x0015e4a0 ?Free@CWin32Heap@ATL@@UEAAXPEAX@Z
+ord=556   rva=0x0001f6c0 ?GetCameraLock@@YAAEAVmutex@std@@PEAX@Z
+ord=557   rva=0x0015e4c0 ?GetInstance@CAtlStringMgr@ATL@@SAPEAUIAtlStringMgr@2@XZ
+ord=558   rva=0x0015e5d0 ?GetLocationPath@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV12@@Z
+ord=559   rva=0x0015f0f0 ?GetNilString@CAtlStringMgr@ATL@@UEAAPEAUCStringData@2@XZ
+ord=560   rva=0x0015f100 ?GetSize@CWin32Heap@ATL@@UEAA_KPEAX@Z
+ord=561   rva=0x00090c30 ?InitCaliConfiParam@CameraKondyor@@AEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=562   rva=0x00045910 ?InitCaliConfiParam@CameraKunLunA@@AEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=563   rva=0x0006df90 ?InitCaliConfiParam@CameraKunLunC@@AEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=564   rva=0x000938b0 ?InitLocalCaliConfiParam@CameraKondyor@@AEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=565   rva=0x000480d0 ?InitLocalCaliConfiParam@CameraKunLunA@@AEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=566   rva=0x00070750 ?InitLocalCaliConfiParam@CameraKunLunC@@AEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=567   rva=0x00210b7c ?InitializeCAtlStringMgr@ATLImplementationDetails@ATL@@3UCAtlStringMgrStaticInitializer@12@A
+ord=568   rva=0x0015f110 ?Left@?$CStringT@DV?$StrTraitATL@DV?$ChTraitsCRT@D@ATL@@@ATL@@@ATL@@QEBA?AV12@H@Z
+ord=569   rva=0x0015f260 ?LoadStringA@?$CStringT@DV?$StrTraitATL@DV?$ChTraitsCRT@D@ATL@@@ATL@@@ATL@@QEAAHI@Z
+ord=570   rva=0x0015f3f0 ?LocationPathCmp@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+ord=571   rva=0x00033e10 ?MjpegPostProcess@AngPost@@QEAAHPEAUCAM_FRAME@@0@Z
+ord=572   rva=0x0013faf0 ?MyRegisterClass@@YAGPEAX@Z
+ord=573   rva=0x00023460 ?OnEvent@MFCamera@@EEAAJKPEAUIMFMediaEvent@@@Z
+ord=574   rva=0x00023460 ?OnFlush@MFCamera@@EEAAJK@Z
+ord=575   rva=0x000302f0 ?OnReadSample@MFCamera@@EEAAJJKK_JPEAUIMFSample@@@Z
+ord=576   rva=0x0015f840 ?PrepareWrite2@?$CSimpleStringT@D$0A@@ATL@@AEAAXH@Z
+ord=577   rva=0x00030600 ?QueryInterface@MFCamera@@EEAAJAEBU_GUID@@PEAPEAX@Z
+ord=578   rva=0x0015f8a0 ?Reallocate@?$CSimpleStringT@D$0A@@ATL@@AEAAXH@Z
+ord=579   rva=0x0015f8f0 ?Reallocate@CAtlStringMgr@ATL@@UEAAPEAUCStringData@2@PEAU32@HH@Z
+ord=580   rva=0x0015f960 ?Reallocate@CWin32Heap@ATL@@UEAAPEAXPEAX_K@Z
+ord=581   rva=0x00024a00 ?RecvDataFromSocket@NetInput@@AEAAHXZ
+ord=582   rva=0x0013fb50 ?RegisterDeviceNotify@@YAXPEAUHWND__@@@Z
+ord=583   rva=0x00023460 ?Release@MFCamera@@EEAAKXZ
+ord=584   rva=0x0015f9a0 ?SetString@?$CSimpleStringT@D$0A@@ATL@@QEAAXPEBDH@Z
+ord=585   rva=0x001349c0 ?SonixCam_BurnerFW@As_SonixCamera@@QEAAHQEAEJP6AXPEAXM@Z1W4SERIAL_FLASH_TYPE@@_N@Z
+ord=586   rva=0x00134d30 ?SonixCam_DeInit@As_SonixCamera@@QEAAHXZ
+ord=587   rva=0x00134d60 ?SonixCam_GetFwVersion@As_SonixCamera@@QEAA_NQEAEJ_N@Z
+ord=588   rva=0x00134d70 ?SonixCam_Init@As_SonixCamera@@QEAAHXZ
+ord=589   rva=0x00032d60 ?SonixCam_Restart@As_SonixCamera@@QEAAHXZ
+ord=590   rva=0x0013fbe0 ?ThrdFunc@@YAKPEAX@Z
+ord=591   rva=0x0015fb00 ?ThrowMemoryException@?$CSimpleStringT@D$0A@@ATL@@KAXXZ
+ord=592   rva=0x00030620 ?UvcStreamFormatToMediaSubType@MFCamera@@AEAAHW4stream_format@@AEAU_GUID@@@Z
+ord=593   rva=0x0013ffe0 ?WndProc@@YA_JPEAUHWND__@@I_K_J@Z
+ord=594   rva=0x00137f80 ?XJUpgrade@XJ@@QEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUCAM_UPGRADE_DEV_S@@@Z
+ord=595   rva=0x0013dfe0 ?_Assign_grow@?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@@std@@@std@@@std@@@std@@@std@@@std@@QEAAX_KV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$rati
+ord=596   rva=0x0020f420 ?_AtlComModule@ATL@@3VCAtlComModule@1@A
+ord=597   rva=0x0015fb10 ?_AtlGetStringResourceImage@ATL@@YAPEBUATLSTRINGRESOURCEIMAGE@1@PEAUHINSTANCE__@@PEAUHRSRC__@@I@Z
+ord=598   rva=0x00023120 ?_AtlInitializeCriticalSectionEx@ATL@@YAHPEAU_RTL_CRITICAL_SECTION@@KK@Z
+ord=599   rva=0x0015fba0 ?_AtlRaiseException@ATL@@YAXKK@Z
+ord=600   rva=0x00210b00 ?_AtlRegisterPerUser@ATL@@3_NA
+ord=601   rva=0x0020f470 ?_AtlWinModule@ATL@@3VCAtlWinModule@1@A
+ord=602   rva=0x000254f0 ?_Buy_raw@?$vector@EV?$allocator@E@std@@@std@@AEAAX_K@Z
+ord=603   rva=0x00140060 ?_Buy_raw@?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@AEAAX_K@Z
+ord=604   rva=0x00025570 ?_Change_array@?$vector@EV?$allocator@E@std@@@std@@AEAAXQEAE_K1@Z
+ord=605   rva=0x00041d10 ?_Change_array@?$vector@MV?$allocator@M@std@@@std@@AEAAXQEAM_K1@Z
+ord=606   rva=0x0013e110 ?_Change_array@?$vector@UAS_CAM_ATTR@@V?$allocator@UAS_CAM_ATTR@@@std@@@std@@AEAAXQEAUAS_CAM_ATTR@@_K1@Z
+ord=607   rva=0x00025600 ?_Clear_and_reserve_geometric@?$vector@EV?$allocator@E@std@@@std@@AEAAX_K@Z
+ord=608   rva=0x00041da0 ?_Clear_and_reserve_geometric@?$vector@MV?$allocator@M@std@@@std@@AEAAX_K@Z
+ord=609   rva=0x001400f0 ?_Clear_and_reserve_geometric@?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@AEAAX_K@Z
+ord=610   rva=0x000256a0 ?_Decref@_Ref_count_base@std@@QEAAXXZ
+ord=611   rva=0x000256f0 ?_Delete_this@?$_Ref_count_resource@PEADU?$default_delete@$$BY0A@D@std@@@std@@EEAAXXZ
+ord=612   rva=0x000256f0 ?_Delete_this@?$_Ref_count_resource@PEAEU?$default_delete@$$BY0A@E@std@@@std@@EEAAXXZ
+ord=613   rva=0x000256f0 ?_Delete_this@?$_Ref_count_resource@PEAGU?$default_delete@$$BY0A@G@std@@@std@@EEAAXXZ
+ord=614   rva=0x00025710 ?_Destroy@?$_Ref_count_resource@PEADU?$default_delete@$$BY0A@D@std@@@std@@EEAAXXZ
+ord=615   rva=0x00025710 ?_Destroy@?$_Ref_count_resource@PEAEU?$default_delete@$$BY0A@E@std@@@std@@EEAAXXZ
+ord=616   rva=0x00025710 ?_Destroy@?$_Ref_count_resource@PEAGU?$default_delete@$$BY0A@G@std@@@std@@EEAAXXZ
+ord=617   rva=0x0002c2e0 ?_Destroy@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEAAXPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@0@Z
+ord=618   rva=0x00020090 ?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAA_NXZ
+ord=619   rva=0x001401a0 ?_Extract@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@PEAX@2@V?$_Tree_unchecked_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@@std@@@std@@U_Iterator_base0@2@@2@@Z
+ord=620   rva=0x0013e1d0 ?_Forced_rehash@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@
+ord=621   rva=0x000ccd50 ?_Get_deleter@?$_Ref_count_resource@PEADU?$default_delete@$$BY0A@D@std@@@std@@UEBAPEAXAEBVtype_info@@@Z
+ord=622   rva=0x00036ef0 ?_Get_deleter@?$_Ref_count_resource@PEAEU?$default_delete@$$BY0A@E@std@@@std@@UEBAPEAXAEBVtype_info@@@Z
+ord=623   rva=0x00124280 ?_Get_deleter@?$_Ref_count_resource@PEAGU?$default_delete@$$BY0A@G@std@@@std@@UEBAPEAXAEBVtype_info@@@Z
+ord=624   rva=0x00023600 ?_Getal@?$vector@EV?$allocator@E@std@@@std@@AEAAAEAV?$allocator@E@2@XZ
+ord=625   rva=0x0002c300 ?_Growmap@?$deque@Uframe_info@@V?$allocator@Uframe_info@@@std@@@std@@AEAAX_K@Z
+ord=626   rva=0x00025780 ?_Growmap@?$deque@V?$vector@EV?$allocator@E@std@@@std@@V?$allocator@V?$vector@EV?$allocator@E@std@@@std@@@2@@std@@AEAAX_K@Z
+ord=627   rva=0x00041e60 ?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHV?$vector@MV?$allocator@M@std@@@std@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHV?$vector@MV?$allocator@M@std@@@std@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHV?$vector@MV?$allocator@M@std@@@std@@@std@@PEAX@std@@@2@QEAU32@@Z
+ord=628   rva=0x00041e60 ?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@PEAX@std@@@2@QEAU32@@Z
+ord=629   rva=0x00041e60 ?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAUHWND__@@V?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@QEAUHWND__@@V?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@QEAUHWND__@@V?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@@std@@PEAX@std@@@2@QEAU32@@Z
+ord=630   rva=0x00020180 ?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+ord=631   rva=0x00140540 ?_Lrotate@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@@std@@@std@@QEAAXPEAU?$_Tree_node@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@PEAX@2@@Z
+ord=632   rva=0x000228e0 ?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+ord=633   rva=0x00210870 ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA
+ord=634   rva=0x00210988 ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA
+ord=635   rva=0x00210880 ?_Psave@?$_Facetptr@V?$codecvt@DDU_Mbstatet@@@std@@@std@@2PEBVfacet@locale@2@EB
+ord=636   rva=0x000201a0 ?_Reset_back@?$basic_filebuf@DU?$char_traits@D@std@@@std@@AEAAXXZ
+ord=637   rva=0x001405a0 ?_Rrotate@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@@std@@@std@@QEAAXPEAU?$_Tree_node@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@PEAX@2@@Z
+ord=638   rva=0x0020f090 ?_Static@?1???$_Immortalize_memcpy_image@V_Generic_error_category@std@@@std@@YAAEBV_Generic_error_category@1@XZ@4U?$_Constexpr_immortalize_impl@V_Generic_error_category@std@@@1@A
+ord=639   rva=0x00210878 ?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAAXPEAU_iobuf@@W4_Initfl@23@@Z@4U_Mbstatet@@A
+ord=640   rva=0x0001f6d0 ?_Throw_bad_array_new_length@std@@YAXXZ
+ord=641   rva=0x000201d0 ?_Throw_bad_cast@std@@YAXXZ
+ord=642   rva=0x00048a40 ?_Throw_system_error@std@@YAXW4errc@1@@Z
+ord=643   rva=0x000420e0 ?_Throw_tree_length_error@std@@YAXXZ
+ord=644   rva=0x000b6d50 ?_Tidy@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IEAAXXZ
+ord=645   rva=0x00015380 ?_Tidy@?$vector@UAS_CAM_ATTR@@V?$allocator@UAS_CAM_ATTR@@@std@@@std@@AEAAXXZ
+ord=646   rva=0x00139770 ?_Tidy@?$vector@U_DEVICE_DATA@@V?$allocator@U_DEVICE_DATA@@@std@@@std@@AEAAXXZ
+ord=647   rva=0x0002c4e0 ?_Tidy@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEAAXXZ
+ord=648   rva=0x000152b0 ?_Tidy_deallocate@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXXZ
+ord=649   rva=0x00025960 ?_Umove@?$vector@EV?$allocator@E@std@@@std@@AEAAPEAEPEAE00@Z
+ord=650   rva=0x0013e450 ?_Unchecked_erase@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2
+ord=651   rva=0x000201f0 ?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+ord=652   rva=0x00025990 ?_Xlen@?$deque@Uframe_info@@V?$allocator@Uframe_info@@@std@@@std@@AEBAXXZ
+ord=653   rva=0x00025990 ?_Xlen@?$deque@V?$vector@EV?$allocator@E@std@@@std@@V?$allocator@V?$vector@EV?$allocator@E@std@@@std@@@2@@std@@AEBAXXZ
+ord=654   rva=0x0001f6f0 ?_Xlen_string@std@@YAXXZ
+ord=655   rva=0x000259b0 ?_Xlength@?$vector@DV?$allocator@D@std@@@std@@CAXXZ
+ord=656   rva=0x000259b0 ?_Xlength@?$vector@EV?$allocator@E@std@@@std@@CAXXZ
+ord=657   rva=0x000259b0 ?_Xlength@?$vector@MV?$allocator@M@std@@@std@@CAXXZ
+ord=658   rva=0x000259b0 ?_Xlength@?$vector@UAS_CAM_ATTR@@V?$allocator@UAS_CAM_ATTR@@@std@@@std@@CAXXZ
+ord=659   rva=0x000259b0 ?_Xlength@?$vector@UAS_POINTCLOUD@@V?$allocator@UAS_POINTCLOUD@@@std@@@std@@CAXXZ
+ord=660   rva=0x000259b0 ?_Xlength@?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@CAXXZ
+ord=661   rva=0x000259b0 ?_Xlength@?$vector@Upollfd@@V?$allocator@Upollfd@@@std@@@std@@CAXXZ
+ord=662   rva=0x000259b0 ?_Xlength@?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@CAXXZ
+ord=663   rva=0x000259b0 ?_Xlength@?$vector@Uvideo_attr_s@@V?$allocator@Uvideo_attr_s@@@std@@@std@@CAXXZ
+ord=664   rva=0x000259b0 ?_Xlength@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@CAXXZ
+ord=665   rva=0x00036f20 ?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ
+ord=666   rva=0x00094330 ?_Xran@?$array@I$02@std@@QEBAXXZ
+ord=667   rva=0x00094330 ?_Xran@?$array@PEAE$02@std@@QEBAXXZ
+ord=668   rva=0x00094330 ?_Xran@?$array@UCAM_DATA_INNER@@$02@std@@QEBAXXZ
+ord=669   rva=0x00094330 ?_Xran@?$array@UCAM_Parameter@@$02@std@@QEBAXXZ
+ord=670   rva=0x00094330 ?_Xran@?$array@UCAM_RE_PACKET@@$02@std@@QEBAXXZ
+ord=671   rva=0x00094330 ?_Xran@?$array@_N$02@std@@QEBAXXZ
+ord=672   rva=0x0001f710 ?_Xrange@?$vector@UAS_CAM_ATTR@@V?$allocator@UAS_CAM_ATTR@@@std@@@std@@CAXXZ
+ord=673   rva=0x0001f710 ?_Xrange@?$vector@U_DEVICE_DATA@@V?$allocator@U_DEVICE_DATA@@@std@@@std@@CAXXZ
+ord=674   rva=0x0001f710 ?_Xrange@?$vector@Uvideo_attr_s@@V?$allocator@Uvideo_attr_s@@@std@@@std@@CAXXZ
+ord=675   rva=0x00210b18 ?_pAtlAutoThreadModule@ATL@@3PEAUIAtlAutoThreadModule@1@EA
+ord=676   rva=0x00210b08 ?_pAtlModule@ATL@@3PEAVCAtlModule@1@EA
+ord=677   rva=0x00210b10 ?_pModule@ATL@@3PEAVCComModule@1@EA
+ord=678   rva=0x00210af0 ?_pPerfRegFunc@ATL@@3P6AJPEAUHINSTANCE__@@@ZEA
+ord=679   rva=0x00210af8 ?_pPerfUnRegFunc@ATL@@3P6AJXZEA
+ord=680   rva=0x0015fbb0 ?_wcharToString@@YAHPEB_WAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=681   rva=0x0015cd20 ?accept@SocketNet@@QEAAHPEAUsockaddr@@PEAH@Z
+ord=682   rva=0x00048a80 ?adaptiveSettingParameters@CameraKunLunA@@AEAAHXZ
+ord=683   rva=0x000710c0 ?adaptiveSettingParameters@CameraKunLunC@@AEAAHXZ
+ord=684   rva=0x00033f60 ?alignDepth@AngPost@@QEAAHAEAUCAM_FRAME@@0AEAUir_rgb_Parameter@@@Z
+ord=685   rva=0x000342c0 ?alignIr@AngPost@@QEAAHAEAUCAM_FRAME@@0AEAUir_rgb_Parameter@@@Z
+ord=686   rva=0x00022950 ?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+ord=687   rva=0x00022950 ?allocate@?$allocator@E@std@@QEAAPEAE_K@Z
+ord=688   rva=0x00042100 ?allocate@?$allocator@M@std@@QEAAPEAM_K@Z
+ord=689   rva=0x0013e670 ?allocate@?$allocator@UAS_CAM_ATTR@@@std@@QEAAPEAUAS_CAM_ATTR@@_K@Z
+ord=690   rva=0x0002c550 ?allocate@?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QEAAPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_K@Z
+ord=691   rva=0x0002c5c0 ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+ord=692   rva=0x0001f730 ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+ord=693   rva=0x00094350 ?at@?$array@UCAM_DATA_INNER@@$02@std@@QEAAAEAUCAM_DATA_INNER@@_K@Z
+ord=694   rva=0x002108b8 ?atlTraceAllocation@ATL@@3V?$CTraceCategoryEx@$0BAAA@$0A@@1@A
+ord=695   rva=0x0021088c ?atlTraceCOM@ATL@@3V?$CTraceCategoryEx@$01$0A@@1@A
+ord=696   rva=0x002108c4 ?atlTraceCache@ATL@@3V?$CTraceCategoryEx@$0IAAA@$0A@@1@A
+ord=697   rva=0x002108a0 ?atlTraceControls@ATL@@3V?$CTraceCategoryEx@$0EA@$0A@@1@A
+ord=698   rva=0x002108a8 ?atlTraceDBClient@ATL@@3V?$CTraceCategoryEx@$0BAA@$0A@@1@A
+ord=699   rva=0x002108ac ?atlTraceDBProvider@ATL@@3V?$CTraceCategoryEx@$0CAA@$0A@@1@A
+ord=700   rva=0x002108bc ?atlTraceException@ATL@@3V?$CTraceCategoryEx@$0CAAA@$0A@@1@A
+ord=701   rva=0x00210888 ?atlTraceGeneral@ATL@@3V?$CTraceCategoryEx@$00$0A@@1@A
+ord=702   rva=0x002108a4 ?atlTraceHosting@ATL@@3V?$CTraceCategoryEx@$0IA@$0A@@1@A
+ord=703   rva=0x002108e0 ?atlTraceISAPI@ATL@@3V?$CTraceCategoryEx@$0EAAAAA@$0A@@1@A
+ord=704   rva=0x002108d0 ?atlTraceMap@ATL@@3V?$CTraceCategoryEx@$0EAAAA@$0A@@1@A
+ord=705   rva=0x002108b4 ?atlTraceNotImpl@ATL@@3V?$CTraceCategoryEx@$0IAA@$0A@@1@A
+ord=706   rva=0x00210890 ?atlTraceQI@ATL@@3V?$CTraceCategoryEx@$03$0A@@1@A
+ord=707   rva=0x00210898 ?atlTraceRefcount@ATL@@3V?$CTraceCategoryEx@$0BA@$0A@@1@A
+ord=708   rva=0x00210894 ?atlTraceRegistrar@ATL@@3V?$CTraceCategoryEx@$07$0A@@1@A
+ord=709   rva=0x002108d8 ?atlTraceSecurity@ATL@@3V?$CTraceCategoryEx@$0BAAAAA@$0A@@1@A
+ord=710   rva=0x002108b0 ?atlTraceSnapin@ATL@@3V?$CTraceCategoryEx@$0EAA@$0A@@1@A
+ord=711   rva=0x002108c8 ?atlTraceStencil@ATL@@3V?$CTraceCategoryEx@$0BAAAA@$0A@@1@A
+ord=712   rva=0x002108cc ?atlTraceString@ATL@@3V?$CTraceCategoryEx@$0CAAAA@$0A@@1@A
+ord=713   rva=0x002108dc ?atlTraceSync@ATL@@3V?$CTraceCategoryEx@$0CAAAAA@$0A@@1@A
+ord=714   rva=0x002108c0 ?atlTraceTime@ATL@@3V?$CTraceCategoryEx@$0EAAA@$0A@@1@A
+ord=715   rva=0x002108d4 ?atlTraceUtil@ATL@@3V?$CTraceCategoryEx@$0IAAAA@$0A@@1@A
+ord=716   rva=0x0021089c ?atlTraceWindowing@ATL@@3V?$CTraceCategoryEx@$0CA@$0A@@1@A
+ord=717   rva=0x00048d10 ?bZeroDataSize@CameraKunLunA@@AEAAXAEAUCAM_DATA@@@Z
+ord=718   rva=0x00048d10 ?bZeroDataSize@CameraKunLunC@@AEAAXAEAUCAM_DATA@@@Z
+ord=719   rva=0x00048d30 ?bZeroInnerDataSize@CameraKunLunA@@AEAAXAEAUCAM_DATA_INNER@@@Z
+ord=720   rva=0x00048d30 ?bZeroInnerDataSize@CameraKunLunC@@AEAAXAEAUCAM_DATA_INNER@@@Z
+ord=721   rva=0x00157cf0 ?base64_encode@@YAPEADPEBEPEADH@Z
+ord=722   rva=0x00020210 ?bgr2mono8@@YAHPEAE0II@Z
+ord=723   rva=0x0015cd30 ?bind@SocketNet@@QEAAHPEBUsockaddr@@H@Z
+ord=724   rva=0x002108f8 ?buffer@@3PEAHEA
+ord=725   rva=0x0011fbd0 ?bulkTransferRead@CameraChangA@@UEAAHPEAEIH@Z
+ord=726   rva=0x001242b0 ?bulkTransferRead@CameraChangJiangB@@UEAAHPEAEIH@Z
+ord=727   rva=0x000d0c20 ?bulkTransferRead@CameraHp60@@UEAAHPEAEIH@Z
+ord=728   rva=0x000f94c0 ?bulkTransferRead@CameraHp60c@@UEAAHPEAEIH@Z
+ord=729   rva=0x0010cb20 ?bulkTransferRead@CameraHp60cn@@UEAAHPEAEIH@Z
+ord=730   rva=0x000d0c20 ?bulkTransferRead@CameraHp60v@@UEAAHPEAEIH@Z
+ord=731   rva=0x00094370 ?bulkTransferRead@CameraKondyor@@UEAAHPEAEIH@Z
+ord=732   rva=0x00048d70 ?bulkTransferRead@CameraKunLunA@@UEAAHPEAEIH@Z
+ord=733   rva=0x00071350 ?bulkTransferRead@CameraKunLunC@@UEAAHPEAEIH@Z
+ord=734   rva=0x0012a1e0 ?bulkTransferRead@CameraVega@@UEAAHPEAEIH@Z
+ord=735   rva=0x000d0c20 ?bulkTransferRead@CameraX100@@UEAAHPEAEIH@Z
+ord=736   rva=0x000d0c20 ?bulkTransferRead@CameraXb40@@UEAAHPEAEIH@Z
+ord=737   rva=0x0011fd50 ?bulkTransferWrite@CameraChangA@@UEAAHPEAEIH@Z
+ord=738   rva=0x00124430 ?bulkTransferWrite@CameraChangJiangB@@UEAAHPEAEIH@Z
+ord=739   rva=0x000d0c30 ?bulkTransferWrite@CameraHp60@@UEAAHPEAEIH@Z
+ord=740   rva=0x000f9640 ?bulkTransferWrite@CameraHp60c@@UEAAHPEAEIH@Z
+ord=741   rva=0x0010cca0 ?bulkTransferWrite@CameraHp60cn@@UEAAHPEAEIH@Z
+ord=742   rva=0x000d0c30 ?bulkTransferWrite@CameraHp60v@@UEAAHPEAEIH@Z
+ord=743   rva=0x000944f0 ?bulkTransferWrite@CameraKondyor@@UEAAHPEAEIH@Z
+ord=744   rva=0x00048ef0 ?bulkTransferWrite@CameraKunLunA@@UEAAHPEAEIH@Z
+ord=745   rva=0x000714d0 ?bulkTransferWrite@CameraKunLunC@@UEAAHPEAEIH@Z
+ord=746   rva=0x0012a360 ?bulkTransferWrite@CameraVega@@UEAAHPEAEIH@Z
+ord=747   rva=0x000d0c30 ?bulkTransferWrite@CameraX100@@UEAAHPEAEIH@Z
+ord=748   rva=0x000d0c30 ?bulkTransferWrite@CameraXb40@@UEAAHPEAEIH@Z
+ord=749   rva=0x00094670 ?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBAPEBDXZ
+ord=750   rva=0x00049070 ?calibrationModeProcessRawData@CameraKunLunA@@AEAAHAEBUframe_info@@@Z
+ord=751   rva=0x00071650 ?calibrationModeProcessRawData@CameraKunLunC@@AEAAHAEBUframe_info@@@Z
+ord=752   rva=0x0012a4e0 ?callback_controller@CameraVega@@AEAA_N_N@Z
+ord=753   rva=0x000d0cf0 ?capture@CameraChangA@@UEAAPEAVICapture@@XZ
+ord=754   rva=0x000d0cf0 ?capture@CameraChangJiangB@@UEAAPEAVICapture@@XZ
+ord=755   rva=0x000d0c40 ?capture@CameraHp60@@UEAAPEAVICapture@@XZ
+ord=756   rva=0x000d0c40 ?capture@CameraHp60c@@UEAAPEAVICapture@@XZ
+ord=757   rva=0x000d0c40 ?capture@CameraHp60cn@@UEAAPEAVICapture@@XZ
+ord=758   rva=0x000d0c40 ?capture@CameraHp60v@@UEAAPEAVICapture@@XZ
+ord=759   rva=0x00094680 ?capture@CameraKondyor@@UEAAPEAVICapture@@XZ
+ord=760   rva=0x00049260 ?capture@CameraKunLunA@@UEAAPEAVICapture@@XZ
+ord=761   rva=0x00049260 ?capture@CameraKunLunC@@UEAAPEAVICapture@@XZ
+ord=762   rva=0x000d0c40 ?capture@CameraVega@@UEAAPEAVICapture@@XZ
+ord=763   rva=0x000d0c40 ?capture@CameraX100@@UEAAPEAVICapture@@XZ
+ord=764   rva=0x000d0c40 ?capture@CameraXb40@@UEAAPEAVICapture@@XZ
+ord=765   rva=0x0002c650 ?capture@LiteUsb@@AEAAHXZ
+ord=766   rva=0x000f97c0 ?checkExteriorParameter@CameraHp60c@@AEAA_NXZ
+ord=767   rva=0x000f97c0 ?checkExteriorParameter@CameraHp60cn@@AEAA_NXZ
+ord=768   rva=0x000f9900 ?checkFpsCfg@CameraHp60c@@AEAA_NXZ
+ord=769   rva=0x0010ce20 ?checkFpsCfg@CameraHp60cn@@AEAA_NXZ
+ord=770   rva=0x000259d0 ?checkFullFrame@NetInput@@AEAA_NPEAEI_N@Z
+ord=771   rva=0x000f9da0 ?checkIrParameter@CameraHp60c@@AEAA_NXZ
+ord=772   rva=0x000f9da0 ?checkIrParameter@CameraHp60cn@@AEAA_NXZ
+ord=773   rva=0x001245b0 ?checkMediaType@CameraChangJiangB@@AEAA_NH@Z
+ord=774   rva=0x000d0c50 ?checkMediaType@CameraHp60@@AEAA_NH@Z
+ord=775   rva=0x000f9e50 ?checkMediaType@CameraHp60c@@AEAA_NH@Z
+ord=776   rva=0x000f9e50 ?checkMediaType@CameraHp60cn@@AEAA_NH@Z
+ord=777   rva=0x000d0c50 ?checkMediaType@CameraHp60v@@AEAA_NH@Z
+ord=778   rva=0x00071950 ?checkMediaType@CameraKondyor@@AEAA_NH@Z
+ord=779   rva=0x00049270 ?checkMediaType@CameraKunLunA@@AEAA_NH@Z
+ord=780   rva=0x00071950 ?checkMediaType@CameraKunLunC@@AEAA_NH@Z
+ord=781   rva=0x0012a510 ?checkMediaType@CameraVega@@AEAA_NH@Z
+ord=782   rva=0x000d0c50 ?checkMediaType@CameraX100@@AEAA_NH@Z
+ord=783   rva=0x000d0c50 ?checkMediaType@CameraXb40@@AEAA_NH@Z
+ord=784   rva=0x000f9ec0 ?checkRgbParameter@CameraHp60c@@AEAA_NII@Z
+ord=785   rva=0x000f9ec0 ?checkRgbParameter@CameraHp60cn@@AEAA_NII@Z
+ord=786   rva=0x000492f0 ?checkTemp@CameraKunLunA@@AEAAHPEAMM0@Z
+ord=787   rva=0x000719f0 ?checkTemp@CameraKunLunC@@AEAAHPEAMM0@Z
+ord=788   rva=0x00094690 ?checkTofIndex@CameraKondyor@@QEAAHI@Z
+ord=789   rva=0x00049810 ?checksum@CameraKondyor@@AEAAIPEAEI@Z
+ord=790   rva=0x00049810 ?checksum@CameraKunLunA@@AEAAIPEAEI@Z
+ord=791   rva=0x00049810 ?checksum@CameraKunLunC@@AEAAIPEAEI@Z
+ord=792   rva=0x00036f40 ?checksum@Upgrade@@AEAAHPEAEI@Z
+ord=793   rva=0x00036f40 ?checksum@XuCmdCameraHp60c@@AEAAHPEAEI@Z
+ord=794   rva=0x0013e6e0 ?clear@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$time_point@Usystem_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0JIJGIA@@std@@@23@@chrono@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$t
+ord=795   rva=0x00042170 ?clearDofParam@CDothinkey@@QEAAXXZ
+ord=796   rva=0x000205c0 ?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ
+ord=797   rva=0x0011fed0 ?close@CameraChangA@@UEAAHXZ
+ord=798   rva=0x00124620 ?close@CameraChangJiangB@@UEAAHXZ
+ord=799   rva=0x000d0cc0 ?close@CameraHp60@@UEAAHXZ
+ord=800   rva=0x000fa0b0 ?close@CameraHp60c@@UEAAHXZ
+ord=801   rva=0x0010d2c0 ?close@CameraHp60cn@@UEAAHXZ
+ord=802   rva=0x000d0cc0 ?close@CameraHp60v@@UEAAHXZ
+ord=803   rva=0x00094880 ?close@CameraKondyor@@UEAAHXZ
+ord=804   rva=0x00049910 ?close@CameraKunLunA@@UEAAHXZ
+ord=805   rva=0x00071f10 ?close@CameraKunLunC@@UEAAHXZ
+ord=806   rva=0x0010d2c0 ?close@CameraVega@@UEAAHXZ
+ord=807   rva=0x000e4f50 ?close@CameraX100@@UEAAHXZ
+ord=808   rva=0x000d0cc0 ?close@CameraXb40@@UEAAHXZ
+ord=809   rva=0x0002d050 ?close@LiteUsb@@UEAAXXZ
+ord=810   rva=0x000306b0 ?close@MFCamera@@UEAAXXZ
+ord=811   rva=0x00025da0 ?close@NetInput@@UEAAXXZ
+ord=812   rva=0x0015cd40 ?close@SocketNet@@QEAAHXZ
+ord=813   rva=0x00024630 ?close@VideoInputCamera@@UEAAXXZ
+ord=814   rva=0x000d0c40 ?cmd@CameraChangA@@UEAAPEAVICommand@@XZ
+ord=815   rva=0x000d0c40 ?cmd@CameraChangJiangB@@UEAAPEAVICommand@@XZ
+ord=816   rva=0x000d0cf0 ?cmd@CameraHp60@@UEAAPEAVICommand@@XZ
+ord=817   rva=0x000d0cf0 ?cmd@CameraHp60c@@UEAAPEAVICommand@@XZ
+ord=818   rva=0x000d0cf0 ?cmd@CameraHp60cn@@UEAAPEAVICommand@@XZ
+ord=819   rva=0x000d0cf0 ?cmd@CameraHp60v@@UEAAPEAVICommand@@XZ
+ord=820   rva=0x000948b0 ?cmd@CameraKondyor@@UEAAPEAVICommand@@XZ
+ord=821   rva=0x00049960 ?cmd@CameraKunLunA@@UEAAPEAVICommand@@XZ
+ord=822   rva=0x00049960 ?cmd@CameraKunLunC@@UEAAPEAVICommand@@XZ
+ord=823   rva=0x000d0cf0 ?cmd@CameraVega@@UEAAPEAVICommand@@XZ
+ord=824   rva=0x000d0cf0 ?cmd@CameraX100@@UEAAPEAVICommand@@XZ
+ord=825   rva=0x000d0cf0 ?cmd@CameraXb40@@UEAAPEAVICommand@@XZ
+ord=826   rva=0x0002d2b0 ?cmdMsg@LiteUsb@@UEAAHPEAX@Z
+ord=827   rva=0x00030880 ?cmdMsg@MFCamera@@UEAAHPEAX@Z
+ord=828   rva=0x000262b0 ?cmdMsg@NetInput@@UEAAHPEAX@Z
+ord=829   rva=0x00023460 ?cmdMsg@VideoInputCamera@@UEAAHPEAX@Z
+ord=830   rva=0x00030dd0 ?cmdTransferMsg@MFCamera@@AEAAHPEAXPEAEI@Z
+ord=831   rva=0x00122120 ?cmd_read@CmdChangA@@AEAAHEPEAEI@Z
+ord=832   rva=0x00127850 ?cmd_read@CmdChangJiangB@@AEAAHEPEAEI@Z
+ord=833   rva=0x00118af0 ?cmd_read@CmdHp60cn@@QEAAHEPEAEI@Z
+ord=834   rva=0x000a8b30 ?cmd_read@CmdKondyor@@QEAAHEPEAEI@Z
+ord=835   rva=0x00037020 ?cmd_read@Upgrade@@AEAAHEPEAEI@Z
+ord=836   rva=0x0002d7e0 ?cmd_startStream@LiteUsb@@AEAAHXZ
+ord=837   rva=0x0002db30 ?cmd_stopStream@LiteUsb@@AEAAHXZ
+ord=838   rva=0x001222f0 ?cmd_write@CmdChangA@@AEAAHEPEAEI@Z
+ord=839   rva=0x00127a20 ?cmd_write@CmdChangJiangB@@AEAAHEPEAEI@Z
+ord=840   rva=0x00118f60 ?cmd_write@CmdHp60cn@@QEAAHEPEAEI@Z
+ord=841   rva=0x000a92e0 ?cmd_write@CmdKondyor@@QEAAHEPEAEI@Z
+ord=842   rva=0x000380a0 ?cmd_write@Upgrade@@AEAAHEPEAEI@Z
+ord=843   rva=0x000948c0 ?cmd_write_clear_feature@CameraKondyor@@AEAAHXZ
+ord=844   rva=0x000d0d00 ?configurationAfterOpenCamera@CameraHp60@@AEAAHAEBUnuwa_config_para_s@@@Z
+ord=845   rva=0x000daf80 ?configurationAfterOpenCamera@CameraHp60v@@AEAAHAEBUnuwa_config_para_s@@@Z
+ord=846   rva=0x000e4fe0 ?configurationAfterOpenCamera@CameraX100@@AEAAHAEBUnuwa_config_para_s@@@Z
+ord=847   rva=0x000ef130 ?configurationAfterOpenCamera@CameraXb40@@AEAAHAEBUnuwa_config_para_s@@@Z
+ord=848   rva=0x000d1010 ?configurationAfterStartStream@CameraHp60@@AEAAHAEBUnuwa_config_para_s@@AEBW4NUWA_FPS_TYPE_E@@@Z
+ord=849   rva=0x000db290 ?configurationAfterStartStream@CameraHp60v@@AEAAHAEBUnuwa_config_para_s@@AEBW4NUWA_FPS_TYPE_E@@@Z
+ord=850   rva=0x000e52f0 ?configurationAfterStartStream@CameraX100@@AEAAHAEBUnuwa_config_para_s@@AEBW4NUWA_FPS_TYPE_E@@@Z
+ord=851   rva=0x000ef440 ?configurationAfterStartStream@CameraXb40@@AEAAHAEBUnuwa_config_para_s@@AEBW4NUWA_FPS_TYPE_E@@@Z
+ord=852   rva=0x000d1a10 ?configurationBeforeStartStream@CameraHp60@@AEAAHAEBH@Z
+ord=853   rva=0x000dbc90 ?configurationBeforeStartStream@CameraHp60v@@AEAAHAEBH@Z
+ord=854   rva=0x000e5d00 ?configurationBeforeStartStream@CameraX100@@AEAAHAEBH@Z
+ord=855   rva=0x000efe40 ?configurationBeforeStartStream@CameraXb40@@AEAAHAEBH@Z
+ord=856   rva=0x0015cd80 ?connect@SocketNet@@QEAAHPEAUsockaddr@@H@Z
+ord=857   rva=0x001201e0 ?controlTransferRead@CameraChangA@@UEAAHEPEAEIH@Z
+ord=858   rva=0x00124930 ?controlTransferRead@CameraChangJiangB@@UEAAHEPEAEIH@Z
+ord=859   rva=0x000d1ea0 ?controlTransferRead@CameraHp60@@UEAAHEPEAEIH@Z
+ord=860   rva=0x000fa0e0 ?controlTransferRead@CameraHp60c@@UEAAHEPEAEIH@Z
+ord=861   rva=0x0010d2f0 ?controlTransferRead@CameraHp60cn@@UEAAHEPEAEIH@Z
+ord=862   rva=0x000dbe40 ?controlTransferRead@CameraHp60v@@UEAAHEPEAEIH@Z
+ord=863   rva=0x00094ad0 ?controlTransferRead@CameraKondyor@@UEAAHEPEAEIH@Z
+ord=864   rva=0x00049970 ?controlTransferRead@CameraKunLunA@@UEAAHEPEAEIH@Z
+ord=865   rva=0x00071f60 ?controlTransferRead@CameraKunLunC@@UEAAHEPEAEIH@Z
+ord=866   rva=0x0012a5a0 ?controlTransferRead@CameraVega@@UEAAHEPEAEIH@Z
+ord=867   rva=0x000e5eb0 ?controlTransferRead@CameraX100@@UEAAHEPEAEIH@Z
+ord=868   rva=0x000f0160 ?controlTransferRead@CameraXb40@@UEAAHEPEAEIH@Z
+ord=869   rva=0x001203c0 ?controlTransferWrite@CameraChangA@@UEAAHEPEAEIH@Z
+ord=870   rva=0x00124b10 ?controlTransferWrite@CameraChangJiangB@@UEAAHEPEAEIH@Z
+ord=871   rva=0x000d2020 ?controlTransferWrite@CameraHp60@@UEAAHEPEAEIH@Z
+ord=872   rva=0x000fa2b0 ?controlTransferWrite@CameraHp60c@@UEAAHEPEAEIH@Z
+ord=873   rva=0x0010d620 ?controlTransferWrite@CameraHp60cn@@UEAAHEPEAEIH@Z
+ord=874   rva=0x000dbfc0 ?controlTransferWrite@CameraHp60v@@UEAAHEPEAEIH@Z
+ord=875   rva=0x00095100 ?controlTransferWrite@CameraKondyor@@UEAAHEPEAEIH@Z
+ord=876   rva=0x00049b40 ?controlTransferWrite@CameraKunLunA@@UEAAHEPEAEIH@Z
+ord=877   rva=0x00072130 ?controlTransferWrite@CameraKunLunC@@UEAAHEPEAEIH@Z
+ord=878   rva=0x0012a770 ?controlTransferWrite@CameraVega@@UEAAHEPEAEIH@Z
+ord=879   rva=0x000e6030 ?controlTransferWrite@CameraX100@@UEAAHEPEAEIH@Z
+ord=880   rva=0x000f02e0 ?controlTransferWrite@CameraXb40@@UEAAHEPEAEIH@Z
+ord=881   rva=0x00049d10 ?copyAsFrame@CameraKunLunA@@AEAAHAEBUCAM_FRAME@@AEAU2@@Z
+ord=882   rva=0x00049d10 ?copyAsFrame@CameraKunLunC@@AEAAHAEBUCAM_FRAME@@AEAU2@@Z
+ord=883   rva=0x00095730 ?copyData@CameraKondyor@@AEAAHPEAUCAM_DATA@@PEAUCAM_DATA_INNER@@@Z
+ord=884   rva=0x00095880 ?copyData@CameraKondyor@@AEAAHPEAUCAM_DATA_SET@@V?$array@UCAM_DATA_INNER@@$02@std@@@Z
+ord=885   rva=0x00049d50 ?copyData@CameraKunLunA@@AEAAHPEAUCAM_DATA@@PEAUCAM_DATA_INNER@@@Z
+ord=886   rva=0x00072300 ?copyData@CameraKunLunC@@AEAAHPEAUCAM_DATA@@PEAUCAM_DATA_INNER@@@Z
+ord=887   rva=0x00049e60 ?copyMergeData@CameraKunLunA@@AEAAHPEAUCAM_MERGE@@PEAUCAM_DATA_INNER@@@Z
+ord=888   rva=0x001205a0 ?createBuffer@CameraChangA@@AEAAHXZ
+ord=889   rva=0x00124cf0 ?createBuffer@CameraChangJiangB@@AEAAHXZ
+ord=890   rva=0x000d21a0 ?createBuffer@CameraHp60@@AEAAHXZ
+ord=891   rva=0x000fa480 ?createBuffer@CameraHp60c@@AEAAHXZ
+ord=892   rva=0x0010d960 ?createBuffer@CameraHp60cn@@AEAAHXZ
+ord=893   rva=0x000dc140 ?createBuffer@CameraHp60v@@AEAAHXZ
+ord=894   rva=0x00095a90 ?createBuffer@CameraKondyor@@AEAAHXZ
+ord=895   rva=0x00049ef0 ?createBuffer@CameraKunLunA@@AEAAHXZ
+ord=896   rva=0x00072450 ?createBuffer@CameraKunLunC@@AEAAHXZ
+ord=897   rva=0x0012a940 ?createBuffer@CameraVega@@AEAAHXZ
+ord=898   rva=0x000e61b0 ?createBuffer@CameraX100@@AEAAHXZ
+ord=899   rva=0x000f0460 ?createBuffer@CameraXb40@@AEAAHXZ
+ord=900   rva=0x0002dd20 ?createBuffer@LiteUsb@@AEAAHXZ
+ord=901   rva=0x0003fa90 ?createCameraInstance@@YAPEAVICameraOps@@AEBUAS_CAM_ATTR@@PEAX@Z
+ord=902   rva=0x00023130 ?createCaptureInstance@@YAPEAVICapture@@AEBUAS_CAM_ATTR@@@Z
+ord=903   rva=0x00023460 ?createCaptureInstance@@YAPEAVICapture@@HHHH@Z
+ord=904   rva=0x000229b0 ?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+ord=905   rva=0x000229b0 ?deallocate@?$allocator@E@std@@QEAAXQEAE_K@Z
+ord=906   rva=0x000421f0 ?deallocate@?$allocator@M@std@@QEAAXQEAM_K@Z
+ord=907   rva=0x00139910 ?deallocate@?$allocator@UAS_CAM_ATTR@@@std@@QEAAXQEAUAS_CAM_ATTR@@_K@Z
+ord=908   rva=0x00030fa0 ?deallocate@?$allocator@UAS_POINTCLOUD@@@std@@QEAAXQEAUAS_POINTCLOUD@@_K@Z
+ord=909   rva=0x0004a3a0 ?deallocate@?$allocator@USTREAM_PARAM_S@@@std@@QEAAXQEAUSTREAM_PARAM_S@@_K@Z
+ord=910   rva=0x00026a30 ?deallocate@?$allocator@Upollfd@@@std@@QEAAXQEAUpollfd@@_K@Z
+ord=911   rva=0x000ccd80 ?deallocate@?$allocator@Uusb_id@@@std@@QEAAXQEAUusb_id@@_K@Z
+ord=912   rva=0x00030fa0 ?deallocate@?$allocator@Uvideo_attr_s@@@std@@QEAAXQEAUvideo_attr_s@@_K@Z
+ord=913   rva=0x0002e330 ?deallocate@?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QEAAXQEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_K@Z
+ord=914   rva=0x00095d00 ?dec@std@@YAAEAVios_base@1@AEAV21@@Z
+ord=915   rva=0x00157e20 ?decode_base64@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@H@Z
+ord=916   rva=0x0004a3f0 ?default_error_condition@error_category@std@@UEBA?AVerror_condition@2@H@Z
+ord=917   rva=0x00039120 ?delete_fwdir@Upgrade@@AEAAHXZ
+ord=918   rva=0x00034300 ?denoiseDepthImage@AngPost@@QEAAHPEAGIIFHHH@Z
+ord=919   rva=0x000dc790 ?depthCorrection@CameraHp60v@@AEAAHPEAGHHAEAUDepthCorrectPar@@AEAUCAM_Parameter@@@Z
+ord=920   rva=0x000fab50 ?depthDataProcessing@CameraHp60c@@AEAAHAEBUframe_info@@H@Z
+ord=921   rva=0x0010e030 ?depthDataProcessing@CameraHp60cn@@AEAAHAEBUframe_info@@H@Z
+ord=922   rva=0x0012b080 ?depthDataProcessing@CameraVega@@AEAAHAEBUframe_info@@H@Z
+ord=923   rva=0x000347f0 ?depthToPointcloud@AngPost@@QEAAHPEAGIIUir_rgb_Parameter@@PEAM_N3@Z
+ord=924   rva=0x00034f00 ?depthimg2Rgb@AngPost@@QEAAHAEAUCAM_FRAME@@0AEAUir_rgb_Parameter@@@Z
+ord=925   rva=0x000fb400 ?deptp2rgbimg@CameraHp60c@@QEAAHAEAUCAM_FRAME@@0@Z
+ord=926   rva=0x0010e7f0 ?deptp2rgbimg@CameraHp60cn@@QEAAHAEAUCAM_FRAME@@0@Z
+ord=927   rva=0x0013e770 ?detectNewDev@NetworkListener@@AEAAHXZ
+ord=928   rva=0x00140600 ?devAttach@@YAXPEAUHWND__@@PEAU_DEV_BROADCAST_DEVICEINTERFACE_A@@_K@Z
+ord=929   rva=0x00141060 ?devDetach@@YAXPEAUHWND__@@PEAU_DEV_BROADCAST_DEVICEINTERFACE_A@@_K@Z
+ord=930   rva=0x00035750 ?dilate_lite_depth@AngPost@@QEAAHPEAF0HH@Z
+ord=931   rva=0x000358a0 ?dilate_lite_depth_img@@YAHPEAF0HH@Z
+ord=932   rva=0x00064660 ?disableWriteProtect@XuCmdKunLunA@@QEAAHXZ
+ord=933   rva=0x00042240 ?dtofProcess@CDothinkey@@QEAAHPEAUCAM_DATA_INNER@@00PEAIM@Z
+ord=934   rva=0x00095d20 ?eepromTest@CameraKondyor@@AEAAHXZ
+ord=935   rva=0x00064ce0 ?enableWriteProtect@XuCmdKunLunA@@QEAAHXZ
+ord=936   rva=0x0004a400 ?equivalent@error_category@std@@UEBA_NAEBVerror_code@2@H@Z
+ord=937   rva=0x0004a420 ?equivalent@error_category@std@@UEBA_NHAEBVerror_condition@2@@Z
+ord=938   rva=0x00141ac0 ?erase@?$_Tree@V?$_Tmap_traits@PEAUHWND__@@PEAVHotplug@@U?$less@PEAUHWND__@@@std@@V?$allocator@U?$pair@QEAUHWND__@@PEAVHotplug@@@std@@@4@$0A@@std@@@std@@QEAA_KAEBQEAUHWND__@@@Z
+ord=939   rva=0x000359d0 ?fastMedianBlur@@YAXPEAG0HH@Z
+ord=940   rva=0x00035c40 ?fastMedianFilter@AngPost@@QEAAHPEAGHH@Z
+ord=941   rva=0x00035e30 ?fillHolesDepthImage@AngPost@@QEAAHPEAGFHHHHHH@Z
+ord=942   rva=0x000b6e00 ?find@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA_KAEBV12@_K@Z
+ord=943   rva=0x0004a460 ?find_last_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA_KQEBD_K@Z
+ord=944   rva=0x000fb420 ?fixed@std@@YAAEAVios_base@1@AEAV21@@Z
+ord=945   rva=0x00120ca0 ?freeBuffer@CameraChangA@@AEAAHXZ
+ord=946   rva=0x00125250 ?freeBuffer@CameraChangJiangB@@AEAAHXZ
+ord=947   rva=0x000d27f0 ?freeBuffer@CameraHp60@@AEAAHXZ
+ord=948   rva=0x000fb440 ?freeBuffer@CameraHp60c@@AEAAHXZ
+ord=949   rva=0x0010e810 ?freeBuffer@CameraHp60cn@@AEAAHXZ
+ord=950   rva=0x000d27f0 ?freeBuffer@CameraHp60v@@AEAAHXZ
+ord=951   rva=0x00096b00 ?freeBuffer@CameraKondyor@@AEAAHXZ
+ord=952   rva=0x0004a560 ?freeBuffer@CameraKunLunA@@AEAAHXZ
+ord=953   rva=0x00072630 ?freeBuffer@CameraKunLunC@@AEAAHXZ
+ord=954   rva=0x0010e810 ?freeBuffer@CameraVega@@AEAAHXZ
+ord=955   rva=0x000d27f0 ?freeBuffer@CameraX100@@AEAAHXZ
+ord=956   rva=0x000d27f0 ?freeBuffer@CameraXb40@@AEAAHXZ
+ord=957   rva=0x0002e380 ?freeBuffer@LiteUsb@@AEAAHXZ
+ord=958   rva=0x0021092a ?g_saveimage@@3_NA
+ord=959   rva=0x00119200 ?getAeMode@CmdHp60cn@@QEAAHAEAH@Z
+ord=960   rva=0x000b6f00 ?getAeMode@NuwaUsbCtrl@@QEAAHAEAH@Z
+ord=961   rva=0x00105fc0 ?getAeMode@XuCmdCameraHp60c@@QEAAHAEAH@Z
+ord=962   rva=0x0012fe90 ?getAeMode@XuCmdCameraVega@@QEAAHAEAH@Z
+ord=963   rva=0x000a9d00 ?getCalibTof@CmdKondyor@@QEAAHAEAH@Z
+ord=964   rva=0x000a9d10 ?getCalibrationData@CmdKondyor@@QEAAHIPEAEI@Z
+ord=965   rva=0x000aa860 ?getCalibrationData@CmdKondyor@@QEAAHPEAEI@Z
+ord=966   rva=0x00064eb0 ?getCalibrationData@XuCmdKunLunA@@QEAAHPEAEI@Z
+ord=967   rva=0x000885a0 ?getCalibrationData@XuCmdKunLunC@@QEAAHPEAEI@Z
+ord=968   rva=0x00096c90 ?getCalibrationEncodeChecksum@CameraKondyor@@AEAAHIAEAI@Z
+ord=969   rva=0x0004a790 ?getCalibrationEncodeChecksum@CameraKunLunA@@AEAAHAEAII@Z
+ord=970   rva=0x00072730 ?getCalibrationEncodeChecksum@CameraKunLunC@@AEAAHAEAII@Z
+ord=971   rva=0x000971d0 ?getCalibrationLength@CameraKondyor@@QEAAHIAEAI@Z
+ord=972   rva=0x0004acc0 ?getCalibrationLength@CameraKunLunA@@AEAAHAEAH@Z
+ord=973   rva=0x00072c60 ?getCalibrationLength@CameraKunLunC@@AEAAHAEAH@Z
+ord=974   rva=0x001394d0 ?getCameraAtrrsList@@YAHAEBV?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@AEAV?$vector@UAS_CAM_ATTR@@V?$allocator@UAS_CAM_ATTR@@@std@@@2@@Z
+ord=975   rva=0x0013a930 ?getCameraAttrFromKeyInfo@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAUAS_CAM_ATTR@@@Z
+ord=976   rva=0x00030ff0 ?getCameraControlHander@MFCamera@@AEAAHPEAPEAUIAMCameraControl@@@Z
+ord=977   rva=0x000cc800 ?getCameraIntrPara@CameraIntrPara@@QEAAHIIAEAUcamIntrParam@@@Z
+ord=978   rva=0x00023460 ?getCameraParameter@CameraChangA@@UEAAHPEAUCAM_Parameter@@@Z
+ord=979   rva=0x00023460 ?getCameraParameter@CameraChangJiangB@@UEAAHPEAUCAM_Parameter@@@Z
+ord=980   rva=0x000d2860 ?getCameraParameter@CameraHp60@@UEAAHPEAUCAM_Parameter@@@Z
+ord=981   rva=0x000fb4c0 ?getCameraParameter@CameraHp60c@@UEAAHPEAUCAM_Parameter@@@Z
+ord=982   rva=0x0010e890 ?getCameraParameter@CameraHp60cn@@UEAAHPEAUCAM_Parameter@@@Z
+ord=983   rva=0x000d2860 ?getCameraParameter@CameraHp60v@@UEAAHPEAUCAM_Parameter@@@Z
+ord=984   rva=0x00097550 ?getCameraParameter@CameraKondyor@@UEAAHPEAUCAM_Parameter@@@Z
+ord=985   rva=0x0004b190 ?getCameraParameter@CameraKunLunA@@UEAAHPEAUCAM_Parameter@@@Z
+ord=986   rva=0x00073130 ?getCameraParameter@CameraKunLunC@@UEAAHPEAUCAM_Parameter@@@Z
+ord=987   rva=0x0012b520 ?getCameraParameter@CameraVega@@UEAAHPEAUCAM_Parameter@@@Z
+ord=988   rva=0x000e6800 ?getCameraParameter@CameraX100@@UEAAHPEAUCAM_Parameter@@@Z
+ord=989   rva=0x000d2860 ?getCameraParameter@CameraXb40@@UEAAHPEAUCAM_Parameter@@@Z
+ord=990   rva=0x000976d0 ?getCameraParameterSet@CameraKondyor@@QEAAHAEAUCAM_Parameter_Set@@@Z
+ord=991   rva=0x00023460 ?getCapability@CameraChangA@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=992   rva=0x001252c0 ?getCapability@CameraChangJiangB@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=993   rva=0x000d28b0 ?getCapability@CameraHp60@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=994   rva=0x000fb870 ?getCapability@CameraHp60c@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=995   rva=0x0010ec40 ?getCapability@CameraHp60cn@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=996   rva=0x000dcfa0 ?getCapability@CameraHp60v@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=997   rva=0x00098030 ?getCapability@CameraKondyor@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=998   rva=0x0004b9c0 ?getCapability@CameraKunLunA@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=999   rva=0x000739e0 ?getCapability@CameraKunLunC@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=1000  rva=0x00032d60 ?getCapability@CameraVega@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=1001  rva=0x000e6b90 ?getCapability@CameraX100@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=1002  rva=0x000f0ab0 ?getCapability@CameraXb40@@UEAAHW4MEDIA_TYPE_E@@AEAV?$vector@USTREAM_PARAM_S@@V?$allocator@USTREAM_PARAM_S@@@std@@@std@@@Z
+ord=1003  rva=0x00023460 ?getCapability@LiteUsb@@UEAAHAEAV?$vector@Uvideo_attr_s@@V?$allocator@Uvideo_attr_s@@@std@@@std@@@Z
+ord=1004  rva=0x00031150 ?getCapability@MFCamera@@UEAAHAEAV?$vector@Uvideo_attr_s@@V?$allocator@Uvideo_attr_s@@@std@@@std@@@Z
+ord=1005  rva=0x00023460 ?getCapability@NetInput@@UEAAHAEAV?$vector@Uvideo_attr_s@@V?$allocator@Uvideo_attr_s@@@std@@@std@@@Z
+ord=1006  rva=0x00023460 ?getCapability@VideoInputCamera@@UEAAHAEAV?$vector@Uvideo_attr_s@@V?$allocator@Uvideo_attr_s@@@std@@@std@@@Z
+ord=1007  rva=0x001224c0 ?getChipTemp@CmdChangA@@AEAAHAEAH@Z
+ord=1008  rva=0x00119400 ?getChipTemp@CmdHp60cn@@QEAAHAEAH@Z
+ord=1009  rva=0x000b7520 ?getClMode@NuwaUsbCtrl@@QEAAHAEAH@Z
+ord=1010  rva=0x00120d20 ?getConfigInfo@CameraChangA@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1011  rva=0x001257b0 ?getConfigInfo@CameraChangJiangB@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1012  rva=0x000d2c20 ?getConfigInfo@CameraHp60@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1013  rva=0x000fbd10 ?getConfigInfo@CameraHp60c@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1014  rva=0x0010f0e0 ?getConfigInfo@CameraHp60cn@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1015  rva=0x000dd310 ?getConfigInfo@CameraHp60v@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1016  rva=0x000981b0 ?getConfigInfo@CameraKondyor@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1017  rva=0x0004c0f0 ?getConfigInfo@CameraKunLunA@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1018  rva=0x00073c60 ?getConfigInfo@CameraKunLunC@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1019  rva=0x0010f0e0 ?getConfigInfo@CameraVega@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1020  rva=0x000e6f00 ?getConfigInfo@CameraX100@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1021  rva=0x000f0e20 ?getConfigInfo@CameraXb40@@UEAAHAEAUAS_CONFIG_INFO@@@Z
+ord=1022  rva=0x000d2da0 ?getConfigurationParameters@CameraHp60@@AEAAHPEBDAEAUnuwa_config_para_s@@@Z
+ord=1023  rva=0x000dd490 ?getConfigurationParameters@CameraHp60v@@AEAAHPEBDAEAUnuwa_config_para_s@@@Z
+ord=1024  rva=0x000e7080 ?getConfigurationParameters@CameraX100@@AEAAHPEBDAEAUnuwa_config_para_s@@@Z
+ord=1025  rva=0x000f0fa0 ?getConfigurationParameters@CameraXb40@@AEAAHPEBDAEAUnuwa_config_para_s@@@Z
+ord=1026  rva=0x00119740 ?getCurrentIntensity@CmdHp60cn@@QEAAHAEAH@Z
+ord=1027  rva=0x001061b0 ?getCurrentIntensity@XuCmdCameraHp60c@@QEAAHAEAH@Z
+ord=1028  rva=0x00130080 ?getCurrentIntensity@XuCmdCameraVega@@QEAAHAEAH@Z
+ord=1029  rva=0x00119a90 ?getDHCP@CmdHp60cn@@QEAAHAEA_N@Z
+ord=1030  rva=0x000aad10 ?getDHCP@CmdKondyor@@QEAAHAEA_N@Z
+ord=1031  rva=0x00119c70 ?getDevIP@CmdHp60cn@@QEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1032  rva=0x000aaef0 ?getDevIP@CmdKondyor@@QEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1033  rva=0x0011a330 ?getDevMac@CmdHp60cn@@QEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1034  rva=0x000ab5b0 ?getDevMac@CmdKondyor@@QEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1035  rva=0x00120ea0 ?getDevNetAttrs@CameraChangA@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1036  rva=0x00125930 ?getDevNetAttrs@CameraChangJiangB@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1037  rva=0x000d32e0 ?getDevNetAttrs@CameraHp60@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1038  rva=0x000fbd30 ?getDevNetAttrs@CameraHp60c@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1039  rva=0x0010f100 ?getDevNetAttrs@CameraHp60cn@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1040  rva=0x000dd9e0 ?getDevNetAttrs@CameraHp60v@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1041  rva=0x00098330 ?getDevNetAttrs@CameraKondyor@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1042  rva=0x0004c270 ?getDevNetAttrs@CameraKunLunA@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1043  rva=0x00073de0 ?getDevNetAttrs@CameraKunLunC@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1044  rva=0x0012b800 ?getDevNetAttrs@CameraVega@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1045  rva=0x000e75d0 ?getDevNetAttrs@CameraX100@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1046  rva=0x000f14e0 ?getDevNetAttrs@CameraXb40@@UEAAHAEAUNET_DEV_ATTRS@@@Z
+ord=1047  rva=0x00098a50 ?getDeviceSn@CameraKondyor@@AEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1048  rva=0x0004c3f0 ?getDeviceSn@CameraKunLunA@@AEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1049  rva=0x00073f60 ?getDeviceSn@CameraKunLunC@@AEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1050  rva=0x000abc70 ?getEepFwVersion@CmdKondyor@@QEAAHIAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1051  rva=0x00065350 ?getEepFwVersion@XuCmdKunLunA@@QEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1052  rva=0x00088a30 ?getEepFwVersion@XuCmdKunLunC@@QEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1053  rva=0x00127bf0 ?getExposeTime@CmdChangJiangB@@QEAAHAEAE0@Z
+ord=1054  rva=0x00065800 ?getFps@XuCmdKunLunA@@QEAAHPEAH@Z
+ord=1055  rva=0x00088ed0 ?getFps@XuCmdKunLunC@@QEAAHPEAH@Z
+ord=1056  rva=0x00031770 ?getFrame@MFCamera@@AEAAXAEBUvideo_cfg@@@Z
+ord=1057  rva=0x000ac120 ?getFrameLength@CmdKondyor@@QEAAHIPEAM@Z
+ord=1058  rva=0x00065910 ?getFrameLength@XuCmdKunLunA@@QEAAHPEAM@Z
+ord=1059  rva=0x00088fe0 ?getFrameLength@XuCmdKunLunC@@QEAAHPEAM@Z
+ord=1060  rva=0x00122640 ?getFwVersion@CmdChangA@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1061  rva=0x00127f60 ?getFwVersion@CmdChangJiangB@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1062  rva=0x0011a9f0 ?getFwVersion@CmdHp60cn@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1063  rva=0x000ac200 ?getFwVersion@CmdKondyor@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1064  rva=0x000b7b40 ?getFwVersion@NuwaUsbCtrl@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1065  rva=0x00106500 ?getFwVersion@XuCmdCameraHp60c@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1066  rva=0x001303d0 ?getFwVersion@XuCmdCameraVega@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1067  rva=0x000659d0 ?getFwVersion@XuCmdKunLunA@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1068  rva=0x000890a0 ?getFwVersion@XuCmdKunLunC@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1069  rva=0x00023460 ?getGain@CmdHp60cn@@QEAAHAEAH@Z
+ord=1070  rva=0x001068a0 ?getGain@XuCmdCameraHp60c@@QEAAHAEAH@Z
+ord=1071  rva=0x00130730 ?getGain@XuCmdCameraVega@@QEAAHAEAH@Z
+ord=1072  rva=0x0011ad90 ?getHimaxConfidenceLevel@CmdHp60cn@@QEAAHAEAH@Z
+ord=1073  rva=0x00106be0 ?getHimaxConfidenceLevel@XuCmdCameraHp60c@@QEAAHAEAH@Z
+ord=1074  rva=0x00130a70 ?getHimaxConfidenceLevel@XuCmdCameraVega@@QEAAHAEAH@Z
+ord=1075  rva=0x0011ae20 ?getHimaxSdLevel@CmdHp60cn@@QEAAHAEAH@Z
+ord=1076  rva=0x000b8440 ?getHimaxSdLevel@NuwaUsbCtrl@@QEAAHAEAH@Z
+ord=1077  rva=0x00106f20 ?getHimaxSdLevel@XuCmdCameraHp60c@@QEAAHAEAH@Z
+ord=1078  rva=0x00130db0 ?getHimaxSdLevel@XuCmdCameraVega@@QEAAHAEAH@Z
+ord=1079  rva=0x0011aeb0 ?getHimaxTd@CmdHp60cn@@QEAAHAEAH@Z
+ord=1080  rva=0x000b8bb0 ?getHimaxTd@NuwaUsbCtrl@@QEAAHAEAH@Z
+ord=1081  rva=0x00107260 ?getHimaxTd@XuCmdCameraHp60c@@QEAAHAEAH@Z
+ord=1082  rva=0x001310f0 ?getHimaxTd@XuCmdCameraVega@@QEAAHAEAH@Z
+ord=1083  rva=0x001229a0 ?getHimaxVersion@CmdChangA@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1084  rva=0x001282c0 ?getHimaxVersion@CmdChangJiangB@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1085  rva=0x0011af40 ?getHimaxVersion@CmdHp60cn@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1086  rva=0x000ac460 ?getHimaxVersion@CmdKondyor@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1087  rva=0x000b9320 ?getHimaxVersion@NuwaUsbCtrl@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1088  rva=0x001075a0 ?getHimaxVersion@XuCmdCameraHp60c@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1089  rva=0x00131430 ?getHimaxVersion@XuCmdCameraVega@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1090  rva=0x00065b60 ?getHimaxVersion@XuCmdKunLunA@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1091  rva=0x00089300 ?getHimaxVersion@XuCmdKunLunC@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1092  rva=0x000b6400 ?getIIcAdd@@YAHIW4Register_Ctrl@@AEAI@Z
+ord=1093  rva=0x000ac5e0 ?getInitDura@CmdKondyor@@QEAAHIPEAM@Z
+ord=1094  rva=0x00065ce0 ?getInitDura@XuCmdKunLunA@@QEAAHPEAM@Z
+ord=1095  rva=0x00089480 ?getInitDura@XuCmdKunLunC@@QEAAHPEAM@Z
+ord=1096  rva=0x00023460 ?getInitialRegisterConfigure@CameraKondyor@@AEAAHXZ
+ord=1097  rva=0x0004c670 ?getInitialRegisterConfigure@CameraKunLunA@@AEAAHXZ
+ord=1098  rva=0x000741e0 ?getInitialRegisterConfigure@CameraKunLunC@@AEAAHXZ
+ord=1099  rva=0x00143430 ?getInstance@topicPublish@@SAAEAV1@XZ
+ord=1100  rva=0x000ac690 ?getIntegDura@CmdKondyor@@QEAAHIPEAM@Z
+ord=1101  rva=0x00065d80 ?getIntegDura@XuCmdKunLunA@@QEAAHPEAM@Z
+ord=1102  rva=0x00089520 ?getIntegDura@XuCmdKunLunC@@QEAAHPEAM@Z
+ord=1103  rva=0x00065e20 ?getIntegDura_M@XuCmdKunLunA@@QEAAHPEAM0@Z
+ord=1104  rva=0x000895c0 ?getIntegDura_M@XuCmdKunLunC@@QEAAHPEAM0@Z
+ord=1105  rva=0x000ac9d0 ?getIntegNum@CmdKondyor@@QEAAHIPEAH@Z
+ord=1106  rva=0x00065f00 ?getIntegNum@XuCmdKunLunA@@QEAAHPEAH@Z
+ord=1107  rva=0x000896a0 ?getIntegNum@XuCmdKunLunC@@QEAAHPEAH@Z
+ord=1108  rva=0x00065f90 ?getIntegNum_M@XuCmdKunLunA@@QEAAHPEAH0@Z
+ord=1109  rva=0x00089730 ?getIntegNum_M@XuCmdKunLunC@@QEAAHPEAH0@Z
+ord=1110  rva=0x000fbeb0 ?getIrImage@CameraHp60c@@AEAAHAEAUCAM_FRAME@@AEBUframe_info@@@Z
+ord=1111  rva=0x0010f830 ?getIrImage@CameraHp60cn@@AEAAHAEAUCAM_FRAME@@AEBUframe_info@@@Z
+ord=1112  rva=0x00128440 ?getIrSensorGain@CmdChangJiangB@@QEAAHAEAE0@Z
+ord=1113  rva=0x00122b20 ?getItoValue@CmdChangA@@AEAAHAEAH@Z
+ord=1114  rva=0x00128780 ?getItoValue@CmdChangJiangB@@QEAAHAEAI@Z
+ord=1115  rva=0x0011b2a0 ?getItoValue@CmdHp60cn@@QEAAHAEAH@Z
+ord=1116  rva=0x00107800 ?getItoValue@XuCmdCameraHp60c@@QEAAHAEAH@Z
+ord=1117  rva=0x00131690 ?getItoValue@XuCmdCameraVega@@QEAAHAEAH@Z
+ord=1118  rva=0x00128ad0 ?getLightCurrent@CmdChangJiangB@@QEAAHAEAI0@Z
+ord=1119  rva=0x000ace80 ?getLightPulseLevel@CmdKondyor@@QEAAHIPEAW4PulseValue@@@Z
+ord=1120  rva=0x00066090 ?getLightPulseLevel@XuCmdKunLunA@@QEAAHPEAW4PulseValue@@@Z
+ord=1121  rva=0x00089830 ?getLightPulseLevel@XuCmdKunLunC@@QEAAHPEAW4PulseValue@@@Z
+ord=1122  rva=0x000660d0 ?getLightPulseLevel_M@XuCmdKunLunA@@QEAAHPEAW4PulseValue@@0@Z
+ord=1123  rva=0x00089870 ?getLightPulseLevel_M@XuCmdKunLunC@@QEAAHPEAW4PulseValue@@0@Z
+ord=1124  rva=0x0011b5f0 ?getLightingTime@CmdHp60cn@@QEAAHAEAH@Z
+ord=1125  rva=0x000b99f0 ?getLightingTime@NuwaUsbCtrl@@QEAAHAEAH@Z
+ord=1126  rva=0x00107b50 ?getLightingTime@XuCmdCameraHp60c@@QEAAHAEAH@Z
+ord=1127  rva=0x001319e0 ?getLightingTime@XuCmdCameraVega@@QEAAHAEAH@Z
+ord=1128  rva=0x000ad050 ?getLineInterval@CmdKondyor@@QEAAHIPEAM@Z
+ord=1129  rva=0x00066150 ?getLineInterval@XuCmdKunLunA@@QEAAHPEAM@Z
+ord=1130  rva=0x000898f0 ?getLineInterval@XuCmdKunLunC@@QEAAHPEAM@Z
+ord=1131  rva=0x0013b840 ?getList_recvBroadcast@@YAHAEAV?$vector@UAS_CAM_ATTR@@V?$allocator@UAS_CAM_ATTR@@@std@@@std@@@Z
+ord=1132  rva=0x0013c0b0 ?getLocalIpList@@YAHAEAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+ord=1133  rva=0x00098cf0 ?getMatchCaliPath@CameraKondyor@@AEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAV23@@Z
+ord=1134  rva=0x0004ee10 ?getMatchCaliPath@CameraKunLunA@@AEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAV23@@Z
+ord=1135  rva=0x00076fb0 ?getMatchCaliPath@CameraKunLunC@@AEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAV23@@Z
+ord=1136  rva=0x00066200 ?getMcuTempTure@XuCmdKunLunA@@QEAAHPEAM@Z
+ord=1137  rva=0x000899a0 ?getMcuTempTure@XuCmdKunLunC@@QEAAHPEAM@Z
+ord=1138  rva=0x000fc3c0 ?getMjpegInfo@CameraHp60c@@AEAAHPEAEIAEAI1@Z
+ord=1139  rva=0x000fc3c0 ?getMjpegInfo@CameraHp60cn@@AEAAHPEAEIAEAI1@Z
+ord=1140  rva=0x0011b7e0 ?getMjpegSize@CmdHp60cn@@QEAAHAEAI0@Z
+ord=1141  rva=0x00107d40 ?getMjpegSize@XuCmdCameraHp60c@@QEAAHAEAI0@Z
+ord=1142  rva=0x0013c260 ?getNetCameraAttrsList@@YAHAEAV?$vector@UAS_CAM_ATTR@@V?$allocator@UAS_CAM_ATTR@@@std@@@std@@@Z
+ord=1143  rva=0x000670c0 ?getNtcTempTure@XuCmdKunLunA@@QEAAHPEAM@Z
+ord=1144  rva=0x0008a860 ?getNtcTempTure@XuCmdKunLunC@@QEAAHPEAM@Z
+ord=1145  rva=0x000bb4c0 ?getOriCamParam@NuwaUsbCtrl@@QEAAHPEAUCAM_Parameter@@@Z
+ord=1146  rva=0x000bb520 ?getPA@NuwaUsbCtrl@@QEAAHPEAEH@Z
+ord=1147  rva=0x00122e70 ?getPSensor@CmdChangA@@AEAAHAEAI@Z
+ord=1148  rva=0x001231c0 ?getPlateTemp@CmdChangA@@AEAAHAEAH@Z
+ord=1149  rva=0x0011c510 ?getPlateTemp@CmdHp60cn@@QEAAHAEAH@Z
+ord=1150  rva=0x00123500 ?getProjectorTemp@CmdChangA@@AEAAHAEAH@Z
+ord=1151  rva=0x00128e20 ?getProjectorTemp@CmdChangJiangB@@QEAAHAEAI0@Z
+ord=1152  rva=0x0011c850 ?getProjectorTemp@CmdHp60cn@@QEAAHAEAH@Z
+ord=1153  rva=0x0011cb90 ?getPwm@CmdHp60cn@@QEAAHAEAH@Z
+ord=1154  rva=0x000ad120 ?getPwmDuty@CmdKondyor@@QEAAHEPEAH@Z
+ord=1155  rva=0x000bbae0 ?getPwmDuty@NuwaUsbCtrl@@QEAAHAEAH@Z
+ord=1156  rva=0x00067770 ?getPwmDuty@XuCmdKunLunA@@QEAAHPEAH@Z
+ord=1157  rva=0x0008af10 ?getPwmDuty@XuCmdKunLunC@@QEAAHPEAH@Z
+ord=1158  rva=0x000ad600 ?getRange@CmdKondyor@@QEAAHIPEAW4MeasureRange@@@Z
+ord=1159  rva=0x00067950 ?getRange@XuCmdKunLunA@@QEAAHPEAW4MeasureRange@@@Z
+ord=1160  rva=0x0008b2a0 ?getRange@XuCmdKunLunC@@QEAAHPEAW4MeasureRange@@@Z
+ord=1161  rva=0x00067990 ?getRange_M@XuCmdKunLunA@@QEAAHPEAW4MeasureRange@@0@Z
+ord=1162  rva=0x0008b2e0 ?getRange_M@XuCmdKunLunC@@QEAAHPEAW4MeasureRange@@0@Z
+ord=1163  rva=0x000ad7c0 ?getReadoutTime@CmdKondyor@@QEAAHIPEAM@Z
+ord=1164  rva=0x00067a10 ?getReadoutTime@XuCmdKunLunA@@QEAAHPEAM@Z
+ord=1165  rva=0x00067a10 ?getReadoutTime@XuCmdKunLunC@@QEAAHPEAM@Z
+ord=1166  rva=0x000ad7d0 ?getRegister@CmdKondyor@@QEAAHIIPEAI@Z
+ord=1167  rva=0x00067a20 ?getRegister@XuCmdKunLunA@@QEAAHHPEAH@Z
+ord=1168  rva=0x0008b360 ?getRegister@XuCmdKunLunC@@QEAAHHPEAH@Z
+ord=1169  rva=0x00077790 ?getRgbData@CameraKunLunC@@AEAAHPEAXPEAEHHPEA_J@Z
+ord=1170  rva=0x000fc480 ?getRgbImage@CameraHp60c@@AEAAHAEAUCAM_FRAME@@AEBUframe_info@@@Z
+ord=1171  rva=0x0010fd40 ?getRgbImage@CameraHp60cn@@AEAAHAEAUCAM_FRAME@@AEBUframe_info@@@Z
+ord=1172  rva=0x00131bd0 ?getSeCosVersion@XuCmdCameraVega@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1173  rva=0x00131dc0 ?getSeSdkVersion@XuCmdCameraVega@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1174  rva=0x00131fb0 ?getSeSerial@XuCmdCameraVega@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1175  rva=0x00121020 ?getSerialNo@CameraChangA@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1176  rva=0x00121020 ?getSerialNo@CameraChangJiangB@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1177  rva=0x000d3460 ?getSerialNo@CameraHp60@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1178  rva=0x000fc830 ?getSerialNo@CameraHp60c@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1179  rva=0x001100f0 ?getSerialNo@CameraHp60cn@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1180  rva=0x000ddb60 ?getSerialNo@CameraHp60v@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1181  rva=0x000994c0 ?getSerialNo@CameraKondyor@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1182  rva=0x0004f5f0 ?getSerialNo@CameraKunLunA@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1183  rva=0x00077bc0 ?getSerialNo@CameraKunLunC@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1184  rva=0x0012b980 ?getSerialNo@CameraVega@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1185  rva=0x000e7750 ?getSerialNo@CameraX100@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1186  rva=0x000f1660 ?getSerialNo@CameraXb40@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1187  rva=0x00123680 ?getSn@CmdChangA@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1188  rva=0x00129160 ?getSn@CmdChangJiangB@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1189  rva=0x0011ced0 ?getSn@CmdHp60cn@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1190  rva=0x000adb60 ?getSn@CmdKondyor@@QEAAHIAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1191  rva=0x000adf60 ?getSn@CmdKondyor@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1192  rva=0x000bc100 ?getSn@NuwaUsbCtrl@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1193  rva=0x001089e0 ?getSn@XuCmdCameraHp60c@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1194  rva=0x001321a0 ?getSn@XuCmdCameraVega@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1195  rva=0x00067dc0 ?getSn@XuCmdKunLunA@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1196  rva=0x0008b700 ?getSn@XuCmdKunLunC@@UEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1197  rva=0x0015cd90 ?getSocketfd@SocketNet@@QEAAHXZ
+ord=1198  rva=0x000d3630 ?getStreamCfg@CameraHp60@@UEAAHAEAUvideo_cfg@@@Z
+ord=1199  rva=0x000d3630 ?getStreamCfg@CameraHp60v@@UEAAHAEAUvideo_cfg@@@Z
+ord=1200  rva=0x00099ab0 ?getStreamCfg@CameraKondyor@@UEAAHAEAUvideo_cfg@@@Z
+ord=1201  rva=0x000d3630 ?getStreamCfg@CameraX100@@UEAAHAEAUvideo_cfg@@@Z
+ord=1202  rva=0x000d3630 ?getStreamCfg@CameraXb40@@UEAAHAEAUvideo_cfg@@@Z
+ord=1203  rva=0x00032d60 ?getStreamCfg@ICameraOps@@UEAAHAEAUvideo_cfg@@@Z
+ord=1204  rva=0x00023460 ?getStreamParam@CameraChangA@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1205  rva=0x00023460 ?getStreamParam@CameraChangJiangB@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1206  rva=0x000d3660 ?getStreamParam@CameraHp60@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1207  rva=0x000fca00 ?getStreamParam@CameraHp60c@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1208  rva=0x001102c0 ?getStreamParam@CameraHp60cn@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1209  rva=0x000ddd30 ?getStreamParam@CameraHp60v@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1210  rva=0x00099c80 ?getStreamParam@CameraKondyor@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1211  rva=0x0004f7c0 ?getStreamParam@CameraKunLunA@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1212  rva=0x00077d90 ?getStreamParam@CameraKunLunC@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1213  rva=0x00032d60 ?getStreamParam@CameraVega@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1214  rva=0x000e7920 ?getStreamParam@CameraX100@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1215  rva=0x000f1830 ?getStreamParam@CameraXb40@@UEAAHPEAUSTREAM_PARAM_S@@@Z
+ord=1216  rva=0x000fcb80 ?getStreamStatus@CameraHp60c@@QEAA_NXZ
+ord=1217  rva=0x00110440 ?getStreamStatus@CameraHp60cn@@QEAA_NXZ
+ord=1218  rva=0x000681c0 ?getStreamTimeOut_M@XuCmdKunLunA@@QEAAHPEAH0@Z
+ord=1219  rva=0x0008bb00 ?getStreamTimeOut_M@XuCmdKunLunC@@QEAAHPEAH0@Z
+ord=1220  rva=0x000ae360 ?getStreamTimeout@CmdKondyor@@QEAAHIPEAM@Z
+ord=1221  rva=0x00068ae0 ?getStreamTimeout@XuCmdKunLunA@@QEAAHPEAM@Z
+ord=1222  rva=0x0008c420 ?getStreamTimeout@XuCmdKunLunC@@QEAAHPEAM@Z
+ord=1223  rva=0x000229f0 ?getSysTime@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+ord=1224  rva=0x00099e00 ?getTofData@CameraKondyor@@AEAAHPEAXPEAEII@Z
+ord=1225  rva=0x00077db0 ?getTofData@CameraKunLunC@@AEAAHPEAXPEAEPEA_J@Z
+ord=1226  rva=0x00023460 ?getTofMode@CameraChangA@@UEAAHAEAW4TOFMode@@@Z
+ord=1227  rva=0x00023460 ?getTofMode@CameraChangJiangB@@UEAAHAEAW4TOFMode@@@Z
+ord=1228  rva=0x000d37e0 ?getTofMode@CameraHp60@@UEAAHAEAW4TOFMode@@@Z
+ord=1229  rva=0x000fcb90 ?getTofMode@CameraHp60c@@UEAAHAEAW4TOFMode@@@Z
+ord=1230  rva=0x000fcb90 ?getTofMode@CameraHp60cn@@UEAAHAEAW4TOFMode@@@Z
+ord=1231  rva=0x000ddeb0 ?getTofMode@CameraHp60v@@UEAAHAEAW4TOFMode@@@Z
+ord=1232  rva=0x00023460 ?getTofMode@CameraKondyor@@UEAAHAEAW4TOFMode@@@Z
+ord=1233  rva=0x0004f800 ?getTofMode@CameraKunLunA@@UEAAHAEAW4TOFMode@@@Z
+ord=1234  rva=0x00077e00 ?getTofMode@CameraKunLunC@@UEAAHAEAW4TOFMode@@@Z
+ord=1235  rva=0x0012bb50 ?getTofMode@CameraVega@@UEAAHAEAW4TOFMode@@@Z
+ord=1236  rva=0x000e7aa0 ?getTofMode@CameraX100@@UEAAHAEAW4TOFMode@@@Z
+ord=1237  rva=0x000f19b0 ?getTofMode@CameraXb40@@UEAAHAEAW4TOFMode@@@Z
+ord=1238  rva=0x000ae440 ?getTofNumInfo@CmdKondyor@@QEAAHAEAI@Z
+ord=1239  rva=0x00139960 ?getUsbCameraAttrsListWin@@YAHAEBV?$vector@Uusb_id@@V?$allocator@Uusb_id@@@std@@@std@@AEAV?$vector@UAS_CAM_ATTR@@V?$allocator@UAS_CAM_ATTR@@@std@@@2@@Z
+ord=1240  rva=0x000ae7c0 ?getVSPAD@CmdKondyor@@QEAAHIPEAH@Z
+ord=1241  rva=0x00068ba0 ?getVSPAD@XuCmdKunLunA@@QEAAHPEAH@Z
+ord=1242  rva=0x0008c4e0 ?getVSPAD@XuCmdKunLunC@@QEAAHPEAH@Z
+ord=1243  rva=0x00068bc0 ?getVSPAD_M@XuCmdKunLunA@@QEAAHPEAH0@Z
+ord=1244  rva=0x0008c500 ?getVSPAD_M@XuCmdKunLunC@@QEAAHPEAH0@Z
+ord=1245  rva=0x00031ae0 ?getVedioProcAmpHander@MFCamera@@AEAAHPEAPEAUIAMVideoProcAmp@@@Z
+ord=1246  rva=0x00138c60 ?getXJFwversion@XJ@@QEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1247  rva=0x000ccdd0 ?get_match_video_node_info@@YA_NHHHHAEAH000_N@Z
+ord=1248  rva=0x000cd4f0 ?get_match_video_symbollink@@YA_NHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV12@1AEAH2@Z
+ord=1249  rva=0x00135a30 ?get_md5_ota@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV12@@Z
+ord=1250  rva=0x00026a80 ?heartBeatThread@NetInput@@AEAAHXZ
+ord=1251  rva=0x00026d90 ?heartbeat@NetInput@@AEAAHI@Z
+ord=1252  rva=0x000cda20 ?hex2str@@YAHIPEADH@Z
+ord=1253  rva=0x0002e3f0 ?hex@std@@YAAEAVios_base@1@AEAV21@@Z
+ord=1254  rva=0x0020f2a0 ?hp60cn_type@@3PADA
+ord=1255  rva=0x00020640 ?imbue@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+ord=1256  rva=0x000bc7a0 ?init@NuwaUsbCtrl@@QEAAHXZ
+ord=1257  rva=0x000d3960 ?initDefaultConfigPara@CameraHp60@@AEAAXAEAUnuwa_config_para_s@@@Z
+ord=1258  rva=0x000de030 ?initDefaultConfigPara@CameraHp60v@@AEAAXAEAUnuwa_config_para_s@@@Z
+ord=1259  rva=0x000e7c20 ?initDefaultConfigPara@CameraX100@@AEAAXAEAUnuwa_config_para_s@@@Z
+ord=1260  rva=0x000f1b30 ?initDefaultConfigPara@CameraXb40@@AEAAXAEAUnuwa_config_para_s@@@Z
+ord=1261  rva=0x00042b60 ?initDofParam@CDothinkey@@QEAAHPEAUCAM_RE_PACKET@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V34@_NPEAEHH@Z
+ord=1262  rva=0x000d39d0 ?initIrRgbParameter@CameraHp60@@AEAAXXZ
+ord=1263  rva=0x000de0a0 ?initIrRgbParameter@CameraHp60v@@AEAAXXZ
+ord=1264  rva=0x000e7c90 ?initIrRgbParameter@CameraX100@@AEAAXXZ
+ord=1265  rva=0x000f1b90 ?initIrRgbParameter@CameraXb40@@AEAAXXZ
+ord=1266  rva=0x00043f00 ?initLocalDofParam@CDothinkey@@QEAAHPEAUCAM_RE_PACKET@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1H@Z
+ord=1267  rva=0x000d4080 ?initStartStreamPara@CameraHp60@@AEAAXAEB_NAEAUvideo_cfg@@@Z
+ord=1268  rva=0x000dea00 ?initStartStreamPara@CameraHp60v@@AEAAXAEB_NAEAUvideo_cfg@@@Z
+ord=1269  rva=0x000e8330 ?initStartStreamPara@CameraX100@@AEAAXAEB_NAEAUvideo_cfg@@@Z
+ord=1270  rva=0x000f2210 ?initStartStreamPara@CameraXb40@@AEAAXAEB_NAEAUvideo_cfg@@@Z
+ord=1271  rva=0x000bd2d0 ?initVideoAttr@NuwaUsbCtrl@@QEAAHAEBUAS_CAM_ATTR@@@Z
+ord=1272  rva=0x000d40d0 ?internalExternalParametersConversion@CameraHp60@@AEAA?AUir_rgb_Parameter@@AEBUCAM_Parameter@@@Z
+ord=1273  rva=0x000d40d0 ?internalExternalParametersConversion@CameraHp60v@@AEAA?AUir_rgb_Parameter@@AEBUCAM_Parameter@@@Z
+ord=1274  rva=0x000d40d0 ?internalExternalParametersConversion@CameraX100@@AEAA?AUir_rgb_Parameter@@AEBUCAM_Parameter@@@Z
+ord=1275  rva=0x000d40d0 ?internalExternalParametersConversion@CameraXb40@@AEAA?AUir_rgb_Parameter@@AEBUCAM_Parameter@@@Z
+ord=1276  rva=0x000fcba0 ?irDataProcessing@CameraHp60c@@AEAAHAEBUframe_info@@H@Z
+ord=1277  rva=0x00110450 ?irDataProcessing@CameraHp60cn@@AEAAHAEBUframe_info@@H@Z
+ord=1278  rva=0x0012bb60 ?irDataProcessing@CameraVega@@AEAAHAEBUframe_info@@H@Z
+ord=1279  rva=0x00210b20 ?isInitialized@CAtlStringMgr@ATL@@0_NA
+ord=1280  rva=0x000d4100 ?isIrRgbParameterValid@CameraHp60@@AEAA_NXZ
+ord=1281  rva=0x000dea50 ?isIrRgbParameterValid@CameraHp60v@@AEAA_NXZ
+ord=1282  rva=0x000e8380 ?isIrRgbParameterValid@CameraX100@@AEAA_NXZ
+ord=1283  rva=0x000f2260 ?isIrRgbParameterValid@CameraXb40@@AEAA_NXZ
+ord=1284  rva=0x0015fc80 ?isLocationPathSame@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+ord=1285  rva=0x0020f228 ?isMatch@@3_NA
+ord=1286  rva=0x0004f910 ?join@thread@std@@QEAAXXZ
+ord=1287  rva=0x0020f2a8 ?kondyor_type@@3PADA
+ord=1288  rva=0x0015cda0 ?listen@SocketNet@@QEAAHH@Z
+ord=1289  rva=0x00024630 ?logCameraCfg@CameraChangA@@UEAAXXZ
+ord=1290  rva=0x00024630 ?logCameraCfg@CameraChangJiangB@@UEAAXXZ
+ord=1291  rva=0x000d4840 ?logCameraCfg@CameraHp60@@UEAAXXZ
+ord=1292  rva=0x000fce30 ?logCameraCfg@CameraHp60c@@UEAAXXZ
+ord=1293  rva=0x001106e0 ?logCameraCfg@CameraHp60cn@@UEAAXXZ
+ord=1294  rva=0x000dedf0 ?logCameraCfg@CameraHp60v@@UEAAXXZ
+ord=1295  rva=0x00099e40 ?logCameraCfg@CameraKondyor@@UEAAXXZ
+ord=1296  rva=0x0004f970 ?logCameraCfg@CameraKunLunA@@UEAAXXZ
+ord=1297  rva=0x00077e10 ?logCameraCfg@CameraKunLunC@@UEAAXXZ
+ord=1298  rva=0x0012bed0 ?logCameraCfg@CameraVega@@UEAAXXZ
+ord=1299  rva=0x000e8720 ?logCameraCfg@CameraX100@@UEAAXXZ
+ord=1300  rva=0x000f2600 ?logCameraCfg@CameraXb40@@UEAAXXZ
+ord=1301  rva=0x00210b01 ?m_bInitFailed@CAtlBaseModule@ATL@@2_NA
+ord=1302  rva=0x0004faf0 ?make_error_code@std@@YA?AVerror_code@1@W4errc@1@@Z
+ord=1303  rva=0x00099fc0 ?mallocBuffer@CameraKondyor@@AEAAHPEAUCAM_DATA_INNER@@HH@Z
+ord=1304  rva=0x0004fb10 ?mallocBuffer@CameraKunLunA@@AEAAHPEAUCAM_DATA_INNER@@HH@Z
+ord=1305  rva=0x00077f90 ?mallocBuffer@CameraKunLunC@@AEAAHPEAUCAM_DATA_INNER@@HH@Z
+ord=1306  rva=0x000d49c0 ?matchVideoNode@CameraHp60@@AEAAHAEAUAS_CAM_ATTR@@@Z
+ord=1307  rva=0x000d49c0 ?matchVideoNode@CameraHp60v@@AEAAHAEAUAS_CAM_ATTR@@@Z
+ord=1308  rva=0x000d49c0 ?matchVideoNode@CameraX100@@AEAAHAEAUAS_CAM_ATTR@@@Z
+ord=1309  rva=0x000d49c0 ?matchVideoNode@CameraXb40@@AEAAHAEAUAS_CAM_ATTR@@@Z
+ord=1310  rva=0x00135e40 ?md5_append@@YAXPEAUmd5_state_s@@PEBEH@Z
+ord=1311  rva=0x00135f40 ?md5_finish@@YAXPEAUmd5_state_s@@QEAE@Z
+ord=1312  rva=0x00136140 ?md5_init@@YAXPEAUmd5_state_s@@@Z
+ord=1313  rva=0x000507d0 ?message@_Generic_error_category@std@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z
+ord=1314  rva=0x000364e0 ?mjpgToRGB24@AngPost@@QEAAHPEAXHPEAEAEAI2I@Z
+ord=1315  rva=0x00023460 ?monitor@CameraKondyor@@AEAAHXZ
+ord=1316  rva=0x0013eb20 ?monitor@NetworkListener@@AEAAHXZ
+ord=1317  rva=0x00050820 ?name@_Generic_error_category@std@@UEBAPEBDXZ
+ord=1318  rva=0x0021090c ?nibblesWritten@@3HA
+ord=1319  rva=0x000bd2f0 ?on_extract_entry@NuwaUsbCtrl@@CAHPEBDPEAX@Z
+ord=1320  rva=0x0003ac70 ?on_extract_entry@Upgrade@@CAHPEBDPEAX@Z
+ord=1321  rva=0x00020690 ?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@PEBDHH@Z
+ord=1322  rva=0x000bd410 ?open@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@HH@Z
+ord=1323  rva=0x0003ad90 ?open@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAAXPEBDHH@Z
+ord=1324  rva=0x00121030 ?open@CameraChangA@@UEAAHPEBD@Z
+ord=1325  rva=0x00125ab0 ?open@CameraChangJiangB@@UEAAHPEBD@Z
+ord=1326  rva=0x000d4c10 ?open@CameraHp60@@UEAAHPEBD@Z
+ord=1327  rva=0x000fd140 ?open@CameraHp60c@@UEAAHPEBD@Z
+ord=1328  rva=0x001109f0 ?open@CameraHp60cn@@UEAAHPEBD@Z
+ord=1329  rva=0x000def70 ?open@CameraHp60v@@UEAAHPEBD@Z
+ord=1330  rva=0x0009adb0 ?open@CameraKondyor@@UEAAHPEBD@Z
+ord=1331  rva=0x00050830 ?open@CameraKunLunA@@UEAAHPEBD@Z
+ord=1332  rva=0x00078df0 ?open@CameraKunLunC@@UEAAHPEBD@Z
+ord=1333  rva=0x0012c160 ?open@CameraVega@@UEAAHPEBD@Z
+ord=1334  rva=0x000e88a0 ?open@CameraX100@@UEAAHPEBD@Z
+ord=1335  rva=0x000f2780 ?open@CameraXb40@@UEAAHPEBD@Z
+ord=1336  rva=0x0002e410 ?open@LiteUsb@@UEAAHXZ
+ord=1337  rva=0x00031c40 ?open@MFCamera@@UEAAHXZ
+ord=1338  rva=0x000271a0 ?open@NetInput@@UEAAHXZ
+ord=1339  rva=0x00023460 ?open@VideoInputCamera@@UEAAHXZ
+ord=1340  rva=0x000cda70 ?openStreamTypeConv@@YAHHAEAW4asSTREAM_OPTION_E@@@Z
+ord=1341  rva=0x000207d0 ?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+ord=1342  rva=0x00022c00 ?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+ord=1343  rva=0x00210900 ?pBuffer@@3PEAHEA
+ord=1344  rva=0x000cdc20 ?parseConfigFileParameter@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAUnuwa_config_para_s@@@Z
+ord=1345  rva=0x000fd7d0 ?parseConfigFileParameter@CameraHp60c@@AEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAUhp60c_config_para_s@@@Z
+ord=1346  rva=0x00111090 ?parseConfigFileParameter@CameraHp60cn@@AEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAUhp60cn_config_para_s@@@Z
+ord=1347  rva=0x0012c850 ?parseConfigFileParameter@CameraVega@@AEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAUvega_config_para_s@@@Z
+ord=1348  rva=0x00020970 ?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+ord=1349  rva=0x00022db0 ?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+ord=1350  rva=0x00044550 ?peak32To8@CDothinkey@@QEAAXPEAMHHPEAE@Z
+ord=1351  rva=0x00028a10 ?poll@@YAHPEAUpollfd@@HH@Z
+ord=1352  rva=0x00028a20 ?pollToReceive@NetInput@@AEAAHHAEAUsockaddr_in@@PEAEIH@Z
+ord=1353  rva=0x00029570 ?pop@?$queue@V?$vector@EV?$allocator@E@std@@@std@@V?$deque@V?$vector@EV?$allocator@E@std@@@std@@V?$allocator@V?$vector@EV?$allocator@E@std@@@std@@@2@@2@@std@@QEAAXXZ
+ord=1354  rva=0x000d5750 ?printfConfigPara@CameraHp60@@AEAAXAEBUnuwa_config_para_s@@@Z
+ord=1355  rva=0x000df870 ?printfConfigPara@CameraHp60v@@AEAAXAEBUnuwa_config_para_s@@@Z
+ord=1356  rva=0x000e9660 ?printfConfigPara@CameraX100@@AEAAXAEBUnuwa_config_para_s@@@Z
+ord=1357  rva=0x000f3080 ?printfConfigPara@CameraXb40@@AEAAXAEBUnuwa_config_para_s@@@Z
+ord=1358  rva=0x0009bfa0 ?processCalibData@CameraKondyor@@AEAAHAEBUframe_info@@@Z
+ord=1359  rva=0x0002e600 ?processCallback@LiteUsb@@AEAAHXZ
+ord=1360  rva=0x00029610 ?processCallback@NetInput@@AEAAHXZ
+ord=1361  rva=0x000365f0 ?processDepthImageRawData@AngPost@@QEAAHPEAGII@Z
+ord=1362  rva=0x00121370 ?processRawData@CameraChangA@@AEAAHAEBUframe_info@@@Z
+ord=1363  rva=0x00125df0 ?processRawData@CameraChangJiangB@@AEAAHAEBUframe_info@@@Z
+ord=1364  rva=0x000d77d0 ?processRawData@CameraHp60@@AEAAHPEAXAEAI1I@Z
+ord=1365  rva=0x000ffdb0 ?processRawData@CameraHp60c@@AEAAHAEBUframe_info@@@Z
+ord=1366  rva=0x001132e0 ?processRawData@CameraHp60cn@@AEAAHAEBUframe_info@@@Z
+ord=1367  rva=0x000e18f0 ?processRawData@CameraHp60v@@AEAAHPEAXAEAI1I@Z
+ord=1368  rva=0x0009c980 ?processRawData@CameraKondyor@@AEAAHAEBUframe_info@@@Z
+ord=1369  rva=0x00051280 ?processRawData@CameraKunLunA@@AEAAHAEBUframe_info@@@Z
+ord=1370  rva=0x00079780 ?processRawData@CameraKunLunC@@AEAAHAEBUframe_info@@@Z
+ord=1371  rva=0x0012e260 ?processRawData@CameraVega@@AEAAHAEBUframe_info@@@Z
+ord=1372  rva=0x000eb6e0 ?processRawData@CameraX100@@AEAAHPEAXAEAI1I@Z
+ord=1373  rva=0x000f5100 ?processRawData@CameraXb40@@AEAAHPEAXAEAI1I@Z
+ord=1374  rva=0x000367c0 ?processSpecklegramRawData@AngPost@@QEAAXPEAE_K1AEAI@Z
+ord=1375  rva=0x0002eb10 ?push@?$queue@Uframe_info@@V?$deque@Uframe_info@@V?$allocator@Uframe_info@@@std@@@std@@@std@@QEAAXAEBUframe_info@@@Z
+ord=1376  rva=0x00023460 ?read@LiteUsb@@UEAAHPEAXHH@Z
+ord=1377  rva=0x00032d60 ?read@MFCamera@@UEAAHPEAXHH@Z
+ord=1378  rva=0x00023460 ?read@NetInput@@UEAAHPEAXHH@Z
+ord=1379  rva=0x000bd590 ?read@NuwaUsbCtrl@@QEAAHPEAEII@Z
+ord=1380  rva=0x00023460 ?read@VideoInputCamera@@UEAAHPEAXHH@Z
+ord=1381  rva=0x00020a60 ?readData@@YAHPEBDPEAXH@Z
+ord=1382  rva=0x00023460 ?readTemperature@CmdHp60cn@@QEAAHW4DEV_TYPE_E@@AEAM@Z
+ord=1383  rva=0x00108f10 ?readTemperature@XuCmdCameraHp60c@@QEAAHW4DEV_TYPE_E@@AEAM@Z
+ord=1384  rva=0x00132500 ?readTemperature@XuCmdCameraVega@@QEAAHW4DEV_TYPE_E@@AEAM@Z
+ord=1385  rva=0x001239e0 ?reboot@CmdChangA@@UEAAHXZ
+ord=1386  rva=0x001294c0 ?reboot@CmdChangJiangB@@UEAAHXZ
+ord=1387  rva=0x0011d400 ?reboot@CmdHp60cn@@UEAAHXZ
+ord=1388  rva=0x000ae970 ?reboot@CmdKondyor@@UEAAHXZ
+ord=1389  rva=0x000bd750 ?reboot@NuwaUsbCtrl@@UEAAHXZ
+ord=1390  rva=0x00109490 ?reboot@XuCmdCameraHp60c@@UEAAHXZ
+ord=1391  rva=0x00132a80 ?reboot@XuCmdCameraVega@@UEAAHXZ
+ord=1392  rva=0x00068c30 ?reboot@XuCmdKunLunA@@UEAAHXZ
+ord=1393  rva=0x0008c570 ?reboot@XuCmdKunLunC@@UEAAHXZ
+ord=1394  rva=0x0015cdb0 ?recv@SocketNet@@QEAAHPEAXHI@Z
+ord=1395  rva=0x001434b0 ?recv@topicPublish@@QEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z
+ord=1396  rva=0x00143560 ?recv@topicPublish@@QEAAHPEAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z
+ord=1397  rva=0x0015cdc0 ?recvfrom@SocketNet@@QEAAHPEAX_KHPEAUsockaddr@@PEAH@Z
+ord=1398  rva=0x0013ef10 ?refreshDev@NetworkListener@@AEAAHXZ
+ord=1399  rva=0x001215b0 ?registerDataCallback@CameraChangA@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1400  rva=0x00126040 ?registerDataCallback@CameraChangJiangB@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1401  rva=0x000d8390 ?registerDataCallback@CameraHp60@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1402  rva=0x001001c0 ?registerDataCallback@CameraHp60c@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1403  rva=0x001001c0 ?registerDataCallback@CameraHp60cn@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1404  rva=0x000e2410 ?registerDataCallback@CameraHp60v@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1405  rva=0x0009d6a0 ?registerDataCallback@CameraKondyor@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1406  rva=0x00051cd0 ?registerDataCallback@CameraKunLunA@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1407  rva=0x00051cd0 ?registerDataCallback@CameraKunLunC@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1408  rva=0x0012e650 ?registerDataCallback@CameraVega@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1409  rva=0x000ec5f0 ?registerDataCallback@CameraX100@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1410  rva=0x000f5c00 ?registerDataCallback@CameraXb40@@UEAAHPEAUSTREAM_CALLBACK_S@@@Z
+ord=1411  rva=0x0009d6d0 ?registerDataSetCallback@CameraKondyor@@QEAAHPEAUSTREAM_SET_CALLBACK_S@@@Z
+ord=1412  rva=0x00023460 ?registerInnerDataCallback@CameraChangA@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1413  rva=0x00023460 ?registerInnerDataCallback@CameraChangJiangB@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1414  rva=0x000d8540 ?registerInnerDataCallback@CameraHp60@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1415  rva=0x001001d0 ?registerInnerDataCallback@CameraHp60c@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1416  rva=0x001001d0 ?registerInnerDataCallback@CameraHp60cn@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1417  rva=0x000d8540 ?registerInnerDataCallback@CameraHp60v@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1418  rva=0x0009d700 ?registerInnerDataCallback@CameraKondyor@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1419  rva=0x00051d00 ?registerInnerDataCallback@CameraKunLunA@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1420  rva=0x00051d30 ?registerInnerDataCallback@CameraKunLunC@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1421  rva=0x00032d60 ?registerInnerDataCallback@CameraVega@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1422  rva=0x000d8540 ?registerInnerDataCallback@CameraX100@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1423  rva=0x000d8540 ?registerInnerDataCallback@CameraXb40@@UEAAHPEAUSTREAM_CALLBACK_INNER_S@@@Z
+ord=1424  rva=0x00051d30 ?registerMergeDataCallback@CameraKunLunA@@QEAAHPEAUMERGE_CALLBACK_S@@@Z
+ord=1425  rva=0x0009d730 ?registerTest@CameraKondyor@@AEAAHXZ
+ord=1426  rva=0x00158040 ?resize@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAX_KD@Z
+ord=1427  rva=0x000298f0 ?resize@?$vector@EV?$allocator@E@std@@@std@@QEAAX_K@Z
+ord=1428  rva=0x000bdd90 ?response@NuwaUsbCtrl@@QEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAXHH@Z
+ord=1429  rva=0x0003af10 ?rfind@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA_KQEBD_K@Z
+ord=1430  rva=0x001001e0 ?rgbDataProcessing@CameraHp60c@@AEAAHAEBUframe_info@@H@Z
+ord=1431  rva=0x00113560 ?rgbDataProcessing@CameraHp60cn@@AEAAHAEBUframe_info@@H@Z
+ord=1432  rva=0x0012e680 ?rgbDataProcessing@CameraVega@@AEAAHAEBUframe_info@@H@Z
+ord=1433  rva=0x00020e40 ?save4img@@YAHPEBDPEAM111HM@Z
+ord=1434  rva=0x000a05d0 ?saveAllImg@CameraKondyor@@AEAAHXZ
+ord=1435  rva=0x000a2ad0 ?saveImgByRawData@CameraKondyor@@AEAAHUframe_info@@@Z
+ord=1436  rva=0x00020f50 ?savePointCloud@@YAHQEBDPEAM_K@Z
+ord=1437  rva=0x00021380 ?savePointCloudWithPcdFormat@@YAHQEBDPEAM_K@Z
+ord=1438  rva=0x00051d60 ?saveTofPeakNoiseMulDepthImg@CameraKunLunA@@AEAAHH@Z
+ord=1439  rva=0x0007a030 ?saveTofPeakNoiseMulDepthImg@CameraKunLunC@@AEAAHH@Z
+ord=1440  rva=0x00053ba0 ?saveTofPeakNoiseMulDepthImg_Win@CameraKunLunA@@AEAAHH@Z
+ord=1441  rva=0x0007ab90 ?saveTofPeakNoiseMulDepthImg_Win@CameraKunLunC@@AEAAHH@Z
+ord=1442  rva=0x00021960 ?saveYUVImg@@YAHQEBDPEAX_K@Z
+ord=1443  rva=0x000bdf00 ?scanDir@NuwaUsbCtrl@@AEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@AEAI@Z
+ord=1444  rva=0x00132c40 ?se_read@XuCmdCameraVega@@AEAAHEPEAEI@Z
+ord=1445  rva=0x00021c70 ?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+ord=1446  rva=0x00022e10 ?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+ord=1447  rva=0x00021d40 ?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+ord=1448  rva=0x00022f70 ?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+ord=1449  rva=0x0015cdd0 ?send@SocketNet@@QEAAHPEBXHH@Z
+ord=1450  rva=0x00143600 ?send@topicPublish@@QEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+ord=1451  rva=0x0013cb00 ?sendBroadcast@@YAHPEAEIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$list@Urcv_msg_info@@V?$allocator@Urcv_msg_info@@@std@@@2@@Z
+ord=1452  rva=0x0015cde0 ?sendto@SocketNet@@QEAAHPEBX_KHPEAUsockaddr@@H@Z
+ord=1453  rva=0x0011d730 ?setAeMode@CmdHp60cn@@QEAAHH@Z
+ord=1454  rva=0x000bece0 ?setAeMode@NuwaUsbCtrl@@QEAAHH@Z
+ord=1455  rva=0x00109650 ?setAeMode@XuCmdCameraHp60c@@QEAAHH@Z
+ord=1456  rva=0x00133260 ?setAeMode@XuCmdCameraVega@@QEAAHH@Z
+ord=1457  rva=0x00068db0 ?setBinningMode@CmdKondyor@@QEAAHW4BinningMode@@@Z
+ord=1458  rva=0x00068db0 ?setBinningMode@XuCmdKunLunA@@QEAAHW4BinningMode@@@Z
+ord=1459  rva=0x00068db0 ?setBinningMode@XuCmdKunLunC@@QEAAHW4BinningMode@@@Z
+ord=1460  rva=0x000d0210 ?setBorder@@YAHPEAUCAM_FRAME@@HH@Z
+ord=1461  rva=0x000aeb30 ?setCalibTof@CmdKondyor@@QEAAHH@Z
+ord=1462  rva=0x000af010 ?setCalibrationData@CmdKondyor@@QEAAHIPEAEI@Z
+ord=1463  rva=0x000af690 ?setCalibrationData@CmdKondyor@@QEAAHPEAEI@Z
+ord=1464  rva=0x00068df0 ?setCalibrationData@XuCmdKunLunA@@QEAAHPEAEI@Z
+ord=1465  rva=0x0008c730 ?setCalibrationData@XuCmdKunLunC@@QEAAHPEAEI@Z
+ord=1466  rva=0x000a2d90 ?setCameraParameter@CameraKondyor@@QEAAHIUCAM_Parameter@@@Z
+ord=1467  rva=0x00023460 ?setCameraParameter@CmdChangJiangB@@QEAAHAEBUCAM_Parameter@@@Z
+ord=1468  rva=0x00069540 ?setCameraParameter@XuCmdKunLunA@@QEAAHUCAM_Parameter@@@Z
+ord=1469  rva=0x0008cbc0 ?setCameraParameter@XuCmdKunLunC@@QEAAHUCAM_Parameter@@@Z
+ord=1470  rva=0x00126060 ?setChanelType@CameraChangJiangB@@AEAAHAEBD@Z
+ord=1471  rva=0x000bf5b0 ?setClMode@NuwaUsbCtrl@@QEAAHH@Z
+ord=1472  rva=0x0011d920 ?setCurrentIntensity@CmdHp60cn@@QEAAHH@Z
+ord=1473  rva=0x00109840 ?setCurrentIntensity@XuCmdCameraHp60c@@QEAAHH@Z
+ord=1474  rva=0x00133440 ?setCurrentIntensity@XuCmdCameraVega@@QEAAHH@Z
+ord=1475  rva=0x0011db10 ?setDHCP@CmdHp60cn@@QEAAH_N@Z
+ord=1476  rva=0x000afab0 ?setDHCP@CmdKondyor@@QEAAH_N@Z
+ord=1477  rva=0x000d8560 ?setDefaultIrRgbParameter@CameraHp60@@AEAAHXZ
+ord=1478  rva=0x000e25c0 ?setDefaultIrRgbParameter@CameraHp60v@@AEAAHXZ
+ord=1479  rva=0x000ec7a0 ?setDefaultIrRgbParameter@CameraX100@@AEAAHXZ
+ord=1480  rva=0x000f5db0 ?setDefaultIrRgbParameter@CameraXb40@@AEAAHXZ
+ord=1481  rva=0x00100470 ?setDefaultParameter@CameraHp60c@@AEAAX_N00II@Z
+ord=1482  rva=0x001138e0 ?setDefaultParameter@CameraHp60cn@@AEAAX_N00II@Z
+ord=1483  rva=0x0012e860 ?setDefaultParameter@CameraVega@@AEAAXXZ
+ord=1484  rva=0x0011dcf0 ?setDevIP@CmdHp60cn@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1485  rva=0x000afc90 ?setDevIP@CmdKondyor@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1486  rva=0x0011df80 ?setDevMac@CmdHp60cn@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1487  rva=0x000aff20 ?setDevMac@CmdKondyor@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1488  rva=0x001215d0 ?setDevNetAttrs@CameraChangA@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1489  rva=0x00126240 ?setDevNetAttrs@CameraChangJiangB@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1490  rva=0x000d87b0 ?setDevNetAttrs@CameraHp60@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1491  rva=0x00102610 ?setDevNetAttrs@CameraHp60c@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1492  rva=0x00115a80 ?setDevNetAttrs@CameraHp60cn@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1493  rva=0x000e27f0 ?setDevNetAttrs@CameraHp60v@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1494  rva=0x000a3460 ?setDevNetAttrs@CameraKondyor@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1495  rva=0x000551e0 ?setDevNetAttrs@CameraKunLunA@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1496  rva=0x0007b6f0 ?setDevNetAttrs@CameraKunLunC@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1497  rva=0x0012e8a0 ?setDevNetAttrs@CameraVega@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1498  rva=0x000ec9d0 ?setDevNetAttrs@CameraX100@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1499  rva=0x000f5fe0 ?setDevNetAttrs@CameraXb40@@UEAAHUNET_DEV_ATTRS@@@Z
+ord=1500  rva=0x000b01b0 ?setEepFwVersion@CmdKondyor@@QEAAHIAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1501  rva=0x00069c50 ?setEepFwVersion@XuCmdKunLunA@@QEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1502  rva=0x0008d040 ?setEepFwVersion@XuCmdKunLunC@@QEAAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1503  rva=0x00129680 ?setExposeTime@CmdChangJiangB@@QEAAHEE@Z
+ord=1504  rva=0x000bfe50 ?setFps@NuwaUsbCtrl@@QEAAHW4NUWA_FPS_TYPE_E@@@Z
+ord=1505  rva=0x0006a340 ?setFps@XuCmdKunLunA@@QEAAHH@Z
+ord=1506  rva=0x0008d460 ?setFps@XuCmdKunLunC@@QEAAHH@Z
+ord=1507  rva=0x0011e210 ?setFrameRate@CmdHp60cn@@QEAAHH@Z
+ord=1508  rva=0x00109a30 ?setFrameRate@XuCmdCameraHp60c@@QEAAHH@Z
+ord=1509  rva=0x0011e280 ?setGain@CmdHp60cn@@QEAAHH@Z
+ord=1510  rva=0x00109aa0 ?setGain@XuCmdCameraHp60c@@QEAAHH@Z
+ord=1511  rva=0x00133630 ?setGain@XuCmdCameraVega@@QEAAHH@Z
+ord=1512  rva=0x000c0720 ?setHimaxBoot@NuwaUsbCtrl@@AEAAHXZ
+ord=1513  rva=0x000c0d20 ?setHimaxCodeStart@NuwaUsbCtrl@@AEAAHXZ
+ord=1514  rva=0x0011e5c0 ?setHimaxConfidenceLevel@CmdHp60cn@@QEAAHH@Z
+ord=1515  rva=0x0010a0a0 ?setHimaxConfidenceLevel@XuCmdCameraHp60c@@QEAAHH@Z
+ord=1516  rva=0x001337b0 ?setHimaxConfidenceLevel@XuCmdCameraVega@@QEAAHH@Z
+ord=1517  rva=0x0011e7a0 ?setHimaxSdLevel@CmdHp60cn@@QEAAHH@Z
+ord=1518  rva=0x000c1330 ?setHimaxSdLevel@NuwaUsbCtrl@@QEAAHH@Z
+ord=1519  rva=0x0010a280 ?setHimaxSdLevel@XuCmdCameraHp60c@@QEAAHH@Z
+ord=1520  rva=0x00133990 ?setHimaxSdLevel@XuCmdCameraVega@@QEAAHH@Z
+ord=1521  rva=0x0011e980 ?setHimaxStream@CmdHp60cn@@QEAAHH@Z
+ord=1522  rva=0x0010a460 ?setHimaxStream@XuCmdCameraHp60c@@QEAAHH@Z
+ord=1523  rva=0x00133b70 ?setHimaxStream@XuCmdCameraVega@@QEAAHH@Z
+ord=1524  rva=0x0011e9f0 ?setHimaxTd@CmdHp60cn@@QEAAHH@Z
+ord=1525  rva=0x000c1d30 ?setHimaxTd@NuwaUsbCtrl@@QEAAHH@Z
+ord=1526  rva=0x0010a4d0 ?setHimaxTd@XuCmdCameraHp60c@@QEAAHH@Z
+ord=1527  rva=0x00133be0 ?setHimaxTd@XuCmdCameraVega@@QEAAHH@Z
+ord=1528  rva=0x0011ebd0 ?setHimaxVersion@CmdHp60cn@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1529  rva=0x0006a410 ?setIdelTime@XuCmdKunLunA@@QEAAHE@Z
+ord=1530  rva=0x0008d530 ?setIdelTime@XuCmdKunLunC@@QEAAHE@Z
+ord=1531  rva=0x00102790 ?setImageMirror@CameraHp60c@@QEAAH_N@Z
+ord=1532  rva=0x00116370 ?setImageMirror@CameraHp60cn@@QEAAH_N@Z
+ord=1533  rva=0x001027a0 ?setImageRotateMode@CameraHp60c@@QEAAHW4ROTATE_MODE_E@@@Z
+ord=1534  rva=0x00116380 ?setImageRotateMode@CameraHp60cn@@QEAAHW4ROTATE_MODE_E@@@Z
+ord=1535  rva=0x000a3d50 ?setInitialRegisterConfigure@CameraKondyor@@AEAAHXZ
+ord=1536  rva=0x00055360 ?setInitialRegisterConfigure@CameraKunLunA@@AEAAHXZ
+ord=1537  rva=0x0007b870 ?setInitialRegisterConfigure@CameraKunLunC@@AEAAHXZ
+ord=1538  rva=0x000b05d0 ?setIntegDura@CmdKondyor@@QEAAHIM_N@Z
+ord=1539  rva=0x0006a440 ?setIntegDura@XuCmdKunLunA@@QEAAHM_N@Z
+ord=1540  rva=0x0008d560 ?setIntegDura@XuCmdKunLunC@@QEAAHM_N@Z
+ord=1541  rva=0x0006a780 ?setIntegDura_M@XuCmdKunLunA@@QEAAHMM_N@Z
+ord=1542  rva=0x0008d8a0 ?setIntegDura_M@XuCmdKunLunC@@QEAAHMM_N@Z
+ord=1543  rva=0x000b0900 ?setIntegNum@CmdKondyor@@QEAAHIH_N@Z
+ord=1544  rva=0x0006abc0 ?setIntegNum@XuCmdKunLunA@@QEAAHH_N@Z
+ord=1545  rva=0x0008dce0 ?setIntegNum@XuCmdKunLunC@@QEAAHH_N@Z
+ord=1546  rva=0x0006aee0 ?setIntegNum_M@XuCmdKunLunA@@QEAAHHH_N@Z
+ord=1547  rva=0x0008e000 ?setIntegNum_M@XuCmdKunLunC@@QEAAHHH_N@Z
+ord=1548  rva=0x00102950 ?setInternalParameter@CameraHp60c@@AEAAHPEAXI@Z
+ord=1549  rva=0x00116530 ?setInternalParameter@CameraHp60cn@@AEAAHPEAXI@Z
+ord=1550  rva=0x0012ea20 ?setInternalParameter@CameraVega@@AEAAHPEAX@Z
+ord=1551  rva=0x00129710 ?setIrSensorGain@CmdChangJiangB@@QEAAHEE@Z
+ord=1552  rva=0x00123ba0 ?setItoValue@CmdChangA@@AEAAHH@Z
+ord=1553  rva=0x00129770 ?setItoValue@CmdChangJiangB@@QEAAHI@Z
+ord=1554  rva=0x0011ee30 ?setItoValue@CmdHp60cn@@QEAAHH@Z
+ord=1555  rva=0x001298f0 ?setLightCurrent@CmdChangJiangB@@QEAAHII@Z
+ord=1556  rva=0x000b10f0 ?setLightPulseLevel@CmdKondyor@@QEAAHIW4PulseValue@@@Z
+ord=1557  rva=0x0006b380 ?setLightPulseLevel@XuCmdKunLunA@@QEAAHW4PulseValue@@@Z
+ord=1558  rva=0x0008e4a0 ?setLightPulseLevel@XuCmdKunLunC@@QEAAHW4PulseValue@@@Z
+ord=1559  rva=0x0006b3f0 ?setLightPulseLevel_M@XuCmdKunLunA@@QEAAHW4PulseValue@@0@Z
+ord=1560  rva=0x0008e510 ?setLightPulseLevel_M@XuCmdKunLunC@@QEAAHW4PulseValue@@0@Z
+ord=1561  rva=0x0011f010 ?setLightingTime@CmdHp60cn@@QEAAHH@Z
+ord=1562  rva=0x000c2730 ?setLightingTime@NuwaUsbCtrl@@QEAAHH@Z
+ord=1563  rva=0x0010a6b0 ?setLightingTime@XuCmdCameraHp60c@@QEAAHH@Z
+ord=1564  rva=0x00133dc0 ?setLightingTime@XuCmdCameraVega@@QEAAHH@Z
+ord=1565  rva=0x00023060 ?setLogLevel@@YAXW4LogLevel@@@Z
+ord=1566  rva=0x000c2fd0 ?setOV9282@NuwaUsbCtrl@@QEAAHHH@Z
+ord=1567  rva=0x00032d60 ?setPSensor@CmdChangA@@AEAAHXZ
+ord=1568  rva=0x001030e0 ?setParamersAfterOpenCam@CameraHp60c@@AEAAHXZ
+ord=1569  rva=0x00116cc0 ?setParamersAfterOpenCam@CameraHp60cn@@AEAAHXZ
+ord=1570  rva=0x0011f0a0 ?setPwm@CmdHp60cn@@QEAAHH@Z
+ord=1571  rva=0x000b12a0 ?setPwmDuty@CmdKondyor@@QEAAHEH@Z
+ord=1572  rva=0x000c3b00 ?setPwmDuty@NuwaUsbCtrl@@QEAAHH@Z
+ord=1573  rva=0x0006b7c0 ?setPwmDuty@XuCmdKunLunA@@QEAAHH@Z
+ord=1574  rva=0x0008e8e0 ?setPwmDuty@XuCmdKunLunC@@QEAAHH@Z
+ord=1575  rva=0x000b15f0 ?setRange@CmdKondyor@@QEAAHIW4MeasureRange@@@Z
+ord=1576  rva=0x0006b9a0 ?setRange@XuCmdKunLunA@@QEAAHW4MeasureRange@@@Z
+ord=1577  rva=0x0008eab0 ?setRange@XuCmdKunLunC@@QEAAHW4MeasureRange@@@Z
+ord=1578  rva=0x0006b9d0 ?setRange_M@XuCmdKunLunA@@QEAAHW4MeasureRange@@0@Z
+ord=1579  rva=0x0008eae0 ?setRange_M@XuCmdKunLunC@@QEAAHW4MeasureRange@@0@Z
+ord=1580  rva=0x0015ce00 ?setRcvTimeOut@SocketNet@@QEAAHJ@Z
+ord=1581  rva=0x000b17a0 ?setRegister@CmdKondyor@@QEAAHIII@Z
+ord=1582  rva=0x0006ba60 ?setRegister@XuCmdKunLunA@@QEAAHHHH@Z
+ord=1583  rva=0x0008eb70 ?setRegister@XuCmdKunLunC@@QEAAHHHH@Z
+ord=1584  rva=0x000f8190 ?setSensorMultiGain@CameraXb40UsbCtrl@@UEAAHH@Z
+ord=1585  rva=0x000c43a0 ?setSensorMultiGain@NuwaUsbCtrl@@UEAAHH@Z
+ord=1586  rva=0x001263c0 ?setSerialNo@CameraChangJiangB@@QEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1587  rva=0x00123d20 ?setSn@CmdChangA@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1588  rva=0x00129960 ?setSn@CmdChangJiangB@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1589  rva=0x0011f2a0 ?setSn@CmdHp60cn@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1590  rva=0x000b19a0 ?setSn@CmdKondyor@@QEAAHIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1591  rva=0x000b1d20 ?setSn@CmdKondyor@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1592  rva=0x000c4840 ?setSn@NuwaUsbCtrl@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1593  rva=0x0010a8a0 ?setSn@XuCmdCameraHp60c@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1594  rva=0x00133fa0 ?setSn@XuCmdCameraVega@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1595  rva=0x0006bc60 ?setSn@XuCmdKunLunA@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1596  rva=0x0008ed70 ?setSn@XuCmdKunLunC@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1597  rva=0x000d8930 ?setStreamCfg@CameraHp60@@UEAAHAEBUvideo_cfg@@@Z
+ord=1598  rva=0x000d8930 ?setStreamCfg@CameraHp60v@@UEAAHAEBUvideo_cfg@@@Z
+ord=1599  rva=0x000a6f10 ?setStreamCfg@CameraKondyor@@UEAAHAEBUvideo_cfg@@@Z
+ord=1600  rva=0x000d8930 ?setStreamCfg@CameraX100@@UEAAHAEBUvideo_cfg@@@Z
+ord=1601  rva=0x000d8930 ?setStreamCfg@CameraXb40@@UEAAHAEBUvideo_cfg@@@Z
+ord=1602  rva=0x00032d60 ?setStreamCfg@ICameraOps@@UEAAHAEBUvideo_cfg@@@Z
+ord=1603  rva=0x00023460 ?setStreamParam@CameraChangA@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1604  rva=0x001263d0 ?setStreamParam@CameraChangJiangB@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1605  rva=0x000d89a0 ?setStreamParam@CameraHp60@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1606  rva=0x001034d0 ?setStreamParam@CameraHp60c@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1607  rva=0x001170b0 ?setStreamParam@CameraHp60cn@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1608  rva=0x000e2970 ?setStreamParam@CameraHp60v@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1609  rva=0x000a7350 ?setStreamParam@CameraKondyor@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1610  rva=0x00057db0 ?setStreamParam@CameraKunLunA@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1611  rva=0x0007dbf0 ?setStreamParam@CameraKunLunC@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1612  rva=0x0012eda0 ?setStreamParam@CameraVega@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1613  rva=0x000ecb50 ?setStreamParam@CameraX100@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1614  rva=0x000f6160 ?setStreamParam@CameraXb40@@UEAAHW4MEDIA_TYPE_E@@PEBUSTREAM_PARAM_S@@@Z
+ord=1615  rva=0x0006c2b0 ?setStreamTimeOut_M@XuCmdKunLunA@@QEAAHHH@Z
+ord=1616  rva=0x0008f0d0 ?setStreamTimeOut_M@XuCmdKunLunC@@QEAAHHH@Z
+ord=1617  rva=0x000b2280 ?setStreamTimeout@CmdKondyor@@QEAAHIM@Z
+ord=1618  rva=0x0006cea0 ?setStreamTimeout@XuCmdKunLunA@@QEAAHM@Z
+ord=1619  rva=0x0008fcc0 ?setStreamTimeout@XuCmdKunLunC@@QEAAHM@Z
+ord=1620  rva=0x00126830 ?setStreamType@CameraChangJiangB@@AEAAHAEBD@Z
+ord=1621  rva=0x00103bd0 ?setStreamType@CameraHp60c@@QEAAHW4STREAM_TYPE_E@@@Z
+ord=1622  rva=0x001177b0 ?setStreamType@CameraHp60cn@@QEAAHW4STREAM_TYPE_E@@@Z
+ord=1623  rva=0x0012f370 ?setStreamType@CameraVega@@QEAAHW4STREAM_TYPE_E@@@Z
+ord=1624  rva=0x000c4ea0 ?setStreamType@NuwaUsbCtrl@@QEAAHW4asSTREAM_OPTION_E@@@Z
+ord=1625  rva=0x000c5550 ?setTemperatureCompensation@NuwaUsbCtrl@@QEAAHAEB_N@Z
+ord=1626  rva=0x0011f490 ?setTemperatureDrifgingCompensation@CmdHp60cn@@QEAAH_N@Z
+ord=1627  rva=0x0010aa90 ?setTemperatureDrifgingCompensation@XuCmdCameraHp60c@@QEAAH_N@Z
+ord=1628  rva=0x00134190 ?setTemperatureDrifgingCompensation@XuCmdCameraVega@@QEAAH_N@Z
+ord=1629  rva=0x00023460 ?setTimeStampType@CameraChangA@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1630  rva=0x00023460 ?setTimeStampType@CameraChangJiangB@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1631  rva=0x000d91a0 ?setTimeStampType@CameraHp60@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1632  rva=0x00103c50 ?setTimeStampType@CameraHp60c@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1633  rva=0x00117830 ?setTimeStampType@CameraHp60cn@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1634  rva=0x000e3170 ?setTimeStampType@CameraHp60v@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1635  rva=0x000a74d0 ?setTimeStampType@CameraKondyor@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1636  rva=0x00058840 ?setTimeStampType@CameraKunLunA@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1637  rva=0x0007e390 ?setTimeStampType@CameraKunLunC@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1638  rva=0x00032d60 ?setTimeStampType@CameraVega@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1639  rva=0x000ed350 ?setTimeStampType@CameraX100@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1640  rva=0x000f6960 ?setTimeStampType@CameraXb40@@UEAAHW4TIME_STAMP_TYPE@@@Z
+ord=1641  rva=0x000b2330 ?setTofNumInfo@CmdKondyor@@QEAAHI@Z
+ord=1642  rva=0x000c5de0 ?setUpdateHimax@NuwaUsbCtrl@@AEAAHXZ
+ord=1643  rva=0x000c6440 ?setUpdateMCU@NuwaUsbCtrl@@AEAAHXZ
+ord=1644  rva=0x000b2520 ?setVSPAD@CmdKondyor@@QEAAHIH@Z
+ord=1645  rva=0x0006cf40 ?setVSPAD@XuCmdKunLunA@@QEAAHH@Z
+ord=1646  rva=0x0008fd60 ?setVSPAD@XuCmdKunLunC@@QEAAHH@Z
+ord=1647  rva=0x0006cfa0 ?setVSPAD_M@XuCmdKunLunA@@QEAAHHH@Z
+ord=1648  rva=0x0008fdc0 ?setVSPAD_M@XuCmdKunLunC@@QEAAHHH@Z
+ord=1649  rva=0x00021e20 ?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAD_J@Z
+ord=1650  rva=0x0015ce40 ?setsockopt@SocketNet@@QEAAHHHPEBXH@Z
+ord=1651  rva=0x0006d010 ?sonixCamAsicRegisterWrite@XuCmdKunLunA@@QEAAHAEBGQEBEAEBJ@Z
+ord=1652  rva=0x0006d210 ?sonixCamWriteToASIC@XuCmdKunLunA@@QEAAHAEBGAEBE@Z
+ord=1653  rva=0x00141d10 ?start@Hotplug@@UEAAHAEBUAS_LISTENER_CALLBACK@@_N@Z
+ord=1654  rva=0x0002ebc0 ?start@LiteUsb@@UEAAHAEBUvideo_cfg@@@Z
+ord=1655  rva=0x00032d70 ?start@MFCamera@@UEAAHAEBUvideo_cfg@@@Z
+ord=1656  rva=0x00029980 ?start@NetInput@@UEAAHAEBUvideo_cfg@@@Z
+ord=1657  rva=0x0013f320 ?start@NetworkListener@@UEAAHAEBUAS_LISTENER_CALLBACK@@_N@Z
+ord=1658  rva=0x00023460 ?start@VideoInputCamera@@UEAAHAEBUvideo_cfg@@@Z
+ord=1659  rva=0x00121750 ?startStreaming@CameraChangA@@UEAAHH@Z
+ord=1660  rva=0x00126a10 ?startStreaming@CameraChangJiangB@@UEAAHH@Z
+ord=1661  rva=0x000d9320 ?startStreaming@CameraHp60@@UEAAHH@Z
+ord=1662  rva=0x00103e00 ?startStreaming@CameraHp60c@@UEAAHH@Z
+ord=1663  rva=0x001179e0 ?startStreaming@CameraHp60cn@@UEAAHH@Z
+ord=1664  rva=0x000e32f0 ?startStreaming@CameraHp60v@@UEAAHH@Z
+ord=1665  rva=0x000a7650 ?startStreaming@CameraKondyor@@UEAAHH@Z
+ord=1666  rva=0x000589c0 ?startStreaming@CameraKunLunA@@UEAAHH@Z
+ord=1667  rva=0x0007e510 ?startStreaming@CameraKunLunC@@UEAAHH@Z
+ord=1668  rva=0x0012f3c0 ?startStreaming@CameraVega@@UEAAHH@Z
+ord=1669  rva=0x000ed4d0 ?startStreaming@CameraX100@@UEAAHH@Z
+ord=1670  rva=0x000f6ae0 ?startStreaming@CameraXb40@@UEAAHH@Z
+ord=1671  rva=0x00142ca0 ?stop@Hotplug@@UEAAXXZ
+ord=1672  rva=0x0002f010 ?stop@LiteUsb@@UEAAXXZ
+ord=1673  rva=0x000339d0 ?stop@MFCamera@@UEAAXXZ
+ord=1674  rva=0x0002a0a0 ?stop@NetInput@@UEAAXXZ
+ord=1675  rva=0x0013f4e0 ?stop@NetworkListener@@UEAAXXZ
+ord=1676  rva=0x00024630 ?stop@VideoInputCamera@@UEAAXXZ
+ord=1677  rva=0x00121c10 ?stopStreaming@CameraChangA@@UEAAHH@Z
+ord=1678  rva=0x001270a0 ?stopStreaming@CameraChangJiangB@@UEAAHH@Z
+ord=1679  rva=0x000d9c20 ?stopStreaming@CameraHp60@@UEAAHH@Z
+ord=1680  rva=0x00104650 ?stopStreaming@CameraHp60c@@UEAAHH@Z
+ord=1681  rva=0x00118230 ?stopStreaming@CameraHp60cn@@UEAAHH@Z
+ord=1682  rva=0x000e3bf0 ?stopStreaming@CameraHp60v@@UEAAHH@Z
+ord=1683  rva=0x000a7a50 ?stopStreaming@CameraKondyor@@UEAAHH@Z
+ord=1684  rva=0x00058f60 ?stopStreaming@CameraKunLunA@@UEAAHH@Z
+ord=1685  rva=0x0007ead0 ?stopStreaming@CameraKunLunC@@UEAAHH@Z
+ord=1686  rva=0x0012f780 ?stopStreaming@CameraVega@@UEAAHH@Z
+ord=1687  rva=0x000eddd0 ?stopStreaming@CameraX100@@UEAAHH@Z
+ord=1688  rva=0x000f73e0 ?stopStreaming@CameraXb40@@UEAAHH@Z
+ord=1689  rva=0x00210b28 ?strHeap@?1??GetInstance@CAtlStringMgr@ATL@@SAPEAUIAtlStringMgr@3@XZ@4VCWin32Heap@3@A
+ord=1690  rva=0x00210b48 ?strMgr@?1??GetInstance@CAtlStringMgr@ATL@@SAPEAUIAtlStringMgr@3@XZ@4V23@A
+ord=1691  rva=0x00121f30 ?streamCallback@CameraChangA@@CAXAEBUframe_info@@PEAX@Z
+ord=1692  rva=0x001273c0 ?streamCallback@CameraChangJiangB@@CAXAEBUframe_info@@PEAX@Z
+ord=1693  rva=0x000da0c0 ?streamCallback@CameraHp60@@CAXAEBUframe_info@@PEAX@Z
+ord=1694  rva=0x00104990 ?streamCallback@CameraHp60c@@CAXAEBUframe_info@@PEAX@Z
+ord=1695  rva=0x00118570 ?streamCallback@CameraHp60cn@@CAXAEBUframe_info@@PEAX@Z
+ord=1696  rva=0x000e4090 ?streamCallback@CameraHp60v@@CAXAEBUframe_info@@PEAX@Z
+ord=1697  rva=0x000a7d90 ?streamCallback@CameraKondyor@@CAXAEBUframe_info@@PEAX@Z
+ord=1698  rva=0x000592c0 ?streamCallback@CameraKunLunA@@CAXAEBUframe_info@@PEAX@Z
+ord=1699  rva=0x0007ee30 ?streamCallback@CameraKunLunC@@CAXAEBUframe_info@@PEAX@Z
+ord=1700  rva=0x0012fab0 ?streamCallback@CameraVega@@CAXAEBUframe_info@@PEAX@Z
+ord=1701  rva=0x000ee270 ?streamCallback@CameraX100@@CAXAEBUframe_info@@PEAX@Z
+ord=1702  rva=0x000f7880 ?streamCallback@CameraXb40@@CAXAEBUframe_info@@PEAX@Z
+ord=1703  rva=0x000da270 ?stream_thread@CameraHp60@@AEAAHXZ
+ord=1704  rva=0x000e4240 ?stream_thread@CameraHp60v@@AEAAHXZ
+ord=1705  rva=0x000ee420 ?stream_thread@CameraX100@@AEAAHXZ
+ord=1706  rva=0x000f7a30 ?stream_thread@CameraXb40@@AEAAHXZ
+ord=1707  rva=0x0015fd00 ?symLink2Location@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV12@@Z
+ord=1708  rva=0x00021f00 ?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+ord=1709  rva=0x00104b60 ?toNormalDirForDepth@CameraHp60c@@AEAAHPEAGAEAI1@Z
+ord=1710  rva=0x00118740 ?toNormalDirForDepth@CameraHp60cn@@AEAAHPEAGAEAI1@Z
+ord=1711  rva=0x0012fb70 ?toNormalDirForDepth@CameraVega@@AEAAHPEAGAEAI1@Z
+ord=1712  rva=0x00104c90 ?toNormalDirForRgb@CameraHp60c@@AEAAHPEAEAEAI1@Z
+ord=1713  rva=0x001188b0 ?toNormalDirForRgb@CameraHp60cn@@AEAAHPEAEAEAI1@Z
+ord=1714  rva=0x0012fcc0 ?toNormalDirForRgb@CameraVega@@AEAAHPEAEAEAI1@Z
+ord=1715  rva=0x00040610 ?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z
+ord=1716  rva=0x00044d00 ?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@I@Z
+ord=1717  rva=0x0001fa60 ?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_K@Z
+ord=1718  rva=0x00104e10 ?transferPara@CameraHp60c@@AEAAXAEAUir_rgb_Parameter@@AEAUCAM_Parameter@@_N@Z
+ord=1719  rva=0x00104e10 ?transferPara@CameraHp60cn@@AEAAXAEAUir_rgb_Parameter@@AEAUCAM_Parameter@@_N@Z
+ord=1720  rva=0x00021f50 ?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+ord=1721  rva=0x00022200 ?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+ord=1722  rva=0x000230b0 ?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+ord=1723  rva=0x000c6c10 ?updateHimaxFirmware@NuwaUsbCtrl@@AEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1724  rva=0x000c80a0 ?updateISPFirmware@NuwaUsbCtrl@@AEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+ord=1725  rva=0x000c8d40 ?updateMCUFirmware@NuwaUsbCtrl@@AEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+ord=1726  rva=0x00123da0 ?upgrade@CmdChangA@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUCAM_UPGRADE_DEV_S@@@Z
+ord=1727  rva=0x001299e0 ?upgrade@CmdChangJiangB@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUCAM_UPGRADE_DEV_S@@@Z
+ord=1728  rva=0x0011f680 ?upgrade@CmdHp60cn@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUCAM_UPGRADE_DEV_S@@@Z
+ord=1729  rva=0x000b26d0 ?upgrade@CmdKondyor@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUCAM_UPGRADE_DEV_S@@@Z
+ord=1730  rva=0x000c93d0 ?upgrade@NuwaUsbCtrl@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUCAM_UPGRADE_DEV_S@@@Z
+ord=1731  rva=0x0003afd0 ?upgrade@Upgrade@@AEAAHPEBDW4UPGRADE_BIN_TYPE_E@@PEAUCAM_UPGRADE_DEV_S@@@Z
+ord=1732  rva=0x0003c300 ?upgrade@Upgrade@@QEAAHPEBDPEAUCAM_UPGRADE_DEV_S@@@Z
+ord=1733  rva=0x0010ac80 ?upgrade@XuCmdCameraHp60c@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUCAM_UPGRADE_DEV_S@@@Z
+ord=1734  rva=0x00134380 ?upgrade@XuCmdCameraVega@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUCAM_UPGRADE_DEV_S@@@Z
+ord=1735  rva=0x0006d410 ?upgrade@XuCmdKunLunA@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUCAM_UPGRADE_DEV_S@@@Z
+ord=1736  rva=0x0008fe30 ?upgrade@XuCmdKunLunC@@UEAAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUCAM_UPGRADE_DEV_S@@@Z
+ord=1737  rva=0x0003ea00 ?upgrade_progress@Upgrade@@AEAAHXZ
+ord=1738  rva=0x0003ed40 ?upgrade_send_endofpacket@Upgrade@@AEAAHEE@Z
+ord=1739  rva=0x0010ae20 ?upgrade_send_endofpacket@XuCmdCameraHp60c@@AEAAHEE@Z
+ord=1740  rva=0x0003ef60 ?upgrade_send_file_packet@Upgrade@@AEAAHEPEAEIE@Z
+ord=1741  rva=0x0010b000 ?upgrade_send_file_packet@XuCmdCameraHp60c@@AEAAHEPEAEIE@Z
+ord=1742  rva=0x0003f590 ?upgrade_send_startofpacket@Upgrade@@AEAAHEI@Z
+ord=1743  rva=0x0010b760 ?upgrade_send_startofpacket@XuCmdCameraHp60c@@AEAAHEI@Z
+ord=1744  rva=0x0002f520 ?uppercase@std@@YAAEAVios_base@1@AEAV21@@Z
+ord=1745  rva=0x00136cf0 ?wch55xIspTool@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+ord=1746  rva=0x0001f890 ?what@exception@std@@UEBAPEBDXZ
+ord=1747  rva=0x00210908 ?word@@3HA
+ord=1748  rva=0x000caf10 ?write@NuwaUsbCtrl@@QEAAHPEBEII@Z
+ord=1749  rva=0x00022270 ?xsgetn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+ord=1750  rva=0x000223e0 ?xsputn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+ord=1751  rva=0x0010bdb0 ?xucmd_read@XuCmdCameraHp60c@@QEAAHEPEAEI@Z
+ord=1752  rva=0x00134520 ?xucmd_read@XuCmdCameraVega@@QEAAHEPEAEI@Z
+ord=1753  rva=0x0006d5b0 ?xucmd_read@XuCmdKunLunA@@QEAAHEPEAEI@Z
+ord=1754  rva=0x0008ffd0 ?xucmd_read@XuCmdKunLunC@@QEAAHEPEAEI@Z
+ord=1755  rva=0x0010bf80 ?xucmd_write@XuCmdCameraHp60c@@QEAAHEPEAEI@Z
+ord=1756  rva=0x001346f0 ?xucmd_write@XuCmdCameraVega@@QEAAHEPEAEI@Z
+ord=1757  rva=0x0006d780 ?xucmd_write@XuCmdKunLunA@@QEAAHEPEAEI@Z
+ord=1758  rva=0x000901a0 ?xucmd_write@XuCmdKunLunC@@QEAAHEPEAEI@Z
+ord=1759  rva=0x00059a90 ?xucmd_write_clear_feature@CameraKunLunA@@AEAAHXZ
+ord=1760  rva=0x0007f150 ?xucmd_write_clear_feature@CameraKunLunC@@AEAAHXZ
+ord=1761  rva=0x0010c150 ?xucmd_write_clear_feature@XuCmdCameraHp60c@@QEAAHXZ
+ord=1762  rva=0x0015ce50 AES_CBC_decrypt_buffer
+ord=1763  rva=0x0015cef0 AES_CBC_encrypt_buffer
+ord=1764  rva=0x0015cf90 AES_CTR_xcrypt_buffer
+ord=1765  rva=0x0015d360 AES_ECB_decrypt
+ord=1766  rva=0x0015d370 AES_ECB_encrypt
+ord=1767  rva=0x0015d380 AES_ctx_set_iv
+ord=1768  rva=0x0015d390 AES_init_ctx
+ord=1769  rva=0x0015d3a0 AES_init_ctx_iv
+ord=1770  rva=0x000224c0 __local_stdio_printf_options
+ord=1771  rva=0x0010c310 __local_stdio_scanf_options
+ord=1772  rva=0x00159b20 cJSON_AddArrayToObject
+ord=1773  rva=0x00159cb0 cJSON_AddBoolToObject
+ord=1774  rva=0x00159e40 cJSON_AddFalseToObject
+ord=1775  rva=0x00159fd0 cJSON_AddItemReferenceToArray
+ord=1776  rva=0x0015a0a0 cJSON_AddItemReferenceToObject
+ord=1777  rva=0x0015a1f0 cJSON_AddItemToArray
+ord=1778  rva=0x0015a240 cJSON_AddItemToObject
+ord=1779  rva=0x0015a350 cJSON_AddItemToObjectCS
+ord=1780  rva=0x0015a430 cJSON_AddNullToObject
+ord=1781  rva=0x0015a5c0 cJSON_AddNumberToObject
+ord=1782  rva=0x0015a730 cJSON_AddObjectToObject
+ord=1783  rva=0x0015a8c0 cJSON_AddRawToObject
+ord=1784  rva=0x0015aa30 cJSON_AddStringToObject
+ord=1785  rva=0x0015aba0 cJSON_AddTrueToObject
+ord=1786  rva=0x0015ad30 cJSON_Compare
+ord=1787  rva=0x0015b040 cJSON_CreateArray
+ord=1788  rva=0x0015b080 cJSON_CreateArrayReference
+ord=1789  rva=0x0015b0d0 cJSON_CreateBool
+ord=1790  rva=0x0015b110 cJSON_CreateDoubleArray
+ord=1791  rva=0x0015b240 cJSON_CreateFalse
+ord=1792  rva=0x0015b280 cJSON_CreateFloatArray
+ord=1793  rva=0x0015b3c0 cJSON_CreateIntArray
+ord=1794  rva=0x0015b500 cJSON_CreateNull
+ord=1795  rva=0x0015b540 cJSON_CreateNumber
+ord=1796  rva=0x0015b5e0 cJSON_CreateObject
+ord=1797  rva=0x0015b620 cJSON_CreateObjectReference
+ord=1798  rva=0x0015b670 cJSON_CreateRaw
+ord=1799  rva=0x0015b770 cJSON_CreateString
+ord=1800  rva=0x0015b870 cJSON_CreateStringArray
+ord=1801  rva=0x0015b9a0 cJSON_CreateStringReference
+ord=1802  rva=0x0015b9f0 cJSON_CreateTrue
+ord=1803  rva=0x0015ba30 cJSON_Delete
+ord=1804  rva=0x0015bab0 cJSON_DeleteItemFromArray
+ord=1805  rva=0x0015bb40 cJSON_DeleteItemFromObject
+ord=1806  rva=0x0015bc20 cJSON_DeleteItemFromObjectCaseSensitive
+ord=1807  rva=0x0015bd10 cJSON_DetachItemFromArray
+ord=1808  rva=0x0015bdb0 cJSON_DetachItemFromObject
+ord=1809  rva=0x0015be30 cJSON_DetachItemFromObjectCaseSensitive
+ord=1810  rva=0x0015bec0 cJSON_DetachItemViaPointer
+ord=1811  rva=0x0015bf30 cJSON_Duplicate
+ord=1812  rva=0x0015c130 cJSON_GetArrayItem
+ord=1813  rva=0x0015c170 cJSON_GetArraySize
+ord=1814  rva=0x0015c190 cJSON_GetErrorPtr
+ord=1815  rva=0x0015c1a0 cJSON_GetNumberValue
+ord=1816  rva=0x0015c1c0 cJSON_GetObjectItem
+ord=1817  rva=0x0015c1d0 cJSON_GetObjectItemCaseSensitive
+ord=1818  rva=0x0015c1e0 cJSON_GetStringValue
+ord=1819  rva=0x0015c200 cJSON_HasObjectItem
+ord=1820  rva=0x0015c220 cJSON_InitHooks
+ord=1821  rva=0x0015c2c0 cJSON_InsertItemInArray
+ord=1822  rva=0x0015c370 cJSON_IsArray
+ord=1823  rva=0x0015c380 cJSON_IsBool
+ord=1824  rva=0x0015c3a0 cJSON_IsFalse
+ord=1825  rva=0x0015c3b0 cJSON_IsInvalid
+ord=1826  rva=0x0015c3c0 cJSON_IsNull
+ord=1827  rva=0x0015c3d0 cJSON_IsNumber
+ord=1828  rva=0x0015c3e0 cJSON_IsObject
+ord=1829  rva=0x0015c3f0 cJSON_IsRaw
+ord=1830  rva=0x0015c400 cJSON_IsString
+ord=1831  rva=0x0015c410 cJSON_IsTrue
+ord=1832  rva=0x0015c420 cJSON_Minify
+ord=1833  rva=0x0015c560 cJSON_Parse
+ord=1834  rva=0x0015c590 cJSON_ParseWithLength
+ord=1835  rva=0x0015c5a0 cJSON_ParseWithLengthOpts
+ord=1836  rva=0x0015c7f0 cJSON_ParseWithOpts
+ord=1837  rva=0x0015c820 cJSON_Print
+ord=1838  rva=0x0015c840 cJSON_PrintBuffered
+ord=1839  rva=0x0015c8f0 cJSON_PrintPreallocated
+ord=1840  rva=0x0015c960 cJSON_PrintUnformatted
+ord=1841  rva=0x0015c970 cJSON_ReplaceItemInArray
+ord=1842  rva=0x0015ca30 cJSON_ReplaceItemInObject
+ord=1843  rva=0x0015ca40 cJSON_ReplaceItemInObjectCaseSensitive
+ord=1844  rva=0x0015ca50 cJSON_ReplaceItemViaPointer
+ord=1845  rva=0x0015cae0 cJSON_SetNumberHelper
+ord=1846  rva=0x0015cb20 cJSON_SetValuestring
+ord=1847  rva=0x0015cc00 cJSON_Version
+ord=1848  rva=0x0015cc40 cJSON_free
+ord=1849  rva=0x0015cc50 cJSON_malloc
+ord=1850  rva=0x000224d0 fprintf
+ord=1851  rva=0x00143db0 miniz_def_alloc_func
+ord=1852  rva=0x00143dc0 miniz_def_free_func
+ord=1853  rva=0x00143dd0 miniz_def_realloc_func
+ord=1854  rva=0x00143df0 mz_adler32
+ord=1855  rva=0x00143f20 mz_compress
+ord=1856  rva=0x00143f40 mz_compress2
+ord=1857  rva=0x00144420 mz_compressBound
+ord=1858  rva=0x00144460 mz_crc32
+ord=1859  rva=0x00144510 mz_deflate
+ord=1860  rva=0x00144700 mz_deflateBound
+ord=1861  rva=0x00144740 mz_deflateEnd
+ord=1862  rva=0x00144780 mz_deflateInit
+ord=1863  rva=0x001448d0 mz_deflateInit2
+ord=1864  rva=0x00144a10 mz_deflateReset
+ord=1865  rva=0x00144a60 mz_error
+ord=1866  rva=0x00144b00 mz_free
+ord=1867  rva=0x00144b10 mz_inflate
+ord=1868  rva=0x00144740 mz_inflateEnd
+ord=1869  rva=0x00144e70 mz_inflateInit
+ord=1870  rva=0x00144f40 mz_inflateInit2
+ord=1871  rva=0x00145040 mz_inflateReset
+ord=1872  rva=0x00145090 mz_uncompress
+ord=1873  rva=0x00145210 mz_uncompress2
+ord=1874  rva=0x001453a0 mz_version
+ord=1875  rva=0x001453b0 mz_zip_add_mem_to_archive_file_in_place
+ord=1876  rva=0x001453f0 mz_zip_add_mem_to_archive_file_in_place_v2
+ord=1877  rva=0x001457d0 mz_zip_clear_last_error
+ord=1878  rva=0x00145820 mz_zip_end
+ord=1879  rva=0x00145850 mz_zip_extract_archive_file_to_heap
+ord=1880  rva=0x00145950 mz_zip_extract_archive_file_to_heap_v2
+ord=1881  rva=0x00145ff0 mz_zip_get_archive_file_start_offset
+ord=1882  rva=0x00146010 mz_zip_get_archive_size
+ord=1883  rva=0x00146020 mz_zip_get_central_dir_size
+ord=1884  rva=0x00146040 mz_zip_get_cfile
+ord=1885  rva=0x00146060 mz_zip_get_error_string
+ord=1886  rva=0x001457d0 mz_zip_get_last_error
+ord=1887  rva=0x00146220 mz_zip_get_mode
+ord=1888  rva=0x00146230 mz_zip_get_type
+ord=1889  rva=0x00146330 mz_zip_is_zip64
+ord=1890  rva=0x00146540 mz_zip_peek_last_error
+ord=1891  rva=0x00146550 mz_zip_read_archive_data
+ord=1892  rva=0x00146580 mz_zip_reader_end
+ord=1893  rva=0x001466a0 mz_zip_reader_extract_file_iter_new
+ord=1894  rva=0x001466f0 mz_zip_reader_extract_file_to_callback
+ord=1895  rva=0x00146760 mz_zip_reader_extract_file_to_cfile
+ord=1896  rva=0x00146860 mz_zip_reader_extract_file_to_file
+ord=1897  rva=0x001468c0 mz_zip_reader_extract_file_to_heap
+ord=1898  rva=0x00146930 mz_zip_reader_extract_file_to_mem
+ord=1899  rva=0x001469b0 mz_zip_reader_extract_file_to_mem_no_alloc
+ord=1900  rva=0x00146a40 mz_zip_reader_extract_iter_free
+ord=1901  rva=0x00146b10 mz_zip_reader_extract_iter_new
+ord=1902  rva=0x00146d80 mz_zip_reader_extract_iter_read
+ord=1903  rva=0x00147060 mz_zip_reader_extract_to_callback
+ord=1904  rva=0x001475c0 mz_zip_reader_extract_to_cfile
+ord=1905  rva=0x00147690 mz_zip_reader_extract_to_file
+ord=1906  rva=0x00147850 mz_zip_reader_extract_to_heap
+ord=1907  rva=0x00147990 mz_zip_reader_extract_to_mem
+ord=1908  rva=0x001479c0 mz_zip_reader_extract_to_mem_no_alloc
+ord=1909  rva=0x00147eb0 mz_zip_reader_file_stat
+ord=1910  rva=0x00147f00 mz_zip_reader_get_filename
+ord=1911  rva=0x00147f80 mz_zip_reader_get_num_files
+ord=1912  rva=0x00147f90 mz_zip_reader_init
+ord=1913  rva=0x00148030 mz_zip_reader_init_cfile
+ord=1914  rva=0x00148140 mz_zip_reader_init_file
+ord=1915  rva=0x00148160 mz_zip_reader_init_file_v2
+ord=1916  rva=0x00148310 mz_zip_reader_init_file_v2_rpb
+ord=1917  rva=0x001484c0 mz_zip_reader_init_file_v3_by_goobee
+ord=1918  rva=0x001486f0 mz_zip_reader_init_mem
+ord=1919  rva=0x001487c0 mz_zip_reader_is_file_a_directory
+ord=1920  rva=0x00148810 mz_zip_reader_is_file_encrypted
+ord=1921  rva=0x00148850 mz_zip_reader_is_file_supported
+ord=1922  rva=0x001488c0 mz_zip_reader_locate_file
+ord=1923  rva=0x001488f0 mz_zip_reader_locate_file_v2
+ord=1924  rva=0x001496a0 mz_zip_set_last_error
+ord=1925  rva=0x001496b0 mz_zip_validate_archive
+ord=1926  rva=0x00149960 mz_zip_validate_file
+ord=1927  rva=0x00149e00 mz_zip_validate_file_archive
+ord=1928  rva=0x00149ef0 mz_zip_validate_mem_archive
+ord=1929  rva=0x0014a190 mz_zip_writer_add_cfile
+ord=1930  rva=0x0014a220 mz_zip_writer_add_file
+ord=1931  rva=0x0014a3f0 mz_zip_writer_add_from_zip_reader
+ord=1932  rva=0x0014ae90 mz_zip_writer_add_mem
+ord=1933  rva=0x0014aee0 mz_zip_writer_add_mem_ex
+ord=1934  rva=0x0014af50 mz_zip_writer_add_mem_ex_v2
+ord=1935  rva=0x0014bcd0 mz_zip_writer_add_read_buf_callback
+ord=1936  rva=0x0014d090 mz_zip_writer_end
+ord=1937  rva=0x0014d1e0 mz_zip_writer_finalize_archive
+ord=1938  rva=0x0014d5d0 mz_zip_writer_finalize_heap_archive
+ord=1939  rva=0x0014d690 mz_zip_writer_init
+ord=1940  rva=0x0014d6a0 mz_zip_writer_init_cfile
+ord=1941  rva=0x0014d730 mz_zip_writer_init_file
+ord=1942  rva=0x0014d740 mz_zip_writer_init_file_v2
+ord=1943  rva=0x0014d9a0 mz_zip_writer_init_from_reader
+ord=1944  rva=0x0014d9b0 mz_zip_writer_init_from_reader_v2
+ord=1945  rva=0x0014dbd0 mz_zip_writer_init_from_reader_v2_noreopen
+ord=1946  rva=0x0014dd40 mz_zip_writer_init_heap
+ord=1947  rva=0x0014ddf0 mz_zip_writer_init_heap_v2
+ord=1948  rva=0x0014dec0 mz_zip_writer_init_v2
+ord=1949  rva=0x0014e430 mz_zip_zero_struct
+ord=1950  rva=0x0002f530 printf
+ord=1951  rva=0x000a8980 sprintf
+ord=1952  rva=0x0010c320 sscanf
+ord=1953  rva=0x0014e650 tdefl_compress
+ord=1954  rva=0x0014ead0 tdefl_compress_buffer
+ord=1955  rva=0x0014f3a0 tdefl_compress_mem_to_heap
+ord=1956  rva=0x0014f400 tdefl_compress_mem_to_mem
+ord=1957  rva=0x0014f460 tdefl_compress_mem_to_output
+ord=1958  rva=0x001500c0 tdefl_compressor_alloc
+ord=1959  rva=0x00144b00 tdefl_compressor_free
+ord=1960  rva=0x001500d0 tdefl_create_comp_flags_from_zip_params
+ord=1961  rva=0x00150940 tdefl_get_adler32
+ord=1962  rva=0x00150950 tdefl_get_prev_return_status
+ord=1963  rva=0x00150960 tdefl_init
+ord=1964  rva=0x001516f0 tdefl_write_image_to_png_file_in_memory
+ord=1965  rva=0x00151720 tdefl_write_image_to_png_file_in_memory_ex
+ord=1966  rva=0x00152320 tinfl_decompress
+ord=1967  rva=0x00153af0 tinfl_decompress_mem_to_callback
+ord=1968  rva=0x00153c50 tinfl_decompress_mem_to_heap
+ord=1969  rva=0x00153d90 tinfl_decompress_mem_to_mem
+ord=1970  rva=0x00153e30 tinfl_decompressor_alloc
+ord=1971  rva=0x00144b00 tinfl_decompressor_free
+ord=1972  rva=0x00154960 zip_close
+ord=1973  rva=0x001549f0 zip_create
+ord=1974  rva=0x00154e30 zip_entries_delete
+ord=1975  rva=0x00155370 zip_entries_total
+ord=1976  rva=0x00155380 zip_entry_close
+ord=1977  rva=0x00155a20 zip_entry_comp_size
+ord=1978  rva=0x00155a30 zip_entry_crc32
+ord=1979  rva=0x00155a40 zip_entry_extract
+ord=1980  rva=0x00155d10 zip_entry_fread
+ord=1981  rva=0x00155db0 zip_entry_fwrite
+ord=1982  rva=0x00155f70 zip_entry_index
+ord=1983  rva=0x00155f90 zip_entry_isdir
+ord=1984  rva=0x001563c0 zip_entry_name
+ord=1985  rva=0x001563d0 zip_entry_noallocread
+ord=1986  rva=0x00156450 zip_entry_open
+ord=1987  rva=0x00156460 zip_entry_openbyindex
+ord=1988  rva=0x00156600 zip_entry_opencasesensitive
+ord=1989  rva=0x00156610 zip_entry_read
+ord=1990  rva=0x001566f0 zip_entry_size
+ord=1991  rva=0x001566f0 zip_entry_uncomp_size
+ord=1992  rva=0x00156700 zip_entry_write
+ord=1993  rva=0x00156a70 zip_extract
+ord=1994  rva=0x00156b20 zip_extract2
+ord=1995  rva=0x00156c00 zip_extract2mem
+ord=1996  rva=0x00156ce0 zip_extract_mem2mem
+ord=1997  rva=0x00156ec0 zip_get_file
+ord=1998  rva=0x00156fe0 zip_is64
+ord=1999  rva=0x00157190 zip_open
+ord=2000  rva=0x00157570 zip_stream_close
+ord=2001  rva=0x001575b0 zip_stream_copy
+ord=2002  rva=0x00157690 zip_stream_extract
+ord=2003  rva=0x00157840 zip_stream_open
+ord=2004  rva=0x00157970 zip_strerror
+
+=== IMPORTS (dll -> functions) ===
+
+[WCH55XISPDLL.DLL]
+    WCH55x_EnumDevices
+    WCH55x_StopOp
+    WCH55x_WriteDataFlash
+    WCH55x_FlashProgramB
+    WCH55x_SetIspOption
+
+[Alg_kunlunAC_v3.dll]
+    ?UpdateTmp@@YAXPEAUdtof_parm@@M@Z
+    ?Init_DtofJsondecrypt@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUdtof_parm@@PEAUregister_parm@@@Z
+    ?DealWithMergedFrameByCloud@@YAHPEAM00HHHHPEAUdtof_parm@@@Z
+    ?DealWithMergedFrame@@YAHPEAG00HHHH@Z
+    ?DepthToCloud@@YAHPEAUio_data@@PEAUdtof_parm@@PEAM@Z
+    ?Init_DtofCalibParm@@YAHPEAEHPEBDHPEAUdtof_parm@@@Z
+    ?GetmallocSize@@YAIXZ
+    ?Init_DtofCalibParm@@YAHPEBDHPEAUdtof_parm@@@Z
+    ?DealWithOddFrame@@YAHPEAUinput_data@@PEAUio_data@@PEAUdtof_parm@@PEAUauto_para@@@Z
+    ?DealWithEvenFrame@@YAHPEAUinput_data@@PEAUio_data@@PEAUdtof_parm@@PEAUauto_para@@@Z
+
+[WSOCK32.dll]
+    shutdown
+    socket
+    bind
+    htons
+    inet_addr
+    inet_ntoa
+    ntohs
+    recvfrom
+    WSAStartup
+    WSACleanup
+    gethostbyname
+    accept
+    closesocket
+    connect
+    listen
+    recv
+    send
+    sendto
+    setsockopt
+
+[WS2_32.dll]
+    WSAPoll
+    inet_pton
+
+[AngKondyorArith.dll]
+    ?AS_KONDYOR_ARI_Version@@YAHAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+    ?AS_KONDYOR_MergePlyErry@@YAHUAS_KD_ARI_PLYORI_INFO@@PEAM1AEAUAS_KD_ARI_PLYMerge_INFO@@@Z
+    ?AS_KONDYOR_XYPolar@@YAHUAS_KD_ARI_PLYMerge_INFO@@UAS_KD_ARI_CAM_PARA@@AEAV?$vector@UPolar@@V?$allocator@UPolar@@@std@@@std@@@Z
+
+[SonixCamera.dll]
+    SonixCam_MulGetFwVersion
+    SonixCam_MulBurnerFW
+    SonixCam_MulGetSerialFlashType
+    SonixCam_EnumDevice
+    SonixCam_Init
+    SonixCam_UnInit
+
+[libzmq.dll]
+    zmq_bind
+    zmq_setsockopt
+    zmq_close
+    zmq_connect
+    zmq_msg_init_size
+    zmq_msg_data
+    zmq_msg_recv
+    zmq_msg_send
+    zmq_socket
+    zmq_msg_init
+    zmq_ctx_term
+    zmq_ctx_new
+
+[KERNEL32.dll]
+    IsDebuggerPresent
+    GetProcAddress
+    GetSystemTimeAsFileTime
+    CreateEventW
+    WaitForSingleObjectEx
+    ResetEvent
+    SetEvent
+    GetCurrentThreadId
+    IsProcessorFeaturePresent
+    TerminateProcess
+    GetCurrentProcess
+    SetUnhandledExceptionFilter
+    UnhandledExceptionFilter
+    RtlVirtualUnwind
+    RtlLookupFunctionEntry
+    RtlCaptureContext
+    QueryPerformanceCounter
+    InitializeCriticalSectionAndSpinCount
+    GetCurrentProcessId
+    LocalAlloc
+    CreateFileA
+    DisableThreadLibraryCalls
+    InitializeSListHead
+    GetModuleHandleW
+    OutputDebugStringW
+    FindResourceW
+    SizeofResource
+    LockResource
+    LoadResource
+    FindResourceExW
+    CreateThread
+    GetProcessHeap
+    HeapSize
+    HeapFree
+    HeapReAlloc
+    HeapAlloc
+    HeapDestroy
+    GetLastError
+    RaiseException
+    DecodePointer
+    MultiByteToWideChar
+    FindNextFileA
+    FindFirstFileA
+    FindClose
+    DeleteFileA
+    InitializeCriticalSectionEx
+    InitializeCriticalSection
+    EnterCriticalSection
+    LeaveCriticalSection
+    DeleteCriticalSection
+    LocalFree
+    FormatMessageA
+    WideCharToMultiByte
+    CloseHandle
+    WaitForSingleObject
+    GetModuleHandleA
+
+[USER32.dll]
+    TranslateMessage
+    UnregisterClassA
+    DispatchMessageA
+    RegisterDeviceNotificationA
+    PostThreadMessageA
+    DefWindowProcA
+    wsprintfA
+    GetMessageA
+    CreateWindowExA
+    RegisterClassA
+    DestroyWindow
+
+[ole32.dll]
+    CoTaskMemFree
+    CoInitializeEx
+    CoUninitialize
+
+[OLEAUT32.dll]
+    SysAllocStringLen
+
+[MSVCP140.dll]
+    ??1?$codecvt@_WDU_Mbstatet@@@std@@MEAA@XZ
+    ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+    ?_Incref@facet@locale@std@@UEAAXXZ
+    ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+    ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+    ?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+    ?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+    ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@J@Z
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@F@Z
+    ?_Xinvalid_argument@std@@YAXPEBD@Z
+    ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+    ?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@V?$fpos@U_Mbstatet@@@2@@Z
+    ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAPEAD0PEAH001@Z
+    ?_Syserror_map@std@@YAPEBDH@Z
+    ??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+    ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@K@Z
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+    ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_N@Z
+    ?_Throw_Cpp_error@std@@YAXH@Z
+    _Cnd_do_broadcast_at_thread_exit
+    _Cnd_signal
+    _Cnd_broadcast
+    _Cnd_timedwait
+    _Cnd_wait
+    ?uncaught_exception@std@@YA_NXZ
+    ?_Xlength_error@std@@YAXPEBD@Z
+    ?_Xout_of_range@std@@YAXPEBD@Z
+    _Xtime_get_ticks
+    _Query_perf_counter
+    _Query_perf_frequency
+    _Thrd_sleep
+    _Mtx_init_in_situ
+    _Mtx_destroy_in_situ
+    _Mtx_lock
+    _Mtx_unlock
+    ?_Throw_C_error@std@@YAXH@Z
+    ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+    ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+    ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+    ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+    ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+    ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+    ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+    ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+    ??0_Lockit@std@@QEAA@H@Z
+    ??1_Lockit@std@@QEAA@XZ
+    ??Bid@locale@std@@QEAA_KXZ
+    ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+    ?always_noconv@codecvt_base@std@@QEBA_NXZ
+    ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+    ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+    ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+    ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+    ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+    ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+    ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+    ?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+    ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+    ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+    ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+    ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+    ?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+    ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+    ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+    ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+    ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z
+    ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+    ??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+    ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
+    ?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@_JH@Z
+    ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
+    ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+    ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+    ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+    ?_Xbad_alloc@std@@YAXXZ
+    ?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ
+    ?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ
+    ?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ
+    ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+    ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+    ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+    ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+    ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+    ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+    _Thrd_join
+    _Thrd_id
+    _Mtx_current_owns
+    _Cnd_init_in_situ
+    _Cnd_destroy_in_situ
+
+[SHLWAPI.dll]
+    ord#219
+
+[MFPlat.DLL]
+    MFStartup
+    MFCreateAttributes
+    MFCreateMediaType
+    MFShutdown
+
+[MF.dll]
+    MFEnumDeviceSources
+
+[MFReadWrite.dll]
+    MFCreateSourceReaderFromMediaSource
+
+[CFGMGR32.dll]
+    CM_Get_DevNode_PropertyW
+    CM_Locate_DevNodeW
+
+[SETUPAPI.dll]
+    SetupDiDestroyDeviceInfoList
+    SetupDiEnumDeviceInfo
+    SetupDiGetClassDevsA
+    SetupDiGetDeviceRegistryPropertyA
+    SetupDiEnumDeviceInterfaces
+    SetupDiGetDeviceInterfaceDetailA
+
+[WINUSB.DLL]
+    WinUsb_Initialize
+    WinUsb_WritePipe
+    WinUsb_ReadPipe
+    WinUsb_SetPipePolicy
+    WinUsb_QueryPipe
+    WinUsb_QueryInterfaceSettings
+    WinUsb_Free
+    WinUsb_ControlTransfer
+
+[VCRUNTIME140.dll]
+    memchr
+    strstr
+    longjmp
+    __CxxFrameHandler3
+    __intrinsic_setjmp
+    __std_type_info_destroy_list
+    memcmp
+    strchr
+    __std_type_info_compare
+    memset
+    memmove
+    memcpy
+    _CxxThrowException
+    __std_exception_destroy
+    __std_exception_copy
+    strrchr
+    __C_specific_handler
+    __std_terminate
+
+[VCRUNTIME140_1.dll]
+    __CxxFrameHandler4
+
+[api-ms-win-crt-runtime-l1-1-0.dll]
+    _invalid_parameter_noinfo_noreturn
+    _crt_atexit
+    _register_onexit_function
+    _initialize_onexit_table
+    _beginthreadex
+    _cexit
+    _initialize_narrow_environment
+    _configure_narrow_argv
+    strerror
+    _seh_filter_dll
+    _errno
+    exit
+    _initterm
+    terminate
+    _invalid_parameter_noinfo
+    _execute_onexit_table
+    _initterm_e
+
+[api-ms-win-crt-stdio-l1-1-0.dll]
+    _fileno
+    _ftelli64
+    _wfopen_s
+    _chsize_s
+    _fseeki64
+    fread
+    fputc
+    __stdio_common_vsnprintf_s
+    _wfreopen_s
+    fopen
+    fwrite
+    ungetc
+    fgetpos
+    fgetc
+    __stdio_common_vsscanf
+    fflush
+    __acrt_iob_func
+    ftell
+    fclose
+    _get_stream_buffer_pointers
+    __stdio_common_vsprintf
+    fseek
+    fsetpos
+    setvbuf
+    __stdio_common_vfprintf
+
+[api-ms-win-crt-filesystem-l1-1-0.dll]
+    _unlock_file
+    _lock_file
+    _findfirst64i32
+    remove
+    _findnext64i32
+    _wmkdir
+    _wstat64
+
+[api-ms-win-crt-heap-l1-1-0.dll]
+    calloc
+    _callnewh
+    free
+    malloc
+    realloc
+
+[api-ms-win-crt-time-l1-1-0.dll]
+    strftime
+    _mktime64
+    _time64
+    _utime64
+    _localtime64_s
+
+[api-ms-win-crt-string-l1-1-0.dll]
+    strncmp
+    strncpy
+    toupper
+    isxdigit
+    isprint
+    strncpy_s
+    strcpy_s
+    tolower
+
+[api-ms-win-crt-math-l1-1-0.dll]
+    ceilf
+    roundf
+    pow
+
+[api-ms-win-crt-convert-l1-1-0.dll]
+    strtof
+    strtol
+    strtod
+    atoi
+
+[api-ms-win-crt-multibyte-l1-1-0.dll]
+    _mbsstr
+
+[api-ms-win-crt-environment-l1-1-0.dll]
+    getenv
+    _putenv

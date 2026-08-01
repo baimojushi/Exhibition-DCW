@@ -1,0 +1,10 @@
+# 实验输出 (2.7GB, 不入库)
+audit_output/
+
+# 第三方源码/依赖
+ascamera/
+ascamera-ros2-docker/
+
+# Python 缓存
+__pycache__/
+*.pyc

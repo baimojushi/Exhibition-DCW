@@ -1,0 +1,15 @@
+P2-13 upload reference verification
+UTC: 2026-08-01T08:22:22.924435+00:00
+compileall: True
+pytest exit code: 0
+
+Environment:
+3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]
+websocket-client 1.9.0
+websockets 16.0
+
+Pytest:
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m                                                               [100%][0m
+
+Note: any unrelated interpreter startup warning emitted by the hosted artifact
+environment is excluded; pytest itself returned exit code 0.
