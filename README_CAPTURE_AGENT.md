@@ -313,4 +313,11 @@ python -m capagent.agent --config capagent_config.json --seconds 3600
 - 生产接线：`capagent/confidence.py`（ChunkReader 解 zstd depth → `depth_confidence.batch.DepthFrame` → `compute_confidence_batch`），原始 Depth 永不被修改
 - 真机批量验收 `python verify_confidence_e2e.py [spool_root] [--max-frames N]`：spool_real 6569 帧流式抽样 143 帧全过 —— 单帧功能 smoke、确定性双跑逐字节一致、`tile_rows=7 vs 128` 输出一致、NPZ 输出、审计 JSONL（fsync，含 algorithm/config/depth/input/output hashes + reason bit counts + confidence 分位数）、**单帧 p50≈2.2s / p95≈3.4s（本机纯 Python 参考实现，非实时内核）**、峰值 RSS 226MB（流式抽样，不整 spool 载入内存）
 - 结果落盘 `audit_output/confidence_v1/`：config.json（canonical + sha256）、confidence_audit.jsonl、npz/<frame_id>.npz（confidence_u8 + reason_bits_u8）、summary.json
-- 状态：**P2-15a/b 完成**；sigma 噪声模型参数为 **provisional 临时值**（a=2.0mm, b=1.0mm/m², floor=2.0mm, discontinuity_scale=0.03, isolation=20mm），**P2-15d 平面距离实验后必须替换**；P2-15c MCAP/ROS 集成、P2-15d 距离噪声标定实验、P2-15e TSDF 阈值冻结待下轮
+- 状态：**P2-15a/b 完成**；sigma 噪声模型参数为 **provisional 临时值**（a=2.0mm, b=1.0mm/m², floor=2.0mm, discontinuity_scale=0.03, isolation=20mm），**P2-15d 平面距离实验后必须替换**（见 §15.3 P2-15c MCAP 集成完成）
+
+### 15.3 P2-15c MCAP / ROS Topic 集成（验收通过）
+
+- `capagent/mcap_writer.py`：ROS 2 CDR 序列化（little-endian）+ MCAP 写入，topic 命名按规格 §18——`/hp60c/depth_registered/image_raw`（sensor_msgs/Image 16UC1，原始 depth 永不修改）、`/confidence`（mono8）、`/confidence_reason`（mono8）、`/camera_info`（CameraInfo，实验 C 标定内参 fx=586.11/fy=589.18/cx=330.83/cy=233.56/k1-3）；每次任务写 metadata 审计（algorithm_id / software_version git / config_sha256 / input_session_sha256）
+- 依赖：`mcap` 1.4.0（纯 Python，profile="ros2" + CDR 编码，可由 mcap / rosbag2 直接回放；无 ROS 环境依赖）
+- `verify_mcap.py`：**12 项验收全过**（143 帧抽样）——MCAP 写入 36MB、3 图像 channel + camera_info 消息数正确、mcap reader 回放 depth/confidence/reason **逐字节一致**、metadata 审计四字段齐全；产物 `audit_output/mcap_v1/confidence_<gitsha>.mcap`（mcap_sha256=dce7ec62...）+ summary.json
+- 状态：**P2-15c 完成**；P2-15d 距离噪声标定实验（真机+标定板，替换 sigma 临时参数）、P2-15e TSDF 阈值冻结待下轮

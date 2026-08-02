@@ -15,6 +15,39 @@ import numpy as np
 from depth_confidence.batch import DepthFrame
 
 
+def iter_spool_frame_records(spool_root, max_chunks=None):
+    """遍历 spool 全部 .ready chunk, yield 完整帧记录 (供 MCAP 等需要时间戳的消费).
+
+    dict: session_id, frame_id, sdk_ts_ms, utc_ms, depth_u16 (ndarray <u2 mm).
+    """
+    import zstandard as zstd
+    from capagent.chunk import ChunkReader
+
+    zd = zstd.ZstdDecompressor()
+    pattern = os.path.join(os.path.abspath(spool_root), "*", "chunks",
+                           "*.chunk.ready")
+    paths = sorted(glob.glob(pattern))
+    if max_chunks:
+        paths = paths[:max_chunks]
+    for chunk_path in paths:
+        reader = ChunkReader(chunk_path)
+        expected = reader.depth_w * reader.depth_h * 2
+        shape = (reader.depth_h, reader.depth_w)
+        session_id = os.path.basename(
+            os.path.dirname(os.path.dirname(chunk_path)))
+        seq = int(os.path.basename(chunk_path).split(".")[0])
+        for fr in reader.iter_frames():
+            raw = zd.decompress(fr["depth"],
+                                max_output_size=expected + 1) if fr["depth"] else b""
+            if len(raw) != expected:
+                raise ValueError("chunk %d 帧 %d depth 解压尺寸异常 (%d != %d)"
+                                 % (seq, fr["frame_id"], len(raw), expected))
+            yield {"session_id": session_id, "frame_id": fr["frame_id"],
+                   "sdk_ts_ms": fr["sdk_ts_ms"], "utc_ms": fr["utc_ms"],
+                   "source": "chunk:%d" % seq,
+                   "depth_u16": np.frombuffer(raw, dtype="<u2").reshape(shape)}
+
+
 def iter_spool_depth_frames(spool_root, max_chunks=None, yield_depth=True):
     """遍历 spool_root/<session>/chunks/*.chunk.ready, 逐帧解出 depth_u16.
 
