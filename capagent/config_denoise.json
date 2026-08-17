@@ -1,0 +1,66 @@
+{
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "serial": null,
+    "config_file": null,
+    "include_net": false,
+    "dcw_backend": true
+  },
+  "watchdog": {
+    "stall_timeout_ms": 500,
+    "bad_frame_limit": 3,
+    "first_frame_timeout_s": 5.0,
+    "max_reconnect_attempts": 3
+  },
+  "capture": {
+    "jpeg_quality": 85,
+    "zstd_level": 3,
+    "chunk_seconds": 2.0,
+    "queue_max_frames": 64,
+    "denoise": {
+      "enabled": true,
+      "window_size": 5
+    }
+  },
+  "chunk": {
+    "target_duration_ms": 2000,
+    "max_payload_bytes": 67108864,
+    "max_frame_count": 128
+  },
+  "store": {
+    "root": "D:\\项目\\交互艺术\\展厅孪生\\ai\\hp60c_audit\\audit_output\\capture",
+    "quota_gb": 5.0,
+    "delete_on_ack": true
+  },
+  "spool": {
+    "root": "D:\\项目\\交互艺术\\展厅孪生\\ai\\hp60c_audit\\audit_output\\spool",
+    "max_size_gb": 5.0,
+    "warning_ratio": 0.8,
+    "throttle_ratio": 0.9,
+    "stop_ratio": 0.97,
+    "queue_max_frames": 256
+  },
+  "network": {
+    "enabled": false,
+    "url": null,
+    "token": null,
+    "client_id": "hp60c-capture-agent",
+    "agent_version": "git:local",
+    "max_reconnect_attempts": 8,
+    "connect_timeout_s": 10.0,
+    "control_idle_timeout_s": 10.0,
+    "heartbeat_interval_s": 2.0,
+    "stream_no_progress_timeout_s": 30.0,
+    "commit_ack_timeout_s": 15.0,
+    "requested_max_inflight": 4,
+    "backoff_s": [1, 2, 4, 8, 15]
+  },
+  "run": {
+    "seconds": 60,
+    "stats_interval_s": 10.0,
+    "log_file": null,
+    "visualize": true
+  }
+}
