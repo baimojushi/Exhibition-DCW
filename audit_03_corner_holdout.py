@@ -27,6 +27,10 @@ DATA_DIR = r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\cap
 OUT_DIR = r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\audit_03_corner_holdout"
 os.makedirs(OUT_DIR, exist_ok=True)
 
+# 支持命令行指定数据目录
+if len(sys.argv) > 1:
+    DATA_DIR = sys.argv[1]
+
 FX = FY = 361.376
 CX, CY = 318.517, 179.502
 W, H = 640, 360
@@ -97,11 +101,41 @@ def point_to_line_distance(points, line_point, line_dir):
 
 
 def analyze_corner_holdout(seq_path):
-    """对单个序列做 corner holdout 验证。"""
-    data = np.load(seq_path)
-    depths = data['depth']  # (N, H, W)
-
+    """对单个序列做 corner holdout 验证。支持 npz 和 spool 格式。"""
     seq_name = os.path.basename(seq_path).replace(".npz", "")
+
+    # 判断格式
+    if seq_path.endswith(".npz"):
+        data = np.load(seq_path)
+        depths = data['depth']  # (N, H, W)
+    elif os.path.isdir(seq_path):
+        # spool 格式: seq_path/chunks/*.chunk.ready
+        chunk_files = sorted(glob.glob(os.path.join(seq_path, "chunks", "*.chunk.ready")))
+        if not chunk_files:
+            print(f"  No chunks found in {seq_path}")
+            return None
+        depths = []
+        for cf in chunk_files:
+            try:
+                cr = ChunkReader(cf)
+                for fd in cr.iter_frames():
+                    try:
+                        dep = np.frombuffer(zd.decompress(fd["depth"]), dtype=np.uint16).reshape((H, W))
+                        zr = float((dep == 0).mean())
+                        if zr < 0.40:
+                            depths.append(dep)
+                    except Exception:
+                        continue
+            except Exception:
+                continue
+        depths = np.array(depths) if depths else np.array([])
+    else:
+        return None
+
+    if len(depths) == 0:
+        print(f"  No valid frames")
+        return None
+
     print(f"\n{'='*60}")
     print(f"Corner Holdout: {seq_name} ({len(depths)} frames)")
     print(f"{'='*60}")
@@ -234,9 +268,21 @@ def main():
     print("=" * 60)
     print("Audit 03: Corner Holdout Validation")
     print("=" * 60)
+    print(f"数据目录: {DATA_DIR}")
 
-    seq_files = sorted(glob.glob(os.path.join(DATA_DIR, "seq_*.npz")))
-    print(f"Found {len(seq_files)} sequences")
+    # 自动检测格式
+    npz_files = sorted(glob.glob(os.path.join(DATA_DIR, "seq_*.npz")))
+    spool_dirs = sorted(glob.glob(os.path.join(DATA_DIR, "C*"))) if os.path.isdir(DATA_DIR) else []
+
+    if npz_files:
+        print(f"Found {len(npz_files)} npz sequences")
+        seq_files = npz_files
+    elif spool_dirs:
+        print(f"Found {len(spool_dirs)} spool sequences")
+        seq_files = spool_dirs
+    else:
+        print("No sequences found")
+        return 1
 
     all_results = {}
 
