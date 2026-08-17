@@ -6,7 +6,25 @@
     "serial": null,
     "config_file": null,
     "include_net": false,
-    "dcw_backend": true
+    "dcw_backend": true,
+    "dcw": {
+      "color": {
+        "width": 640,
+        "height": 480,
+        "fps": 30,
+        "format": "RGB"
+      },
+      "depth": {
+        "width": 640,
+        "height": 360,
+        "fps": 30,
+        "format": "Y16"
+      },
+      "d2c": {
+        "enabled": false,
+        "align_mode": "OFF"
+      }
+    }
   },
   "watchdog": {
     "stall_timeout_ms": 500,

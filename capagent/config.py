@@ -15,6 +15,25 @@ DEFAULTS = {
         "serial": None,
         "config_file": None,                           # None -> SDK 默认 HP60C 配置
         "include_net": False,
+        "dcw_backend": False,                          # True = DaBaiDCWBackend (v1 SDK)
+        "dcw": {                                       # DCW 生产 profile (production_profile.json 对齐)
+            "color": {
+                "width": 640,
+                "height": 480,
+                "fps": 30,
+                "format": "RGB"
+            },
+            "depth": {
+                "width": 640,
+                "height": 360,
+                "fps": 30,
+                "format": "Y16"
+            },
+            "d2c": {
+                "enabled": False,
+                "align_mode": "OFF"
+            }
+        },
     },
     "watchdog": {
         "stall_timeout_ms": 500,                        # §2 (实验 A: p99=74ms)
@@ -27,6 +46,10 @@ DEFAULTS = {
         "zstd_level": 3,
         "chunk_seconds": 2.0,                           # 2 秒 chunk (已被 chunk.target_duration_ms 取代)
         "queue_max_frames": 64,                         # 内存有界队列
+        "denoise": {                                    # P2-15d: temporal median denoising
+            "enabled": False,
+            "window_size": 5
+        },
     },
     "chunk": {                                          # P2-13b: §4.4 切块约束
         "target_duration_ms": 2000,                     # 时间为主 (2s, 不假设固定帧数)
@@ -34,12 +57,12 @@ DEFAULTS = {
         "max_frame_count": 128,                         # 128 帧上限
     },
     "store": {                                          # 已废弃 (被 spool 取代), 仅兼容旧测试
-        "root": r"C:\Users\Administrator\hp60c_audit\audit_output\capture",
+        "root": r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\capture",
         "quota_gb": 5.0,                                # 约 5 GB 本地循环缓存
         "delete_on_ack": True,                          # ACK 后删除
     },
     "spool": {                                          # P2-13b: §12.4 本地原子 Spool
-        "root": r"C:\Users\Administrator\hp60c_audit\audit_output\spool",
+        "root": r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\spool",
         "max_size_gb": 5.0,                             # 未 ACK 数据保留上限 (只约束, 不驱逐删除)
         "warning_ratio": 0.80,
         "throttle_ratio": 0.90,
@@ -65,6 +88,7 @@ DEFAULTS = {
         "seconds": None,                                # None = 无限运行
         "stats_interval_s": 10.0,
         "log_file": None,
+        "visualize": False,                             # 实时点云+倾斜角窗口
     },
 }
 

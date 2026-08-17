@@ -28,12 +28,15 @@ import uuid
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from capagent.adapter import SdkAdapter
 from capagent.config import capture_config_hash, load_config
+from capagent.dcw_backend import DaBaiDCWBackend
 from capagent.encoder import FrameEncoder
 from capagent.errors import CameraError
 from capagent.frames import now_mono_ms
 from capagent.sink import LocalSpoolSink, SinkState
 from capagent.spool import SessionSpool
 from capagent.state import CameraState
+from capagent.visualizer import LiveVisualizer
+from capagent.denoise import TemporalMedianDenoiser
 
 log = logging.getLogger("capagent")
 
@@ -113,6 +116,25 @@ class CaptureAgent:
         self._last_level = None
         self.calibration = None
         self.worker = None                     # NetworkDeliveryWorker (P2-13c/d)
+        self.visualizer = None                 # 实时点云可视化 (P2-vis)
+        if cfg["run"].get("visualize", False):
+            cam = cfg["camera"]
+            self.visualizer = LiveVisualizer(
+                fx=cam.get("fx", 361.376), fy=cam.get("fy", 361.376),
+                cx=cam.get("cx", 318.517), cy=cam.get("cy", 179.502))
+
+        # Temporal median denoiser (P2-15d: gallery analysis showed 7mm RMS)
+        denoise_cfg = cfg["capture"].get("denoise", {})
+        self.denoiser = None
+        if denoise_cfg.get("enabled", False):
+            window = denoise_cfg.get("window_size", 5)
+            depth_w = cam.get("width", 640)
+            depth_h = cam.get("height", 480)
+            self.denoiser = TemporalMedianDenoiser(window_size=window,
+                                                    depth_shape=(depth_h, depth_w))
+            log.info("Temporal median denoiser enabled: window=%d, shape=(%d,%d)",
+                     window, depth_h, depth_w)
+
         if cfg["network"]["enabled"]:
             from capagent.network_worker import NetworkDeliveryWorker
             net = cfg["network"]
@@ -120,11 +142,30 @@ class CaptureAgent:
                 self.spool, net, url=net["url"], token=net["token"],
                 client_id=net["client_id"], agent_version=net["agent_version"])
             self.sink.attach_network(self.worker)
-        self.adapter = SdkAdapter(
-            width=cam["width"], height=cam["height"], fps=cam["fps"],
-            serial=cam["serial"], config_file=cam["config_file"],
-            include_net=cam["include_net"],
-            on_frame=self._on_frame, on_state=self._on_state, on_event=self._on_event)
+        if cam.get("dcw_backend", False):
+            # DCW 生产 profile: color 640x480@30 RGB, depth 640x360@30 Y16, D2C off
+            dcw_cam = cam.get("dcw", {})
+            color_cfg = dcw_cam.get("color", {})
+            depth_cfg = dcw_cam.get("depth", {})
+            d2c_cfg = dcw_cam.get("d2c", {})
+            self.adapter = DaBaiDCWBackend(
+                width=color_cfg.get("width", 640),
+                height=color_cfg.get("height", 480),
+                fps=color_cfg.get("fps", 30),
+                depth_width=depth_cfg.get("width", 640),
+                depth_height=depth_cfg.get("height", 360),
+                serial=cam["serial"],
+                d2c=d2c_cfg.get("enabled", False),
+                align_mode=d2c_cfg.get("align_mode", "OFF"),
+                color_format=color_cfg.get("format", "RGB"),
+                depth_format=depth_cfg.get("format", "Y16"),
+                on_frame=self._on_frame, on_state=self._on_state, on_event=self._on_event)
+        else:
+            self.adapter = SdkAdapter(
+                width=cam["width"], height=cam["height"], fps=cam["fps"],
+                serial=cam["serial"], config_file=cam["config_file"],
+                include_net=cam["include_net"],
+                on_frame=self._on_frame, on_state=self._on_state, on_event=self._on_event)
         self.adapter.state.max_reconnect_attempts = wd["max_reconnect_attempts"]
 
     # ------------------------------------------------------------------ 回调 (SDK 线程, 非阻塞!)
@@ -136,6 +177,9 @@ class CaptureAgent:
         frame.arrival_mono_ms = now_mono_ms()
         if frame.depth_zeros:
             self.stats.bump(zero_depth_frames=1)
+        # 实时可视化: 喂入最新帧 (非阻塞)
+        if self.visualizer is not None:
+            self.visualizer.update_frame(frame.depth, frame.rgb)
         try:
             self.queue.put_nowait(frame)
         except queue.Full:
@@ -162,7 +206,13 @@ class CaptureAgent:
             t0 = time.perf_counter()
             try:
                 rgb_jpeg = self.encoder.encode_rgb(frame.rgb, frame.rgb_wh[1], frame.rgb_wh[0])
-                depth_z = self.encoder.encode_depth(frame.depth)
+
+                # Temporal median denoising (P2-15d)
+                depth_bytes = frame.depth
+                if self.denoiser is not None:
+                    depth_bytes = self.denoiser.process(depth_bytes)
+
+                depth_z = self.encoder.encode_depth(depth_bytes)
             except Exception as e:
                 log.error("编码失败 frame=%d: %r", frame.frame_id, e)
                 self.stats.bump(encoded=1)          # 记一次失败, 继续
@@ -226,6 +276,9 @@ class CaptureAgent:
         self._consumer = threading.Thread(target=self._consumer_loop,
                                           name="consumer", daemon=True)
         self._consumer.start()
+        if self.visualizer is not None:
+            self.visualizer.start()
+            log.info("实时可视化已启动")
         if self.worker is not None:
             self.worker.start()                # 网络线程: 持续上传 .ready (P2-13c/d)
 
@@ -264,6 +317,8 @@ class CaptureAgent:
 
     def stop(self):
         self.running.clear()
+        if self.visualizer is not None:
+            self.visualizer.stop()
         if self._consumer:
             self._consumer.join(timeout=5)
         try:

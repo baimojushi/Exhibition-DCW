@@ -1,0 +1,60 @@
+{
+  "schema": "hp60c.dcw.production_profile",
+  "version": 1,
+  "frozen_at": "2026-08-17T16:30:00+08:00",
+  "description": "DCW 生产采集冻结 profile。任何与此不一致的采集均视为非生产数据。",
+  "camera": {
+    "serial": "ASC60CF08000539",
+    "firmware_version": "DLS_VERc20865=:...",
+    "sdk_version": "1.10.35",
+    "sdk_major": "1",
+    "connection_type": "USB3"
+  },
+  "color": {
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "format": "RGB",
+    "ob_format": "OB_FORMAT_RGB"
+  },
+  "depth": {
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "format": "Y16",
+    "ob_format": "OB_FORMAT_Y16",
+    "unit": "mm"
+  },
+  "d2c": {
+    "enabled": false,
+    "align_mode": "OFF",
+    "note": "DCW SDK SW/HW D2C 均不可用，必须手工重投影 (manual reprojection)"
+  },
+  "intrinsics": {
+    "color": {
+      "fx": 566.16,
+      "fy": 566.16,
+      "cx": 319.5,
+      "cy": 239.5
+    },
+    "depth": {
+      "fx": 361.376,
+      "fy": 361.376,
+      "cx": 318.517,
+      "cy": 179.502
+    },
+    "depth_to_color_extrinsic": {
+      "rotation": [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0],
+      "translation": [0.0, 0.0, 0.0]
+    }
+  },
+  "profile_id": "sha256:dcw_production_v1",
+  "validation": {
+    "required_fields": ["color.width", "color.height", "color.fps", "color.format",
+                        "depth.width", "depth.height", "depth.fps", "depth.format",
+                        "d2c.enabled"],
+    "forbidden_combinations": [
+      {"if": "d2c.enabled == true", "then": "fail", "reason": "DCW D2C 不可用"}
+    ]
+  }
+}
