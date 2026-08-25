@@ -244,8 +244,10 @@ MANGLED = {
 
 class CameraSdk:
     def __init__(self):
-        if hasattr(os, "add_dll_directory"):
-            os.add_dll_directory(SDK_DIR)
+        # Python 3.7 (TD) 没有 os.add_dll_directory，改用 PATH 修改
+        sdk_dir = SDK_DIR
+        if sdk_dir not in os.environ.get("PATH", ""):
+            os.environ["PATH"] = sdk_dir + ";" + os.environ.get("PATH", "")
         # libzmq inside the SDK asserts at process teardown unless WSAStartup ran
         try:
             self._wsadata = create_string_buffer(408)

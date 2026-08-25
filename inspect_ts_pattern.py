@@ -2,7 +2,7 @@
 import json
 import numpy as np
 
-rows = [json.loads(l) for l in open(r"C:\Users\Administrator\hp60c_audit\audit_output\longrun\frames.jsonl",
+rows = [json.loads(l) for l in open(r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\longrun\frames.jsonl",
                                     encoding="utf-8") if l.strip()]
 # row = (i, frameId, rgb_ts, depth_ts, host_ns, host_epoch_ms, zero, miss_rgb, miss_d, interval_ns)
 rgb = np.array([r[2] for r in rows], dtype=np.int64)

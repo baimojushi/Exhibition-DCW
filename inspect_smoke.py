@@ -2,7 +2,7 @@
 import json
 import numpy as np
 
-path = r"C:\Users\Administrator\hp60c_audit\audit_output\longrun_smoke\frames.jsonl"
+path = r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\longrun_smoke\frames.jsonl"
 rows = [json.loads(l) for l in open(path, encoding="utf-8") if l.strip()]
 print("first 5 rows:")
 for r in rows[:5]:

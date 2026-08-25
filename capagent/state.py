@@ -28,7 +28,7 @@ _TRANSITIONS = {
     CameraState.DISCONNECTED: {CameraState.ENUMERATING},
     CameraState.ENUMERATING: {CameraState.OPENING, CameraState.DISCONNECTED},
     CameraState.OPENING: {CameraState.CONFIGURING, CameraState.DISCONNECTED},
-    CameraState.CONFIGURING: {CameraState.STREAMING, CameraState.DISCONNECTED},
+    CameraState.CONFIGURING: {CameraState.STREAMING, CameraState.STALLED, CameraState.DISCONNECTED},
     CameraState.STREAMING: {CameraState.STALLED, CameraState.DISCONNECTED},
     CameraState.STALLED: {CameraState.RECONNECTING, CameraState.DISCONNECTED},
     CameraState.RECONNECTING: {CameraState.ENUMERATING, CameraState.OPENING,

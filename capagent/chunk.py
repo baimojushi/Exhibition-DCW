@@ -45,6 +45,7 @@ HEADER_SIZE = struct.calcsize(HEADER_FMT)
 FRAME_FMT = "<QQQQQQIII"
 FRAME_SIZE = struct.calcsize(FRAME_FMT)
 DEPTH_CODEC_ZSTD = 1
+DEPTH_CODEC_RAW = 2
 
 CHUNK_SUFFIX = ".asc"
 MANIFEST = "manifest.json"
@@ -82,12 +83,13 @@ class ChunkBuilder:
 
     def __init__(self, chunk_id, session_id, rgb_wh, depth_wh, jpeg_quality,
                  target_duration_ms=2000, max_payload_bytes=64 * 1024 * 1024,
-                 max_frame_count=128):
+                 max_frame_count=128, depth_codec=DEPTH_CODEC_ZSTD):
         self.chunk_id = chunk_id
         self.session_id = session_id
         self.rgb_wh = rgb_wh
         self.depth_wh = depth_wh
         self.jpeg_quality = jpeg_quality
+        self.depth_codec = depth_codec
         self.target_duration_ms = target_duration_ms
         self.max_payload_bytes = max_payload_bytes
         self.max_frame_count = max_frame_count
@@ -143,7 +145,8 @@ class ChunkBuilder:
         header = build_header(self.chunk_id, self.session_id, len(self._frames),
                               self.first_frame_id, self.last_frame_id,
                               self.first_utc_ms, self.last_utc_ms,
-                              self.rgb_wh, self.depth_wh, self.jpeg_quality)
+                              self.rgb_wh, self.depth_wh, self.jpeg_quality,
+                              self.depth_codec)
         with open(path, "wb") as f:
             f.write(header)
             for rec, rgb, depth in self._frames:
@@ -189,7 +192,8 @@ class ChunkReader:
                 yield {"frame_id": frame_id, "sdk_ts_ms": sdk_ts_ms, "host_qpc": host_qpc,
                        "host_mono_ms": host_mono_ms, "utc_ms": utc_ms,
                        "arrival_mono_ms": arrival_mono_ms,
-                       "rgb": rgb, "depth": depth, "depth_zeros": bool(flags & 1)}
+                       "rgb": rgb, "depth": depth, "depth_zeros": bool(flags & 1),
+                       "depth_codec": self.depth_codec}
 
     def summary(self):
         return {"chunk_id": self.chunk_id, "session_id": self.session_id,

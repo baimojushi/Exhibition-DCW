@@ -21,10 +21,10 @@ from ctypes import wintypes
 
 import numpy as np
 
-sys.path.insert(0, r"C:\Users\Administrator\hp60c_audit")
+sys.path.insert(0, r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit")
 import sdk as S
 
-OUT = r"C:\Users\Administrator\hp60c_audit\audit_output\longrun"
+OUT = r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\longrun"
 W, H = 640, 480
 # 前置诊断 (diag_fps.py): fps=15 时 depth 隔帧 size=0 (有效 49%), fps=10/25 StartStream=-91.
 # 唯一 RGB+Depth 100% 成对的档位是 fps=30 (实际输出 ~15-24 fps) -> 实验采用 30 配置.

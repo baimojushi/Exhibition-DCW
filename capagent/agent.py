@@ -101,11 +101,13 @@ class CaptureAgent:
             throttle_ratio=sp["throttle_ratio"],
             stop_ratio=sp["stop_ratio"])
         chunk_cfg = dict(cfg["chunk"])
-        chunk_cfg["jpeg_quality"] = cap["jpeg_quality"]   # chunk 头字段 (capture 段)
+        chunk_cfg["jpeg_quality"] = cap["jpeg_quality"]
+        chunk_cfg["depth_codec"] = 2 if cap.get("raw_depth", False) else 1
         self.sink = LocalSpoolSink(self.spool, chunk_cfg,
                                    queue_max_frames=sp["queue_max_frames"])
         self.encoder = FrameEncoder(jpeg_quality=cap["jpeg_quality"],
                                     zstd_level=cap["zstd_level"])
+        self.raw_depth = cap.get("raw_depth", False)
         self.queue = queue.Queue(maxsize=cap["queue_max_frames"])
         self.stats = Stats()
         self.running = threading.Event()
@@ -175,6 +177,10 @@ class CaptureAgent:
             self._next_frame_id += 1
         frame.frame_id = fid
         frame.arrival_mono_ms = now_mono_ms()
+        # 过滤空帧: SDK 偶尔返回空 RGB/Depth 数据
+        if not frame.rgb or not frame.depth:
+            self.stats.bump(dropped=1)
+            return
         if frame.depth_zeros:
             self.stats.bump(zero_depth_frames=1)
         # 实时可视化: 喂入最新帧 (非阻塞)
@@ -212,7 +218,7 @@ class CaptureAgent:
                 if self.denoiser is not None:
                     depth_bytes = self.denoiser.process(depth_bytes)
 
-                depth_z = self.encoder.encode_depth(depth_bytes)
+                depth_z = self.encoder.encode_depth(depth_bytes, raw=self.raw_depth)
             except Exception as e:
                 log.error("编码失败 frame=%d: %r", frame.frame_id, e)
                 self.stats.bump(encoded=1)          # 记一次失败, 继续

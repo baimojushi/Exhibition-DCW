@@ -14,7 +14,7 @@ import numpy as np
 sys.path.insert(0, r"D:\pyopencv")
 import cv2
 
-OUT = r"C:\Users\Administrator\hp60c_audit\audit_output\expC"
+OUT = r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\expC"
 SS_MM = 24.9
 PAT = (8, 6)
 W, H = 640, 480

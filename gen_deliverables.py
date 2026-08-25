@@ -4,7 +4,7 @@ import json
 import os
 import time
 
-OUT = r"C:\Users\Administrator\hp60c_audit\audit_output"
+OUT = r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output"
 with open(os.path.join(OUT, "run_log.json"), encoding="utf-8") as f:
     R = json.load(f)
 with open(os.path.join(OUT, "hotplug_results.json"), encoding="utf-8") as f:

@@ -4,7 +4,7 @@ import ctypes
 import sys
 import time
 
-sys.path.insert(0, r"C:\Users\Administrator\hp60c_audit")
+sys.path.insert(0, r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit")
 import sdk as S
 
 print("=== Smoke test v2 ===")

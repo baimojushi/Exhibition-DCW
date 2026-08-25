@@ -27,7 +27,11 @@ class FrameEncoder:
 
     # -- RGB (BGR8 bytes -> JPEG bytes) --
     def encode_rgb(self, rgb_bytes, h=480, w=640):
+        if not rgb_bytes:
+            raise ValueError("RGB 数据为空")
         arr = np.frombuffer(rgb_bytes, np.uint8).reshape(h, w, 3)
+        if arr.size == 0:
+            raise ValueError("RGB 数组为空")
         ok, buf = cv2.imencode(".jpg", arr, self._jpeg_params)
         if not ok:
             raise ValueError("JPEG 编码失败")
@@ -39,8 +43,10 @@ class FrameEncoder:
             raise ValueError("JPEG 解码失败")
         return arr
 
-    # -- Depth (uint16 LE bytes -> zstd bytes) --
-    def encode_depth(self, depth_bytes):
+    # -- Depth (uint16 LE bytes -> zstd bytes / raw passthrough) --
+    def encode_depth(self, depth_bytes, raw=False):
+        if raw:
+            return depth_bytes
         return self._zc.compress(depth_bytes)
 
     def decode_depth(self, z_bytes, out_len=None):

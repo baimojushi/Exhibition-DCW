@@ -6,7 +6,7 @@ import struct
 
 import numpy as np
 
-BASE = r"C:\Users\Administrator\hp60c_audit\audit_output\expB"
+BASE = r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\expB"
 DATA = os.path.join(BASE, "frames")
 W, H = 640, 480
 K_RGB = {"fx": 566.16272, "fy": 565.49762, "cx": 339.375275, "cy": 232.385086}

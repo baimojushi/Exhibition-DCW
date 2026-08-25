@@ -50,6 +50,7 @@ DEFAULTS = {
             "enabled": False,
             "window_size": 5
         },
+        "raw_depth": False,                             # 混合模式: Depth 原始透传 (不压缩)
     },
     "chunk": {                                          # P2-13b: §4.4 切块约束
         "target_duration_ms": 2000,                     # 时间为主 (2s, 不假设固定帧数)

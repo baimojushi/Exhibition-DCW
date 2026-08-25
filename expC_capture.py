@@ -13,14 +13,14 @@ import time
 
 import numpy as np
 
-sys.path.insert(0, r"C:\Users\Administrator\hp60c_audit")
+sys.path.insert(0, r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit")
 sys.path.insert(0, r"D:\pyopencv")      # opencv 安装于 D 盘 (避免 C 盘)
 import cv2
 import sdk as S
 
 W, H = 640, 480
 PATTERN = (8, 6)          # 内角点 cols x rows (9x7 方格)
-OUT = r"C:\Users\Administrator\hp60c_audit\audit_output\expC"
+OUT = r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\expC"
 
 
 def main():

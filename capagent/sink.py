@@ -101,7 +101,8 @@ class LocalSpoolSink(NetworkSink):
         self.spool = spool
         self.chunk_cfg = {"jpeg_quality": 85, "target_duration_ms": 2000,
                           "max_payload_bytes": 64 * 1024 * 1024,
-                          "max_frame_count": 128}
+                          "max_frame_count": 128,
+                          "depth_codec": 1}  # 1=zstd, 2=raw
         self.chunk_cfg.update(chunk_cfg)      # 调用方覆盖 (KeyError 风险兜底)
         self.queue = queue.Queue(maxsize=queue_max_frames)
         self._stop = threading.Event()
@@ -237,7 +238,8 @@ class LocalSpoolSink(NetworkSink):
                 target_duration_ms=self.chunk_cfg.get("target_duration_ms", 2000),
                 max_payload_bytes=self.chunk_cfg.get("max_payload_bytes",
                                                      64 * 1024 * 1024),
-                max_frame_count=self.chunk_cfg.get("max_frame_count", 128))
+                max_frame_count=self.chunk_cfg.get("max_frame_count", 128),
+                depth_codec=self.chunk_cfg.get("depth_codec", 1))
         self._builder.add(frame.frame_id, frame.sdk_ts_ms, frame.host_qpc,
                           frame.host_mono_ms, frame.utc_ms, frame.arrival_mono_ms,
                           rgb_jpeg, depth_zstd, frame.depth_zeros)

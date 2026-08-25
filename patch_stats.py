@@ -3,7 +3,7 @@
 import json
 import numpy as np
 
-BASE = r"C:\Users\Administrator\hp60c_audit\audit_output\longrun"
+BASE = r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\longrun"
 p = BASE + r"\stats.json"
 s = json.load(open(p, encoding="utf-8"))
 

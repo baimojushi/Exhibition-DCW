@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 
-s = json.load(open(r"C:\Users\Administrator\hp60c_audit\audit_output\longrun_smoke2\stats.json", encoding="utf-8"))
+s = json.load(open(r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\longrun_smoke2\stats.json", encoding="utf-8"))
 print("frames_total:", s["frames_total"], "actual_fps:", s["actual_fps"], "verdict:", s["frame_rate_verdict"])
 print("miss_rgb:", s["miss_rgb_frames"], "miss_depth:", s["miss_depth_frames"], "zero:", s["zero_frames"])
 print("ts_non_monotonic:", s["ts_non_monotonic"])

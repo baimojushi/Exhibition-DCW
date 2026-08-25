@@ -39,7 +39,7 @@ for i in range(7):
             quad = proj[idx][:, :2].astype(np.int32)
             cv2.fillPoly(img, [quad.reshape(1, 4, 2)], (0, 0, 0))
 
-cv2.imwrite(r"C:\Users\Administrator\hp60c_audit\audit_output\expC_selftest\dbg_pose0.png", img)
+cv2.imwrite(r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\expC_selftest\dbg_pose0.png", img)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ok, corners = cv2.findChessboardCornersSB(gray, (8, 6))
 print("detect:", ok)

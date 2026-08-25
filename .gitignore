@@ -8,3 +8,43 @@ ascamera-ros2-docker/
 # Python 缓存
 __pycache__/
 *.pyc
+
+# Python
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_output/
+*.log
+
+# Large binaries
+*.exe
+*.dll
+*.so
+
+# Archives and frozen artifacts
+_archive/
+frozen_artifacts/
+python-3.12.0-amd64.exe
+
+# Temporary files
+test_frame.py
+test_output/
+
+# Orbbec SDK (large documentation)
+_archive/tools/tools/OrbbecSDK_v1.10.35/Doc/

@@ -11,11 +11,11 @@ import sys
 import numpy as np
 
 sys.path.insert(0, r"D:\pyopencv")
-sys.path.insert(0, r"C:\Users\Administrator\hp60c_audit")
+sys.path.insert(0, r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit")
 import cv2
 import expC_calibrate as cal
 
-TMP = r"C:\Users\Administrator\hp60c_audit\audit_output\expC_selftest"
+TMP = r"D:\项目\交互艺术\展厅孪生\ai\hp60c_audit\audit_output\expC_selftest"
 for f in os.listdir(TMP):
     os.remove(os.path.join(TMP, f))
 
