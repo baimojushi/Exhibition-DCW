@@ -60,7 +60,7 @@ def qpc_to_mono_ms(qpc):
 
 @dataclass
 class Frame:
-    """一帧 RGB+Depth (已深拷贝, 所有权明确归属本对象)."""
+    """一帧 RGB+Depth+PointCloud (已深拷贝, 所有权明确归属本对象)."""
 
     frame_id: int
     sdk_ts_ms: int                 # AS_Frame_s.ts (SYSTEM_CLOCK = epoch 毫秒)
@@ -70,6 +70,7 @@ class Frame:
     arrival_mono_ms: int           # 帧进入压缩队列时刻 (Agent 填)
     rgb: bytes = b""               # BGR8, 640x480x3
     depth: bytes = b""             # uint16 LE, 640x480x2 (mm, 0=无效)
+    pointcloud: bytes = b""        # float32 LE, Nx3 (x,y,z in meters)
     rgb_wh: tuple = (640, 480)
     depth_wh: tuple = (640, 480)
     depth_zeros: bool = False      # 整帧全零标记 (Watchdog 输入)

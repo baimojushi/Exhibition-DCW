@@ -215,7 +215,8 @@ class SdkAdapter:
         sp = S.AS_STREAM_Param_s(width=self.width, height=self.height, fps=self.fps)
         check_rc(self.sdk.set_stream_param(self.handle, 0, ctypes.byref(sp)),
                  ErrorCode.CONFIG_FAILED, "SetStreamParam(fps=%d)" % self.fps)
-        check_rc(self.sdk.set_timestamp_type(self.handle, S.TS_SYSTEM_CLOCK),
+        # Gate A 验证: 必须用 STEADY_CLOCK, SYSTEM_CLOCK 会导致 callback 不稳定
+        check_rc(self.sdk.set_timestamp_type(self.handle, S.TS_STEADY_CLOCK),
                  ErrorCode.CONFIG_FAILED, "SetTimeStampType")
         self._config_version_from_log()
 
@@ -233,18 +234,66 @@ class SdkAdapter:
     def _start_stream(self):
         self.state.require(CameraState.CONFIGURING, CameraState.RECONNECTING)
         self._streaming_event.clear()
+
+        # Gate A 验证的完整启动序列 (与 audit.py 逐调用同构):
+        #   1. register dummy callback
+        #   2. warmup start_stream(RGB|DEPTH) 2s
+        #   3. stop_stream
+        #   4. set_stream_param(DEPTH, 320x240@15)  # 测试 MF 支持
+        #   5. start_stream @ 320x240 (预期 ret=-86, MF 不支持)
+        #   6. stop_stream
+        #   7. set_stream_param(DEPTH, 640x480@30)  # 恢复 MF 支持的分辨率
+        #   8. register real on_stream callback (替换 dummy)
+        #   9. start_stream(RGB|DEPTH|POINTCLOUD, 0x0B)  # 正式流
+        flags_warmup = S.IMG_RGB | S.IMG_DEPTH  # 0x05
+
+        @S.StreamCb
+        def _dummy(cam, pdata, priv):
+            pass
+
+        cb_dummy = S.AS_CAM_Stream_Cb_s()
+        cb_dummy.callback = _dummy
+        check_rc(self.sdk.register_stream_callback(self.handle, ctypes.byref(cb_dummy)),
+                 ErrorCode.CONFIG_FAILED, "RegisterDummyCallback")
+
+        check_rc(self.sdk.start_stream(self.handle, flags_warmup),
+                 ErrorCode.START_FAILED, "WarmupStartStream")
+        time.sleep(2.0)
+        check_rc(self.sdk.stop_stream(self.handle, 0),
+                 ErrorCode.CONFIG_FAILED, "WarmupStopStream")
+
+        # 测试 320x240@15 (audit.py 验证: MF 仅支持 640x480)
+        sp32 = S.AS_STREAM_Param_s(width=320, height=240, fps=15)
+        check_rc(self.sdk.set_stream_param(self.handle, 0, ctypes.byref(sp32)),
+                 ErrorCode.CONFIG_FAILED, "SetStreamParam(320x240@15)")
+        r32 = self.sdk.start_stream(self.handle, flags_warmup)
+        if r32 != 0:
+            # 预期 ret=-86 (MF_E_INVALIDREQUEST), 记录但不阻断
+            pass
+        time.sleep(2.0)
+        check_rc(self.sdk.stop_stream(self.handle, 0),
+                 ErrorCode.CONFIG_FAILED, "StopStream@320x240")
+
+        # 恢复 640x480@30 (MF 后端唯一支持的分辨率)
+        sp64 = S.AS_STREAM_Param_s(width=640, height=480, fps=30)
+        check_rc(self.sdk.set_stream_param(self.handle, 0, ctypes.byref(sp64)),
+                 ErrorCode.CONFIG_FAILED, "SetStreamParam(640x480@30)")
+
+        # 正式流: register real callback + start_stream with PointCloud
         self._register_callback()
-        check_rc(self.sdk.start_stream(self.handle, S.IMG_RGB | S.IMG_DEPTH),
+
+        flags = S.IMG_RGB | S.IMG_DEPTH | S.IMG_POINTCLOUD  # 0x0B
+        check_rc(self.sdk.start_stream(self.handle, flags),
                  ErrorCode.START_FAILED, "StartStream")
 
     def _register_callback(self):
-        latest = {"depth": None, "rgb": None, "ts": 0}
+        latest = {"depth": None, "rgb": None, "pointcloud": None, "ts": 0}
         W, H = self.width, self.height
 
         @S.StreamCb
         def cb(cam, pdata, priv):
             data = pdata.contents
-            d, r = data.depthImg, data.rgbImg
+            d, r, pc = data.depthImg, data.rgbImg, data.pointCloud
             if d.size != W * H * 2 or r.size != W * H * 3 or not d.data or not r.data:
                 # 空数据/尺寸异常: 计数 (fps=15 档位 depth 隔帧 size=0 即此现象)
                 self._wd["bad_frames"] += 1
@@ -254,6 +303,7 @@ class SdkAdapter:
             mono = qpc * 1000 // QpcClock.frequency()
             rgb = ctypes.string_at(r.data, r.size)      # 深拷贝: 所有权归 Adapter
             depth = ctypes.string_at(d.data, d.size)
+            pointcloud = ctypes.string_at(pc.data, pc.size) if pc.size > 0 and pc.data else b""
             ts = int(d.ts)
             wd = self._wd
             if ts <= wd["last_ts"]:
@@ -275,6 +325,7 @@ class SdkAdapter:
                     frame = Frame(frame_id=0, sdk_ts_ms=ts, host_qpc=qpc,
                                   host_mono_ms=mono, utc_ms=now_utc_ms(),
                                   arrival_mono_ms=0, rgb=rgb, depth=depth,
+                                  pointcloud=pointcloud,
                                   rgb_wh=(W, H), depth_wh=(W, H),
                                   depth_zeros=zeros)
                     self.on_frame(frame)               # 必须非阻塞
