@@ -244,7 +244,12 @@ class LegacyV7Adapter:
         self.get_calls += 1
 
         rgb = self.mod.td_get_rgb()
-        depth = self.mod.td_get_depth()
+        # Use aligned depth when available (RGB-Depth pixel alignment)
+        depth_aligned = self.mod.td_get_depth_aligned()
+        if depth_aligned is not None:
+            depth = depth_aligned
+        else:
+            depth = self.mod.td_get_depth()
         pointcloud = self.mod.td_get_pointcloud()  # v13.3: new accessor
 
         self.last_get_us = int(

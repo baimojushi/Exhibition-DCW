@@ -92,6 +92,7 @@ class Supervisor:
                     old_sup["supervisor_pid"]
                 )
             ):
+                # Another supervisor is alive — bail out.
                 status.close()
                 frames.close()
                 raise RuntimeError(
@@ -100,6 +101,17 @@ class Supervisor:
                         old_sup["supervisor_pid"],
                     )
                 )
+
+            # Dead supervisor detected — force cleanup of residual state so
+            # we can take over.  This handles TD-restart and orphan cases.
+            print(
+                "[v13] orphan supervisor pid={} dead; reclaiming {}"
+                .format(
+                    old_sup["supervisor_pid"] if old_sup else 0,
+                    self.args.status_name,
+                ),
+                flush=True,
+            )
 
             # Orphaned worker from a dead supervisor must not keep
             # writing into a reused named mapping.
